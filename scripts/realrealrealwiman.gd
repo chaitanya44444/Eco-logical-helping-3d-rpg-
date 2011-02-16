@@ -1,5 +1,5 @@
 extends StaticBody3D
-@onready var quest: Quest = %"Talk-to tree"
+@onready var talk_to_tree: Quest = %"Talk-to tree"
 
 @onready var talk_to_village_chief: Quest = $"talk to village chief"
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
@@ -27,7 +27,7 @@ func _on_dialogic_signal(argument: String):
 		talk_to_village_chief.finished_goal()
 		
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
-		quest.start_quest()
+		talk_to_tree.start_quest()
 		
 		print("yayyaya")
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true

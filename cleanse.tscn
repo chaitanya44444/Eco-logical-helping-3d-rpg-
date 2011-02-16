@@ -13,6 +13,6 @@ shader_parameter/Vector2Parameter = Vector2(0, -1.2)
 [node name="Node3D" type="Node3D"]
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38978, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.38978, 0)
 material_override = SubResource("ShaderMaterial_o714b")
 mesh = ExtResource("2_csg8m")

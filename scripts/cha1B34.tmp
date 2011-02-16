@@ -1,0 +1,62 @@
+[gd_scene load_steps=11 format=3 uid="uid://bx3oaawd0h25g"]
+
+[ext_resource type="Script" path="res://scripts/charaacter.gd" id="1_bft7j"]
+[ext_resource type="Script" path="res://scripts/ray_cast_3d.gd" id="2_gd7p5"]
+[ext_resource type="Shader" path="res://scripts/toonoutline.gdshader" id="3_ordoq"]
+[ext_resource type="Script" path="res://scripts/ray_cast_3d_2.gd" id="4_b4c45"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_y4vtu"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3telp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lahfd"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8tnh8"]
+render_priority = 0
+shader = ExtResource("3_ordoq")
+shader_parameter/shadow_color = Color(0, 0, 0, 1)
+shader_parameter/shadow_thickness = 2.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_vwfsx"]
+material = SubResource("ShaderMaterial_8tnh8")
+size = Vector2(2, 2)
+
+[sub_resource type="SphereMesh" id="SphereMesh_jki8t"]
+
+[node name="the_hero" type="CharacterBody3D"]
+transform = Transform3D(3.145, 0, 0, 0, 3.145, 0, 0, 0, 3.145, 0, 0, 0)
+script = ExtResource("1_bft7j")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_y4vtu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_3telp")
+
+[node name="head" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+cull_mask = 983039
+
+[node name="RayCast3D" type="RayCast3D" parent="head/Camera3D"]
+transform = Transform3D(16.72, 0, 0, 0, -2.60301e-07, -12.955, 0, 5.955, -5.66281e-07, 0, -0.0575895, 0)
+script = ExtResource("2_gd7p5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="head/Camera3D"]
+transform = Transform3D(0.503475, 0, 0, 0, 0.368365, 0, 0, 0, 4.37432, 0, 0, -3.31796)
+visible = false
+mesh = SubResource("BoxMesh_lahfd")
+
+[node name="backupouline" type="MeshInstance3D" parent="head/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20258, -0.531163)
+visible = false
+mesh = SubResource("QuadMesh_vwfsx")
+
+[node name="RayCast3D2" type="RayCast3D" parent="head/Camera3D"]
+script = ExtResource("4_b4c45")
+
+[node name="grass interaction" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.35978, 0, 0, 0, 1.05473, 0, 0, 0, 2.22586, 0.00104564, -0.371725, 0.0782204)
+visible = false
+layers = 65536
+mesh = SubResource("SphereMesh_jki8t")

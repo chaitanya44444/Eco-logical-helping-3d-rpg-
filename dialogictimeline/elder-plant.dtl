@@ -1,0 +1,9 @@
+Elder, the lake is cleansed, and the fisherman’s hope is restored.
+"ellder treee": Wonderful work, young one. The waters glisten once more, and life will ret urn to the lake. You have healed more than just nature but given everyone in the village hope.
+What is our next task?
+"ellder treee": The forest coverage has died from thousands of flora and fauna to a mere few hundred.If we are to restore balance, we must renew the forest and the ecosystem.
+"ellder treee": I shall now grant you a new power—the ability to plant and grow trees with magic alone. Press your magic into the earth, and life will sprout anew when you press P.
+I’ll plant the trees and help the forest recover.
+Plant 15 trees, young one. With each sapling, you will restore balance, life, and hope to the forest. Go, and may your efforts bring vitality to this land once more.
+[signal arg="plant"]
+[end_timeline]

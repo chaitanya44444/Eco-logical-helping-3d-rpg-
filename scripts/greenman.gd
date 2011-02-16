@@ -1,84 +1,70 @@
 extends StaticBody3D
-#@onready var quest: Quest = %"Talk-to tree"
+@onready var talk_to_tree_for_planting_one: Quest = $"talk to tree for planting one"
+@onready var number_of_cleanses: Label = $"../../ui stuff more/number of cleanses"
+
 @onready var fishquest: Quest = $"../../tree/fishquest"
-var a = 0
 @onready var polluted: MeshInstance3D = $"../../Lake/polluted"
 @onready var progress_bar_3: ProgressBar = %ProgressBar3
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
 @onready var the_hero: CharacterBody3D = $"../../the_hero"
+@onready var label: Label = $"../../ui stuff more/Label"
+var b= false
+
+
 var cleanse_scene = preload("res://cleanse.tscn")
-
+var a: int = 0 #pov my notebook progress
+var quest_completed: bool = false  
 func apply_cleanse():
-
 	var cleanse_instance = cleanse_scene.instantiate()
-	
 	the_hero.add_child(cleanse_instance)
-	
-	cleanse_instance.transform.origin = Vector3.ZERO  
-	
+	cleanse_instance.transform.origin = Vector3.ZERO
 	await get_tree().create_timer(4).timeout
-
 	cleanse_instance.queue_free()
 
-
-#@onready var talk_to_village_chief: Quest = $"talk to village chief"
-#@onready var progress_bar_3: ProgressBar = %ProgressBar3
-#@onready var xpvalue_3: RichTextLabel = %xpvalue3
-@onready var label: Label = $"../../ui stuff more/Label"
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	#talk_to_village_chief.start_quest()
-	
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
-
-
-
 func _input(event: InputEvent) -> void:
-		#the_hero.use_magic() never mind i removed this cuz better performance vfrom above way
-		
-	if fishquest.ifstarted():
-		label.visible=true
-		if Input.is_action_pressed("Cleanse"):
+	if fishquest.ifstarted() and not quest_completed:
+		if b:
+			label.visible = true
+			number_of_cleanses.visible=true
+
+		if Input.is_action_just_released("Cleanse")==true and b==true:
 			apply_cleanse()
-			print("cleanse lake applied")
-			
-			a+=1
-			if a==4:
-				polluted.queue_free()
+			a += 1
+			number_of_cleanses.text=str("You have used the magic " + str(a) + " times out of 4 times needed")
+			print("Cleanse applied, count:", a)
+
+			if a >= 4:
+				complete_fish_quest()
+				talk_to_tree_for_planting_one.start_quest()
 				
-				
-				fishquest.finished_goal()
-				xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
-				progress_bar_3.value=90
+
 	else:
-		label.visible=false
-				
-			
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+		label.visible = false
+		number_of_cleanses.visible =false
+
+func complete_fish_quest():
+	if quest_completed:
+		return  #lolollol
+
+	quest_completed = true
+	polluted.visible = false
+	fishquest.finished_goal()
+	xpvalue_3.text = str(int(xpvalue_3.text) + 1)
+	progress_bar_3.value = 90
+	label.visible = false
+	print("Fish quest completed!")
 
 func interact():
-	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
-	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
-	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
-	
+	var hero = get_node("/root/" + get_tree().current_scene.name + "/the_hero")
+	hero.velocity.x = 0
+	hero.velocity.z = 0
+	hero.canmove = false
 	Dialogic.start("npc2")
-	
-		
+	b=true
+
 func _on_dialogic_signal(argument: String):
 	if argument == "npc2 ended":
-#		talk_to_village_chief.finished_goal()
-		
-
-#		
-#		quest.start_quest()
-		
-		print("yayyaya")
-	if argument == "npc2 ended":
-		
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
-		
-	

@@ -1,31 +1,32 @@
 [gd_scene load_steps=3 format=3 uid="uid://fq7eelfas5g0"]
 
 [ext_resource type="Script" path="res://autoload/game_manager.gd" id="1_ckjwx"]
-[ext_resource type="Texture2D" uid="uid://qwf8d7c6e6r1" path="res://assets/screenshot-removebg-preview.png" id="2_vp6sm"]
+[ext_resource type="Texture2D" uid="uid://qwf8d7c6e6r1" path="res://assets/screenshot-removebg-preview.png" id="2_iuf41"]
 
 [node name="GameManager" type="Node2D"]
+visible = false
 script = ExtResource("1_ckjwx")
 
 [node name="QuestBox" type="CanvasLayer" parent="."]
-visible = false
 
-[node name="TextureRect" type="TextureRect" parent="QuestBox"]
-offset_left = -9.0
-offset_top = 209.0
-offset_right = 518.0
-offset_bottom = 574.0
-texture = ExtResource("2_vp6sm")
+[node name="TextureRect2" type="TextureRect" parent="QuestBox"]
+offset_left = 1456.0
+offset_top = 144.0
+offset_right = 1952.0
+offset_bottom = 481.0
+texture = ExtResource("2_iuf41")
 
 [node name="QuestTitle" type="RichTextLabel" parent="QuestBox"]
-offset_left = 100.0
-offset_top = 382.0
-offset_right = 444.0
-offset_bottom = 434.0
+offset_left = 1555.0
+offset_top = 309.0
+offset_right = 1899.0
+offset_bottom = 361.0
 text = "Quest Title:"
 
 [node name="Questdiscription" type="RichTextLabel" parent="QuestBox"]
-offset_left = 99.0
-offset_top = 407.0
-offset_right = 464.0
-offset_bottom = 459.0
+offset_left = 1556.0
+offset_top = 330.0
+offset_right = 1906.0
+offset_bottom = 460.0
+theme_override_font_sizes/normal_font_size = 0
 text = "Quest information:"
