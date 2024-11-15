@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7mucx1wl6du7"]
+
+[ext_resource type="PackedScene" uid="uid://bub3570xg24yw" path="res://blenderstuffs/wiiman.blend" id="1_n3uti"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_fym7a"]
+radius = 0.0671805
+height = 0.365416
+
+[node name="wiinigga" type="CharacterBody3D"]
+
+[node name="wiiman" parent="." instance=ExtResource("1_n3uti")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.176264, 0)
+shape = SubResource("CapsuleShape3D_fym7a")
