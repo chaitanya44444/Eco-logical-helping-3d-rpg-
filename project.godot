@@ -38,6 +38,11 @@ version_control/autoload_on_startup=true
 
 enabled=PackedStringArray("res://addons/gdquest_colorpicker_presets/plugin.cfg")
 
+[filesystem]
+
+import/blender/enabled.android=true
+import/blender/enabled.web=true
+
 [input]
 
 move_up={

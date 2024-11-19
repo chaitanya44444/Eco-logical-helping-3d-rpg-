@@ -1,0 +1,95 @@
+[gd_scene load_steps=7 format=3 uid="uid://c7abw4m0qasm8"]
+
+[ext_resource type="VideoStream" path="res://assets/intro/0001-0300.ogv" id="1_45fae"]
+[ext_resource type="PackedScene" uid="uid://bc2w70hworv2o" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
+
+[sub_resource type="Theme" id="Theme_qsl2s"]
+
+[sub_resource type="SystemFont" id="SystemFont_0gcfp"]
+
+[sub_resource type="Theme" id="Theme_bxxoj"]
+
+[sub_resource type="FontVariation" id="FontVariation_3084s"]
+
+[node name="Menu" type="CanvasLayer"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_45fae")
+autoplay = true
+loop = true
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_qsl2s")
+
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 60
+theme_override_constants/margin_bottom = 80
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_0gcfp")
+theme_override_font_sizes/font_size = 100
+text = "Game Title
+"
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_bxxoj")
+theme_type_variation = &"FlatButton"
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 0.529412)
+theme_override_fonts/font = SubResource("FontVariation_3084s")
+theme_override_font_sizes/font_size = 60
+text = "Start
+"
+alignment = 0
+
+[node name="Button2" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_bxxoj")
+theme_type_variation = &"FlatButton"
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 0.529412)
+theme_override_fonts/font = SubResource("FontVariation_3084s")
+theme_override_font_sizes/font_size = 60
+text = "Settings"
+alignment = 0
+
+[node name="Button3" type="Button" parent="Control/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_bxxoj")
+theme_type_variation = &"FlatButton"
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 0.529412)
+theme_override_fonts/font = SubResource("FontVariation_3084s")
+theme_override_font_sizes/font_size = 60
+text = "Quit"
+alignment = 0
+
+[node name="model-for-main-menu" parent="." instance=ExtResource("2_ubhso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6306, 10.003, 0.80801)
