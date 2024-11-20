@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://d153546yl0tgx"]
-
-[ext_resource type="PackedScene" uid="uid://bc2w70hworv2o" path="res://assets/3d/model-for-main-menu.blend" id="2_airix"]
-
-[node name="Node3D" type="Node3D"]
-
-[node name="model-for-main-menu" parent="." instance=ExtResource("2_airix")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.409, 190.949, 118.112)

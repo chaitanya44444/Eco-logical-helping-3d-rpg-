@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bx3oaawd0h25g"]
+
+[ext_resource type="Script" path="res://scripts/charaacter.gd" id="1_bft7j"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_y4vtu"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3telp"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_jki8t"]
+
+[node name="the_hero" type="CharacterBody3D"]
+transform = Transform3D(3.145, 0, 0, 0, 3.145, 0, 0, 0, 3.145, 0, 0, 0)
+script = ExtResource("1_bft7j")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_y4vtu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_3telp")
+
+[node name="head" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+cull_mask = 983039
+
+[node name="grass interaction" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.35978, 0, 0, 0, 1.05473, 0, 0, 0, 2.22586, 0.00104564, -0.371725, 0.0782204)
+layers = 65536
+mesh = SubResource("SphereMesh_jki8t")
