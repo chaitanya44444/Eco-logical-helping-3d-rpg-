@@ -1,12 +1,13 @@
 [gd_scene load_steps=10 format=3 uid="uid://c7abw4m0qasm8"]
 
-[ext_resource type="VideoStream" path="res://assets/intro/0001-0300.ogv" id="1_45fae"]
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_fv0l1"]
+[ext_resource type="VideoStream" path="res://assets/menu/0001-0300.ogv" id="2_hnhy5"]
 [ext_resource type="PackedScene" uid="uid://bc2w70hworv2o" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
 
 [sub_resource type="Theme" id="Theme_qsl2s"]
 
 [sub_resource type="SystemFont" id="SystemFont_0gcfp"]
+subpixel_positioning = 0
 
 [sub_resource type="Theme" id="Theme_bxxoj"]
 
@@ -27,7 +28,7 @@ offset_top = -4.0
 offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
-stream = ExtResource("1_45fae")
+stream = ExtResource("2_hnhy5")
 autoplay = true
 loop = true
 
