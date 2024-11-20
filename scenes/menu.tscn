@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://c7abw4m0qasm8"]
+[gd_scene load_steps=10 format=3 uid="uid://c7abw4m0qasm8"]
 
 [ext_resource type="VideoStream" path="res://assets/intro/0001-0300.ogv" id="1_45fae"]
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_fv0l1"]
 [ext_resource type="PackedScene" uid="uid://bc2w70hworv2o" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
 
 [sub_resource type="Theme" id="Theme_qsl2s"]
@@ -11,7 +12,12 @@
 
 [sub_resource type="FontVariation" id="FontVariation_3084s"]
 
+[sub_resource type="GDScript" id="GDScript_ggbdg"]
+
+[sub_resource type="GDScript" id="GDScript_dmu2h"]
+
 [node name="Menu" type="CanvasLayer"]
+script = ExtResource("1_fv0l1")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 anchors_preset = 15
@@ -70,6 +76,7 @@ theme_override_font_sizes/font_size = 60
 text = "Start
 "
 alignment = 0
+script = SubResource("GDScript_ggbdg")
 
 [node name="Button2" type="Button" parent="Control/MarginContainer/VBoxContainer"]
 layout_mode = 2
@@ -90,6 +97,10 @@ theme_override_fonts/font = SubResource("FontVariation_3084s")
 theme_override_font_sizes/font_size = 60
 text = "Quit"
 alignment = 0
+script = SubResource("GDScript_dmu2h")
 
 [node name="model-for-main-menu" parent="." instance=ExtResource("2_ubhso")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6306, 10.003, 0.80801)
+
+[connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
