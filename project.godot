@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="M2. Get to Know 3D (Interactive Tours)"
-run/main_scene="res://game.tscn"
+run/main_scene="res://scenes/intro.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
+boot_splash/image="res://assets/intro/Untitled presentation.png"
 config/icon="res://icon.png"
 
 [autoload]
@@ -36,6 +37,11 @@ version_control/autoload_on_startup=true
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/gdquest_colorpicker_presets/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled.android=true
+import/blender/enabled.web=true
 
 [input]
 
