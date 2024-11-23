@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dplv3pdgquvek"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="interacttext" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.0895833
+anchor_bottom = 0.0537037
+theme_override_font_sizes/normal_font_size = 31
+text = "[E] Interact"
+metadata/_edit_use_anchors_ = true

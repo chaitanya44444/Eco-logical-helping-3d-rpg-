@@ -1,10 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://bx3oaawd0h25g"]
+[gd_scene load_steps=7 format=3 uid="uid://bx3oaawd0h25g"]
 
 [ext_resource type="Script" path="res://scripts/charaacter.gd" id="1_bft7j"]
+[ext_resource type="Script" path="res://scripts/ray_cast_3d.gd" id="2_gd7p5"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_y4vtu"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3telp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lahfd"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_jki8t"]
 
@@ -22,6 +25,15 @@ shape = SubResource("CapsuleShape3D_3telp")
 
 [node name="Camera3D" type="Camera3D" parent="head"]
 cull_mask = 983039
+
+[node name="RayCast3D" type="RayCast3D" parent="head/Camera3D"]
+transform = Transform3D(16.72, 0, 0, 0, -2.60301e-07, -12.955, 0, 5.955, -5.66281e-07, 0, -0.0575895, 0)
+script = ExtResource("2_gd7p5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="head/Camera3D"]
+transform = Transform3D(0.503475, 0, 0, 0, 0.368365, 0, 0, 0, 4.37432, 0, 0, -3.31796)
+visible = false
+mesh = SubResource("BoxMesh_lahfd")
 
 [node name="grass interaction" type="MeshInstance3D" parent="."]
 transform = Transform3D(2.35978, 0, 0, 0, 1.05473, 0, 0, 0, 2.22586, 0.00104564, -0.371725, 0.0782204)
