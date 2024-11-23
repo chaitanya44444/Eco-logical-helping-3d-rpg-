@@ -1,0 +1,16 @@
+"Village Chief": Ah! You are the Chosen One.
+- Uhm who are u ?
+"Village Chief": Well I am the Chief of This magical village.
+"Village Chief": ahhughghgh (Coughs)
+"Village Chief": We get our food from the elder tree. ahahughghuhg (Coughs)
+"Village Chief": But recently the magical mist has taken over and the elder tree has STOPPED BEARING FRUITS!!!!
+- Why did You say I was the chosen One
+"Village Chief": ahh..You are in a magical forest..I can forsee the future
+- What do I have to do now?
+"Village Chief": You have to stop the magical mist from damaging our holy tree!
+- How will I ??
+"Village Chief": You can talk to the Tree himself
+- What!!!? the tree can talk
+	....
+	[signal arg="npc ended"]
+	[end_timeline]

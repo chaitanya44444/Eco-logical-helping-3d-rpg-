@@ -10,19 +10,20 @@ const sens = 0.007
 const camera_shake = 2
 const camera_amplitude = 0.08
 var t_camera = 0.0
-
+var canmove = true
 @onready var head = $head
 @onready var camera = $head/Camera3D
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	speed = walk_SPEED
-		
+
 	
-func _unhandled_input(event):
-	if event is InputEventMouseMotion:
-		head.rotate_y(-event.relative.x * sens)
-		camera.rotate_x(-event.relative.y * sens)
-		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-60), deg_to_rad(60))
+func _input(event):
+	if canmove == true:
+		if event is InputEventMouseMotion:
+			head.rotate_y(-event.relative.x * sens)
+			camera.rotate_x(-event.relative.y * sens)
+			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-60), deg_to_rad(60))
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -47,13 +48,15 @@ func _physics_process(delta):
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir = Input.get_vector("left", "right", "forward", "backward")
 	var direction = (head.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if direction:
-		velocity.x = direction.x * speed
-		velocity.z = direction.z * speed
-	else:
-		velocity.x = 0
-		velocity.z = 0
+	if canmove == true:
 		
+		if direction:
+			velocity.x = direction.x * speed
+			velocity.z = direction.z * speed
+		else:
+			velocity.x = 0
+			velocity.z = 0
+
 		
 		
 #camera shake while walking
