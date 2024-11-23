@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_fv0l1"]
 [ext_resource type="VideoStream" path="res://assets/menu/0001-0300.ogv" id="2_hnhy5"]
-[ext_resource type="PackedScene" uid="uid://bc2w70hworv2o" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
+[ext_resource type="PackedScene" uid="uid://dkny6antnyr6i" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
 
 [sub_resource type="Theme" id="Theme_qsl2s"]
 
