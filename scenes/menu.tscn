@@ -1,9 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://c7abw4m0qasm8"]
+[gd_scene load_steps=10 format=3 uid="uid://c7abw4m0qasm8"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_fv0l1"]
 [ext_resource type="VideoStream" path="res://assets/menu/0001-0300.ogv" id="2_hnhy5"]
 [ext_resource type="PackedScene" uid="uid://dkny6antnyr6i" path="res://assets/3d/model-for-main-menu.blend" id="2_ubhso"]
-[ext_resource type="AudioStream" uid="uid://dulubim4l2mcw" path="res://scripts/input.mp3" id="4_u04ed"]
 
 [sub_resource type="Theme" id="Theme_qsl2s"]
 
@@ -103,11 +102,6 @@ script = SubResource("GDScript_dmu2h")
 
 [node name="model-for-main-menu" parent="." instance=ExtResource("2_ubhso")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.6306, 10.003, 0.80801)
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_u04ed")
-volume_db = 24.0
-autoplay = true
 
 [connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Control/MarginContainer/VBoxContainer/Button3" to="." method="_on_button_3_pressed"]

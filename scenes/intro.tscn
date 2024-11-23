@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://b44xrgxc7krs4"]
+[gd_scene load_steps=7 format=3 uid="uid://b44xrgxc7krs4"]
 
 [ext_resource type="Script" path="res://scripts/intro.gd" id="1_a08qx"]
 [ext_resource type="Texture2D" uid="uid://qmkci4mlgst5" path="res://assets/intro/Untitled presentation.png" id="2_ss4rh"]
-[ext_resource type="AudioStream" uid="uid://dulubim4l2mcw" path="res://scripts/input.mp3" id="3_totvs"]
 
 [sub_resource type="Animation" id="Animation_ryfax"]
 length = 0.001
@@ -81,8 +80,3 @@ autoplay = "fadein"
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(480, 272)
 zoom = Vector2(2, 2)
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_totvs")
-volume_db = 24.0
-autoplay = true
