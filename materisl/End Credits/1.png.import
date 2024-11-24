@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bonxfs7neghsi"
-path.s3tc="res://.godot/imported/alp_murabito_001_col.png-58d8715025863d38565af1472be40b90.s3tc.ctex"
+uid="uid://bo7iaedbkpfph"
+path.s3tc="res://.godot/imported/1.png-9ffbe7230bd980f64184c226a648145f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://blenderstuffs/textures/alp_murabito_001_col.png"
-dest_files=["res://.godot/imported/alp_murabito_001_col.png-58d8715025863d38565af1472be40b90.s3tc.ctex"]
+source_file="res://materisl/End Credits/1.png"
+dest_files=["res://.godot/imported/1.png-9ffbe7230bd980f64184c226a648145f.s3tc.ctex"]
 
 [params]
 
@@ -20,12 +20,12 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://materisl/End Credits/1.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

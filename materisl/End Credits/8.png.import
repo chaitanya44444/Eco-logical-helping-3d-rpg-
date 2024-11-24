@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bonxfs7neghsi"
-path.s3tc="res://.godot/imported/alp_murabito_001_col.png-58d8715025863d38565af1472be40b90.s3tc.ctex"
+uid="uid://dd0jb0fwpmyh7"
+path.s3tc="res://.godot/imported/8.png-355d36683503ad41483091af4b4bb934.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://blenderstuffs/textures/alp_murabito_001_col.png"
-dest_files=["res://.godot/imported/alp_murabito_001_col.png-58d8715025863d38565af1472be40b90.s3tc.ctex"]
+source_file="res://materisl/End Credits/8.png"
+dest_files=["res://.godot/imported/8.png-355d36683503ad41483091af4b4bb934.s3tc.ctex"]
 
 [params]
 

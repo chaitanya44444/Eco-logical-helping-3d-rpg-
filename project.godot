@@ -26,9 +26,11 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={
 "Village Chief": "res://dialogictimeline/Village Chief.dch",
+"ellder treee": "res://dialogictimeline/ellder treee.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
+"elder tree": "res://dialogictimeline/elder tree.dtl",
 "npc1": "res://dialogictimeline/npc1.dtl"
 }
 layout/style_list=["res://dialogictimeline/style dialogic.tres"]
@@ -72,7 +74,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/dreadpon.spatial_gardener/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
 
 [filesystem]
 
