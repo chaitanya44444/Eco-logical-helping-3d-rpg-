@@ -3,7 +3,9 @@ const a =preload("res://scenes/menu.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	await play_fade_sequence()
+	
 
 func play_fade_sequence() -> void:
 	$AnimationPlayer.play("fadein")

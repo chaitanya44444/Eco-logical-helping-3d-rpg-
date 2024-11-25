@@ -18,6 +18,7 @@ config/icon="res://icon.png"
 
 [autoload]
 
+GameManager="*res://autoload/game_manager.tscn"
 Events="*res://autoload/events.gd"
 SimpleGrass="*res://addons/simplegrasstextured/singleton.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
@@ -74,7 +75,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/dreadpon.spatial_gardener/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
 
 [filesystem]
 

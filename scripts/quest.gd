@@ -1,26 +1,19 @@
-class_name quests extends Quests_Manager
+class_name Quest extends QuestManager
+
 
 func start_quest():
 	if quest_status==Quest_status.available:
 		quest_status=Quest_status.started
-		
-		Quest_box.visible= true
-		QuestTitle.text = quest_name
-		Questdis.text= quest_discription
-		
+		QuestBox.visible=true
+		QuestTitle.text =quest_name
+		QuestDiscription.text=quest_discription
 func reached_goal():
 	if quest_status==Quest_status.started:
 		quest_status=Quest_status.reached_goal
-		Questdis.text = quest_reached_goal
-		
-func finish_goal():
+		QuestDiscription.text=quest_discription
+func finished_goal():
 	if quest_status==Quest_status.reached_goal:
 		quest_status=Quest_status.finished
-		Quest_box.visible = false
-
+		QuestBox.visible= false
 		xp.text = str(int(xp.text) + rewardedhelp)
-		
-
-
-		
 	

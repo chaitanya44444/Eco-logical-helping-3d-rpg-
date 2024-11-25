@@ -1,8 +1,10 @@
 extends StaticBody3D
+@onready var quest: Quest = %"Talk-to tree"
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
 
@@ -18,6 +20,8 @@ func interact():
 		
 func _on_dialogic_signal(argument: String):
 	if argument == "npc ended":
+		quest.start_quest()
+		
 		print("yayyaya")
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 		
