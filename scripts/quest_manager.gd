@@ -1,7 +1,7 @@
 class_name QuestManager extends Node
 @onready var QuestBox: CanvasLayer = GameManager.get_node("QuestBox")
 @onready var QuestTitle: RichTextLabel = GameManager.get_node("QuestBox").get_node("QuestTitle")
-@onready var xp: RichTextLabel =  GameManager.get_node("xpbox").get_node("Xp")
+@onready var XP: RichTextLabel =  GameManager.get_node("xpbox").get_node("Xp")
 
 @onready var QuestDiscription: RichTextLabel = GameManager.get_node("QuestBox").get_node("Questdiscription")
 

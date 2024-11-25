@@ -17,12 +17,13 @@ func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
-	talk_to_village_chief.finished_goal()
+	
 	Dialogic.start("npc1")
 	
 		
 func _on_dialogic_signal(argument: String):
 	if argument == "npc ended":
+		talk_to_village_chief.finished_goal()
 		quest.start_quest()
 		
 		print("yayyaya")
