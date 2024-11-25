@@ -4718,6 +4718,12 @@ quest_discription = "You have appeared at a village suddenly and you meet the vi
 reached_goal_text = "nice"
 rewardedhelp = 1
 
+[node name="talk to village chief" type="Node" parent="npc"]
+script = ExtResource("23_tbnel")
+quest_name = "Talk To Village Chief"
+quest_discription = "You appeared in a mysterious place  and see a mysterious person infront of you!"
+rewardedhelp = 1
+
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("23_554es")
 volume_db = 24.0
