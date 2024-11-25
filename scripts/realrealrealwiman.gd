@@ -1,7 +1,7 @@
 extends StaticBody3D
 @onready var quest: Quest = %"Talk-to tree"
 
-@onready var talk_to_village_chief: Quest = $"../talk to village chief"
+@onready var talk_to_village_chief: Quest = $"talk to village chief"
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
