@@ -1,9 +1,7 @@
 # Save Trees, Save Yourselves
 
 **Save Trees, Save Yourselves** is a 3D RPG game made using godot 4 where players embark on a mission to save the Elder Tree, the vital  head of a village, which is dying due to pollution. The game combines environmental awareness with engaging gameplay, offering quests that challenge players to restore balance and vitality to the world.
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+
 ## Storyline
 
 The Elder Tree, a sacred and life-giving entity, is  dying due to effects of industrial pollution. As the village’s hope wanes, the player must:

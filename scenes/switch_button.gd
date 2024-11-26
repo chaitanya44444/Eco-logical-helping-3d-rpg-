@@ -2,7 +2,6 @@ extends StaticBody3D
 @onready var factoy_quest: Quest = $"../../tree/Factoy-quest"
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
 @onready var progress_bar_3: ProgressBar = %ProgressBar3
-@onready var the_hero: CharacterBody3D = $"../../the_hero"
 
 signal switchoff
 # Called when the node enters the scene tree for the first time.
@@ -25,7 +24,7 @@ func interact():
 	#Dialogic.start("elder tree")
 	$Node3D/AnimationPlayer.play("off")
 	emit_signal("switchoff")	
-	the_hero.teleport_to_start()
+
 	
 	
 		

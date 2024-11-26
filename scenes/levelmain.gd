@@ -1,6 +1,8 @@
 extends Node3D
 
 
+@onready var fishquest: Quest = $tree/fishquest
+@onready var the_hero: CharacterBody3D = $the_hero
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -22,5 +24,7 @@ func _on_switch_button_2_switchoff() -> void:
 	await get_tree().create_timer(4.0).timeout
 	$AnimationPlayer.play("end camera")
 	await get_tree().create_timer(30.0).timeout
-	get_tree().quit()
+	the_hero.teleport_to_start()
+	fishquest.start_quest()
+	
 	
