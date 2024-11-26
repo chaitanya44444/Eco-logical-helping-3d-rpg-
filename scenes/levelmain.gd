@@ -24,9 +24,10 @@ func _on_switch_button_2_switchoff() -> void:
 	await get_tree().create_timer(4.0).timeout
 	$AnimationPlayer.play("end camera")
 	await get_tree().create_timer(30.0).timeout	
-	await get_tree().create_timer(9.0).timeout	
+	#await get_tree().create_timer(9.0).timeout	
 
 	fishquest.start_quest()
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
+	get_node("/root/" + get_tree().current_scene.name + "/the_hero/head/Camera3D").current = true
 	the_hero.teleport_to_start()
 	

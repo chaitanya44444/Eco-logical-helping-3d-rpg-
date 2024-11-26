@@ -24,6 +24,7 @@ func interact():
 	#Dialogic.start("elder tree")
 	$Node3D/AnimationPlayer.play("off")
 	emit_signal("switchoff")
+	await get_tree().create_timer(3.0).timeout
 	queue_free()	
 
 	
