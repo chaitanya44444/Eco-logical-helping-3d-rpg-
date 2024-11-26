@@ -28,6 +28,7 @@ func interact():
 func _on_dialogic_signal(argument: String):
 	if argument == "npc2 ended1":
 		fishquest.start_quest()
+		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 	if argument == "tree":
 		talk_to_tree.finished_goal()
 		progress_bar_3.value+=10

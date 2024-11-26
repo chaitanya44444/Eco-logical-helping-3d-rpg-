@@ -62,7 +62,7 @@ save/encryption_on_exports_only=true
 text/autopauses={}
 glossary/default_case_sensitive=true
 variables={}
-glossary/glossary_files=["res://dialogictimeline/style dialogic.tres"]
+glossary/glossary_files=[]
 
 [display]
 

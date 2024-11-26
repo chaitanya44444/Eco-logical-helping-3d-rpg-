@@ -20,6 +20,8 @@ func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
 	
+	
+	
 	Dialogic.start("npc3")
 	
 		
