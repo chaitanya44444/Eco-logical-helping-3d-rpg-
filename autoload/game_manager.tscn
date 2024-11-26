@@ -1,46 +1,42 @@
-[gd_scene format=3 uid="uid://fq7eelfas5g0"]
+[gd_scene load_steps=2 format=3 uid="uid://fq7eelfas5g0"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Script" path="res://autoload/game_manager.gd" id="1_ckjwx"]
 
-[node name="xpbox" type="CanvasLayer" parent="."]
-
-[node name="ColorRect" type="ColorRect" parent="xpbox"]
-offset_left = -4.0
-offset_top = 133.0
-offset_right = 377.0
-offset_bottom = 223.0
-color = Color(0.251104, 0.547051, 0.428597, 0.568627)
-
-[node name="lol" type="RichTextLabel" parent="xpbox"]
-offset_top = 144.0
-offset_right = 202.0
-offset_bottom = 212.0
-text = "Quests done out of 2:"
-
-[node name="Xp" type="RichTextLabel" parent="xpbox"]
-offset_left = 184.0
-offset_top = 146.0
-offset_right = 324.0
-offset_bottom = 198.0
-text = "0"
+[node name="GameManager" type="Node2D"]
+script = ExtResource("1_ckjwx")
 
 [node name="QuestBox" type="CanvasLayer" parent="."]
 visible = false
 
 [node name="ColorRect" type="ColorRect" parent="QuestBox"]
-offset_top = 223.0
-offset_right = 374.0
-offset_bottom = 448.0
+offset_left = 1540.0
+offset_top = 148.0
+offset_right = 1914.0
+offset_bottom = 424.0
 color = Color(0.482353, 0.313726, 1, 0.568627)
 
 [node name="QuestTitle" type="RichTextLabel" parent="QuestBox"]
-offset_left = 6.0
-offset_top = 232.0
-offset_right = 350.0
-offset_bottom = 284.0
+offset_left = 1546.0
+offset_top = 208.0
+offset_right = 1890.0
+offset_bottom = 260.0
 
 [node name="Questdiscription" type="RichTextLabel" parent="QuestBox"]
-offset_left = 13.0
-offset_top = 287.0
-offset_right = 357.0
-offset_bottom = 438.0
+offset_left = 1546.0
+offset_top = 263.0
+offset_right = 1911.0
+offset_bottom = 421.0
+
+[node name="QuestTitle2" type="RichTextLabel" parent="QuestBox"]
+offset_left = 1543.0
+offset_top = 175.0
+offset_right = 1887.0
+offset_bottom = 227.0
+text = "Quest Title:"
+
+[node name="QuestTitle3" type="RichTextLabel" parent="QuestBox"]
+offset_left = 1541.0
+offset_top = 244.0
+offset_right = 1885.0
+offset_bottom = 296.0
+text = "Quest information:"

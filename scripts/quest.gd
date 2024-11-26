@@ -15,5 +15,5 @@ func finished_goal():
 	if quest_status==Quest_status.reached_goal:
 		quest_status=Quest_status.finished
 		QuestBox.visible= false
-		XP.text=str(int(XP.text) + rewardedhelp)
+		
 	
