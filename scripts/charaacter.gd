@@ -11,12 +11,17 @@ const camera_shake = 2
 const camera_amplitude = 0.08
 var t_camera = 0.0
 var canmove = true
+var start_position: Vector3
 @onready var head = $head
 @onready var camera = $head/Camera3D
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	
 	speed = walk_SPEED
+	start_position = global_transform.origin
 
+func teleport_to_start():
+	global_transform.origin = start_position
 	
 func _input(event):
 	if canmove == true:
