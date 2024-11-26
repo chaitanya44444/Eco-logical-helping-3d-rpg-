@@ -1,4 +1,7 @@
 extends StaticBody3D
+@onready var factoy_quest: Quest = $"../../tree/Factoy-quest"
+@onready var xpvalue_3: RichTextLabel = %xpvalue3
+@onready var progress_bar_3: ProgressBar = %ProgressBar3
 
 signal switchoff
 # Called when the node enters the scene tree for the first time.
@@ -11,6 +14,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 func interact():
+	factoy_quest.finished_goal()
+	progress_bar_3.value+=10
+	xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false

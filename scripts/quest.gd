@@ -16,4 +16,7 @@ func finished_goal():
 		quest_status=Quest_status.finished
 		QuestBox.visible= false
 		
+func ifdone():
+	if quest_status==Quest_status.reached_goal:
+		return true
 	

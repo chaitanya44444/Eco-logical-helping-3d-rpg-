@@ -28,13 +28,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 directories/dch_directory={
 "Village Chief": "res://dialogictimeline/Village Chief.dch",
 "ellder treee": "res://dialogictimeline/ellder treee.dch",
+"treedlc": "res://dialogictimeline/treedlc.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
 "elder tree": "res://dialogictimeline/elder tree.dtl",
 "npc1": "res://dialogictimeline/npc1.dtl",
 "npc2": "res://npc2.dtl",
-"npc3": "res://npc3.dtl"
+"npc3": "res://npc3.dtl",
+"timeline": "res://dialogictimeline/timeline.dtl"
 }
 layout/style_list=["res://dialogictimeline/style dialogic.tres"]
 layout/default_style="res://dialogictimeline/style dialogic.tres"
@@ -60,6 +62,7 @@ save/encryption_on_exports_only=true
 text/autopauses={}
 glossary/default_case_sensitive=true
 variables={}
+glossary/glossary_files=["res://dialogictimeline/style dialogic.tres"]
 
 [display]
 

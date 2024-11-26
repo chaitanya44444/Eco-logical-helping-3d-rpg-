@@ -8,6 +8,7 @@ extends StaticBody3D
 func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
+@onready var factoy_quest: Quest = $"Factoy-quest"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -26,6 +27,7 @@ func _on_dialogic_signal(argument: String):
 		talk_to_tree.finished_goal()
 		progress_bar_3.value+=10
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
+		factoy_quest.start_quest()
 		print("yayyaya")
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 		
