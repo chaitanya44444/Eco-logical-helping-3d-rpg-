@@ -32,7 +32,9 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "elder tree": "res://dialogictimeline/elder tree.dtl",
-"npc1": "res://dialogictimeline/npc1.dtl"
+"npc1": "res://dialogictimeline/npc1.dtl",
+"npc2": "res://npc2.dtl",
+"npc3": "res://npc3.dtl"
 }
 layout/style_list=["res://dialogictimeline/style dialogic.tres"]
 layout/default_style="res://dialogictimeline/style dialogic.tres"

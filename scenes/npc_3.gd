@@ -20,11 +20,11 @@ func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
 	
-	Dialogic.start("npc2")
+	Dialogic.start("npc3")
 	
 		
 func _on_dialogic_signal(argument: String):
-	if argument == "npc2 ended":
+	if argument == "insertnamehere hahaaha":
 #		talk_to_village_chief.finished_goal()
 		
 #		progress_bar_3.value+=10
