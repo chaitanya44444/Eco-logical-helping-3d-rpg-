@@ -1,0 +1,21 @@
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://b5j18v0cvvnlq"]
+
+[ext_resource type="Texture2D" uid="uid://csg2jp1wtljug" path="res://materisl/clear_sky_field_sky_dome_1k.hdr" id="1_mq34k"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_mqhsk"]
+panorama = ExtResource("1_mq34k")
+
+[sub_resource type="Sky" id="Sky_e1rek"]
+sky_material = SubResource("PanoramaSkyMaterial_mqhsk")
+
+[resource]
+background_mode = 2
+background_energy_multiplier = 0.2
+sky = SubResource("Sky_e1rek")
+tonemap_mode = 2
+glow_enabled = true
+fog_density = 0.003
+fog_sky_affect = 0.295
+volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.804743, 0.804743, 0.804743, 1)
+volumetric_fog_sky_affect = 0.815
