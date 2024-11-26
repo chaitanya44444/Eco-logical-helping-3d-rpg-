@@ -23,7 +23,8 @@ func interact():
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
 	#Dialogic.start("elder tree")
 	$Node3D/AnimationPlayer.play("off")
-	emit_signal("switchoff")	
+	emit_signal("switchoff")
+	queue_free()	
 
 	
 	

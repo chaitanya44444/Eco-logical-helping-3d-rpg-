@@ -114,7 +114,7 @@ func setup_plugin() -> void:
 	check_dependencies()
 	
 	# Grab API key if needed
-	var api_key = get_api_key()
+	var api_key = "24abb93b-c58f-4025-aa86-27571304b8cd"
 	if api_key == null:
 		request_api_key()
 	await get_tree().process_frame
