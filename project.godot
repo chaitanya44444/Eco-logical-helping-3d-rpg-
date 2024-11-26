@@ -40,7 +40,7 @@ directories/dtl_directory={
 }
 layout/style_list=["res://dialogictimeline/style dialogic.tres"]
 layout/default_style="res://dialogictimeline/style dialogic.tres"
-extensions_folder="res://addons/dialogic_additions"
+extensions_folder="res://dialogictimeline"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1

@@ -9,6 +9,7 @@ func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
 @onready var factoy_quest: Quest = $"Factoy-quest"
+@onready var fishquest: Quest = $fishquest
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -18,11 +19,15 @@ func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
 	
-	
-	Dialogic.start("elder tree")
+	if factoy_quest.ifdone():
+		Dialogic.start("timeline")
+	else: 
+		Dialogic.start("elder tree")
 	
 		
 func _on_dialogic_signal(argument: String):
+	if argument == "npc2 ended1":
+		fishquest.start_quest()
 	if argument == "tree":
 		talk_to_tree.finished_goal()
 		progress_bar_3.value+=10

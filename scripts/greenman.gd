@@ -32,6 +32,8 @@ func _on_dialogic_signal(argument: String):
 #		quest.start_quest()
 		
 		print("yayyaya")
+	if argument == "npc2 ended":
+		
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 		
 	

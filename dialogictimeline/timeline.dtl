@@ -1,7 +1,7 @@
-
 "ellder treee": You stopped the factory, but more work remains. Firstly a nearby lake is polluted, and a fisherman’s spirit is broken.
 What can i even do?
 "ellder treee": I gave you the power to cleanse it. Press C, but it’s too weak alone. You’ll need the fisherman’s help. Speak to him
 Where will I find him?
 "ellder treee": If u look from my view he is north east from here near the mountains.
+[signal arg="npc2 ended1"]
 [end_timeline]
