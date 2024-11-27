@@ -16,7 +16,7 @@ func _process(delta: float) -> void:
 	pass
 func interact():
 	factoy_quest.finished_goal()
-	progress_bar_3.value+=10
+	progress_bar_3.value+=50
 	xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	#get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0

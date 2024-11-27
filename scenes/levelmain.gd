@@ -10,6 +10,7 @@ func _ready() -> void:
 	
 	SimpleGrass.set_interactive(true)
 
+@onready var talk_after_factory: Quest = $"tree/talk after factory"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -24,9 +25,10 @@ func _on_switch_button_2_switchoff() -> void:
 	await get_tree().create_timer(4.0).timeout
 	$AnimationPlayer.play("end camera")
 	await get_tree().create_timer(30.0).timeout	
+	
 	#await get_tree().create_timer(9.0).timeout	
 
-	fishquest.start_quest()
+	talk_after_factory.start_quest()
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero/head/Camera3D").current = true
 	the_hero.teleport_to_start()

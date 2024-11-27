@@ -31,7 +31,6 @@ func _on_dialogic_signal(argument: String):
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 	if argument == "tree":
 		talk_to_tree.finished_goal()
-		progress_bar_3.value+=10
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
 		factoy_quest.start_quest()
 		print("yayyaya")

@@ -19,4 +19,8 @@ func finished_goal():
 func ifdone():
 	if quest_status==Quest_status.reached_goal:
 		return true
+func ifstarted():
+	if quest_status==Quest_status.started:
+		return true
+	
 	

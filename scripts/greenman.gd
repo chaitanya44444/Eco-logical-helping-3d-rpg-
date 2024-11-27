@@ -1,5 +1,7 @@
 extends StaticBody3D
 #@onready var quest: Quest = %"Talk-to tree"
+@onready var fishquest: Quest = $"../../tree/fishquest"
+var a = 0
 
 #@onready var talk_to_village_chief: Quest = $"talk to village chief"
 #@onready var progress_bar_3: ProgressBar = %ProgressBar3
@@ -11,10 +13,17 @@ func _ready() -> void:
 	
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
-
+func _input(event: InputEvent) -> void:
+	if fishquest.ifstarted():
+		if Input.is_action_pressed("Cleanse"):
+			a+=1
+			if a==4:
+				fishquest.finished_goal()
+			
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+
 func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
