@@ -1,0 +1,98 @@
+[gd_scene load_steps=8 format=3 uid="uid://b43aixuntmtab"]
+
+[ext_resource type="Script" path="res://settings.gd" id="1_7fbbb"]
+[ext_resource type="Theme" uid="uid://dvggpswareqfj" path="res://scenes/new_theme.tres" id="2_b4pn7"]
+[ext_resource type="VideoStream" path="res://assets/menu/0001-0300.ogv" id="2_xrs3d"]
+[ext_resource type="PackedScene" uid="uid://0gbqmeravuwg" path="res://scenes/audio_stream_player.tscn" id="4_7dimc"]
+
+[sub_resource type="SystemFont" id="SystemFont_rhj0j"]
+
+[sub_resource type="Theme" id="Theme_q76g5"]
+
+[sub_resource type="Theme" id="Theme_i8m5i"]
+
+[node name="settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7fbbb")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="MarginContainer"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/CanvasLayer"]
+offset_left = 114.0
+offset_top = 45.0
+offset_right = 1673.0
+offset_bottom = 992.0
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+
+[node name="volume indicator" type="Label" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_b4pn7")
+theme_override_fonts/font = SubResource("SystemFont_rhj0j")
+theme_override_font_sizes/font_size = 50
+text = "Volume Slider"
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+
+[node name="volume" type="HSlider" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_q76g5")
+
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+
+[node name="volume indicator2" type="Label" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_b4pn7")
+theme_override_fonts/font = SubResource("SystemFont_rhj0j")
+theme_override_font_sizes/font_size = 50
+text = "Mute Music"
+
+[node name="music off" type="CheckBox" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_i8m5i")
+
+[node name="MarginContainer4" type="MarginContainer" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+
+[node name="OptionButton" type="OptionButton" parent="MarginContainer/CanvasLayer/VBoxContainer"]
+layout_mode = 2
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="MarginContainer"]
+visible = false
+light_mask = 2
+visibility_layer = 2
+z_index = 2
+layout_mode = 2
+stream = ExtResource("2_xrs3d")
+autoplay = true
+loop = true
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer"]
+layout_mode = 2
+color = Color(0.219608, 0.219608, 0.219608, 0.6)
+
+[node name="AudioStreamPlayer" parent="." instance=ExtResource("4_7dimc")]
+
+[connection signal="value_changed" from="MarginContainer/CanvasLayer/VBoxContainer/volume" to="." method="_on_volume_value_changed"]
+[connection signal="value_changed" from="MarginContainer/CanvasLayer/VBoxContainer/volume" to="." method="_on_h_slider_value_changed"]
+[connection signal="toggled" from="MarginContainer/CanvasLayer/VBoxContainer/music off" to="." method="_on_music_off_toggled"]

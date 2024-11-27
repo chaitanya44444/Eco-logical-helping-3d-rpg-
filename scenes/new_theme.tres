@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dvggpswareqfj"]
+
+[ext_resource type="FontFile" uid="uid://cc4xli25271fd" path="res://addons/dialogic/Example Assets/Fonts/Roboto-Bold.ttf" id="1_a4ofn"]
+
+[resource]
+default_font = ExtResource("1_a4ofn")

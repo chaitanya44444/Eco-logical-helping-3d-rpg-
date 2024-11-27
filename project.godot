@@ -22,6 +22,7 @@ GameManager="*res://autoload/game_manager.tscn"
 Events="*res://autoload/events.gd"
 SimpleGrass="*res://addons/simplegrasstextured/singleton.tscn"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GlobalAudioStreamPlayer="*res://scenes/audio_stream_player.tscn"
 
 [dialogic]
 
