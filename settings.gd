@@ -1,6 +1,8 @@
 extends Control
+@onready var exit: Button = $MarginContainer/VBoxContainer/exit
+const menus= preload("res://scenes/menu.tscn")
 
-const a =preload("res://scenes/menu.tscn")
+const ab =preload("res://scenes/menu.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -9,6 +11,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+		
 		
 
 
@@ -22,8 +25,6 @@ func _on_volume_value_changed(value: float) -> void:
 		
 
 
-func _on_button_pressed() -> void:
-	pass # Replace with function body.
 
 
 func _on_button_2_button_down() -> void:
@@ -32,3 +33,18 @@ func _on_button_2_button_down() -> void:
 
 func _on_button_button_down() -> void:
 	AudioServer.set_bus_mute(2,true)
+
+
+func _on_button_2_pressed() -> void:
+	pass # Replace with function body.
+
+
+func _on_exitfortab_3_pressed() -> void:
+	get_tree().change_scene_to_packed(menus)
+
+
+func _on_exitfortab_2_pressed() -> void:
+	get_tree().change_scene_to_packed(menus)
+
+func _on_exit_for_1_pressed() -> void:
+	get_tree().change_scene_to_packed(menus)
