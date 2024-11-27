@@ -11,6 +11,7 @@ func _ready() -> void:
 	SimpleGrass.set_interactive(true)
 
 @onready var talk_after_factory: Quest = $"tree/talk after factory"
+@onready var factoy_quest: Quest = $"tree/Factoy-quest"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -25,6 +26,7 @@ func _on_switch_button_2_switchoff() -> void:
 	await get_tree().create_timer(4.0).timeout
 	$AnimationPlayer.play("end camera")
 	await get_tree().create_timer(30.0).timeout	
+	factoy_quest.finished_goal()
 	
 	#await get_tree().create_timer(9.0).timeout	
 

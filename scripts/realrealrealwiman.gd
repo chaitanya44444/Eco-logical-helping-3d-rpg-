@@ -27,7 +27,6 @@ func _on_dialogic_signal(argument: String):
 	if argument == "npc ended":
 		talk_to_village_chief.finished_goal()
 		
-		progress_bar_3.value+=10
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
 		quest.start_quest()
 		
