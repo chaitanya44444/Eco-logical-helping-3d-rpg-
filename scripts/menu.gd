@@ -1,6 +1,6 @@
 extends CanvasLayer
 const a =preload("res://scenes/uhmm.tscn")
-
+const options= preload("res://scenes/settings.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -17,3 +17,7 @@ func _on_button_3_pressed() -> void:
 
 func _on_button_pressed() -> void:
 	get_tree().change_scene_to_packed(a)
+
+
+func _on_button_2_pressed() -> void:
+	get_tree().change_scene_to_packed(options)

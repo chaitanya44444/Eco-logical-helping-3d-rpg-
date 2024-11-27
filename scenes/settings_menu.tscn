@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://den1olgkpey12"]
+[gd_scene load_steps=3 format=3 uid="uid://den1olgkpey12"]
+
+[ext_resource type="Script" path="res://scenes/settings_menu.gd" id="1_m6hg8"]
 
 [sub_resource type="SystemFont" id="SystemFont_nbyra"]
 font_names = PackedStringArray("Trebuchet MS")
@@ -10,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_m6hg8")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -39,7 +42,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
 layout_mode = 2
 size_flags_vertical = 10
 text = "Exit
 "
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
