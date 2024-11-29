@@ -1,9 +1,9 @@
 extends StaticBody3D
 @onready var talk_to_tree_for_planting_one: Quest = $"talk to tree for planting one"
 @onready var number_of_cleanses: Label = $"../../ui stuff more/number of cleanses"
+@onready var polluted: MeshInstance3D = $"../../Lake/polluted"
 
 @onready var fishquest: Quest = $"../../tree/fishquest"
-@onready var polluted: MeshInstance3D = $"../../Lake/polluted"
 @onready var progress_bar_3: ProgressBar = %ProgressBar3
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
 @onready var the_hero: CharacterBody3D = $"../../the_hero"
@@ -37,7 +37,16 @@ func _input(event: InputEvent) -> void:
 			print("Cleanse applied, count:", a)
 
 			if a >= 4:
-				complete_fish_quest()
+				polluted.visible = false
+				polluted.queue_free()
+
+				quest_completed = true
+				polluted.visible = false
+				fishquest.finished_goal()
+				xpvalue_3.text = str(int(xpvalue_3.text) + 1)
+				progress_bar_3.value = 90
+				label.visible = false
+				print("Fish quest completed!")
 				talk_to_tree_for_planting_one.start_quest()
 				
 
@@ -45,17 +54,6 @@ func _input(event: InputEvent) -> void:
 		label.visible = false
 		number_of_cleanses.visible =false
 
-func complete_fish_quest():
-	if quest_completed:
-		return  #lolollol
-
-	quest_completed = true
-	polluted.visible = false
-	fishquest.finished_goal()
-	xpvalue_3.text = str(int(xpvalue_3.text) + 1)
-	progress_bar_3.value = 90
-	label.visible = false
-	print("Fish quest completed!")
 
 func interact():
 	var hero = get_node("/root/" + get_tree().current_scene.name + "/the_hero")
