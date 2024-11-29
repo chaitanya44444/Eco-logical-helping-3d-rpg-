@@ -1,4 +1,4 @@
-[gd_scene load_steps=258 format=4 uid="uid://b8nnjcahcvem"]
+[gd_scene load_steps=259 format=4 uid="uid://b8nnjcahcvem"]
 
 [ext_resource type="Script" path="res://scenes/levelmain.gd" id="1_6xfup"]
 [ext_resource type="PackedScene" uid="uid://bx3oaawd0h25g" path="res://scripts/character.tscn" id="1_fj35w"]
@@ -38,6 +38,7 @@
 [ext_resource type="Texture2D" uid="uid://dd0jb0fwpmyh7" path="res://materisl/End Credits/8.png" id="34_hgyt2"]
 [ext_resource type="Texture2D" uid="uid://dw5dxoogx63qx" path="res://materisl/End Credits/9.png" id="35_hri8g"]
 [ext_resource type="BoxMesh" uid="uid://dg07t25ndksw0" path="res://blenderstuffs/waterocean.tres" id="39_h3d5w"]
+[ext_resource type="BoxMesh" uid="uid://ddg0whs2hatnu" path="res://materisl/platicwater.tres" id="39_yqrf8"]
 [ext_resource type="Shader" path="res://scenes/outlinetry2.gdshader" id="40_hemwk"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_mqhsk"]
@@ -5002,8 +5003,8 @@ transform = Transform3D(0.264175, 0, 0, 0, 1, 0, 0, 0, 0.312609, 0, -12.5157, 0)
 mesh = ExtResource("39_h3d5w")
 
 [node name="polluted" type="MeshInstance3D" parent="Lake"]
-transform = Transform3D(0.264175, 0, 0, 0, 1, 0, 0, 0, 0.312609, 0, -14.3791, 0)
-mesh = ExtResource("39_h3d5w")
+transform = Transform3D(0.264175, 0, 0, 0, 1, 0, 0, 0, 0.312609, 0, -10.9289, 0)
+mesh = ExtResource("39_yqrf8")
 
 [node name="OUTLINE" type="Node3D" parent="."]
 visible = false

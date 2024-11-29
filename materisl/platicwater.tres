@@ -1,4 +1,4 @@
-[gd_resource type="BoxMesh" load_steps=5 format=3 uid="uid://dg07t25ndksw0"]
+[gd_resource type="BoxMesh" load_steps=5 format=3 uid="uid://ddg0whs2hatnu"]
 
 [sub_resource type="Shader" id="Shader_r1247"]
 code = "// NOTE: Shader automatically converted from Godot Engine 4.2.2.stable's StandardMaterial3D.
@@ -86,10 +86,10 @@ seamless = true
 as_normal_map = true
 noise = SubResource("FastNoiseLite_tomlo")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_qutdl"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_16phh"]
 render_priority = 0
 shader = SubResource("Shader_r1247")
-shader_parameter/albedo = Color(0.307198, 0.630109, 0.998144, 1)
+shader_parameter/albedo = Color(0.258824, 0.737255, 0.141176, 1)
 shader_parameter/point_size = 1.0
 shader_parameter/roughness = 0.0
 shader_parameter/metallic_texture_channel = null
@@ -107,5 +107,5 @@ shader_parameter/texture_refraction = SubResource("NoiseTexture2D_dkhdf")
 shader_parameter/texture_normal = SubResource("NoiseTexture2D_dkhdf")
 
 [resource]
-material = SubResource("ShaderMaterial_qutdl")
+material = SubResource("ShaderMaterial_16phh")
 size = Vector3(1000, 1, 1000)
