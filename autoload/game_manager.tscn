@@ -10,23 +10,31 @@ script = ExtResource("1_ckjwx")
 [node name="QuestBox" type="CanvasLayer" parent="."]
 
 [node name="TextureRect2" type="TextureRect" parent="QuestBox"]
-offset_left = 1456.0
-offset_top = 144.0
-offset_right = 1952.0
-offset_bottom = 481.0
+visible = false
+offset_left = 1156.0
+offset_top = 304.0
+offset_right = 1652.0
+offset_bottom = 641.0
+texture = ExtResource("2_iuf41")
+
+[node name="TextureRect" type="TextureRect" parent="QuestBox"]
+offset_left = 1466.0
+offset_top = 138.0
+offset_right = 1962.0
+offset_bottom = 475.0
 texture = ExtResource("2_iuf41")
 
 [node name="QuestTitle" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1555.0
-offset_top = 309.0
-offset_right = 1899.0
-offset_bottom = 361.0
+offset_left = 1566.0
+offset_top = 300.0
+offset_right = 1910.0
+offset_bottom = 352.0
 text = "Quest Title:"
 
 [node name="Questdiscription" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1556.0
-offset_top = 330.0
-offset_right = 1906.0
-offset_bottom = 460.0
+offset_left = 1563.0
+offset_top = 322.0
+offset_right = 1913.0
+offset_bottom = 452.0
 theme_override_font_sizes/normal_font_size = 0
 text = "Quest information:"

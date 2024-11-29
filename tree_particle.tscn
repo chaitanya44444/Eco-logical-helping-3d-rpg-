@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2syxkt6er8sj"]
 
-[ext_resource type="Shader" path="res://treesd.tres" id="1_11euw"]
+[ext_resource type="Shader" uid="uid://cho7cc4j3a80y" path="res://treesd.tres" id="1_11euw"]
 [ext_resource type="ArrayMesh" uid="uid://btcn7kkq3g0vv" path="res://blenderstuffs/circle_mesh.obj" id="2_ccngt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_sjtmv"]
