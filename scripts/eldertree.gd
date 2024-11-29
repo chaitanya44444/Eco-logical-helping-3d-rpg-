@@ -37,7 +37,7 @@ func interact():
 	elif talk_to_tree.ifstarted(): 
 		
 		Dialogic.start("elder tree")
-	elif talk_to_tree_for_planting_one.ifstarted():
+	elif GameManager.q5==true:
 		Dialogic.start("elder-plant")
 	
 

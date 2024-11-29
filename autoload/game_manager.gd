@@ -3,6 +3,7 @@ var xp = 0
 @onready var quest_box: CanvasLayer = $QuestBox
 var trees=0
 var tr1=0
+var q5=false
 @onready var quest_title: RichTextLabel = $QuestBox/QuestTitle
 @onready var questdiscription: RichTextLabel = $QuestBox/Questdiscription
 
