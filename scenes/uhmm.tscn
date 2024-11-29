@@ -179,7 +179,7 @@ spawned_spatial = ExtResource("17_cxe5g")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_2sxn3"]
+[sub_resource type="Resource" id="Resource_tcitk"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -200,7 +200,7 @@ active_LOD_index = -1
 MMI_name = "MultiMeshInstance3D23"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ltm5u"]
+[sub_resource type="Resource" id="Resource_rnacr"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -221,7 +221,7 @@ active_LOD_index = -1
 MMI_name = "MultiMeshInstance3D24"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_tqlbh"]
+[sub_resource type="Resource" id="Resource_2fy2e"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -242,7 +242,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D25"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_gv7dy"]
+[sub_resource type="Resource" id="Resource_1o2md"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -263,7 +263,7 @@ active_LOD_index = -1
 MMI_name = "MultiMeshInstance3D26"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_qshf8"]
+[sub_resource type="Resource" id="Resource_te5cr"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -284,7 +284,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D27"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_6lrqj"]
+[sub_resource type="Resource" id="Resource_kl153"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -305,7 +305,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D28"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_qqv4t"]
+[sub_resource type="Resource" id="Resource_2ootv"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -326,7 +326,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D2"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_6q0rf"]
+[sub_resource type="Resource" id="Resource_qudsm"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -347,7 +347,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D16"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_0c301"]
+[sub_resource type="Resource" id="Resource_bk6y6"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -368,7 +368,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D17"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_f7i8k"]
+[sub_resource type="Resource" id="Resource_e2x04"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -389,7 +389,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D18"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_tdutu"]
+[sub_resource type="Resource" id="Resource_q7u2m"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -410,7 +410,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D19"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_xhuan"]
+[sub_resource type="Resource" id="Resource_66h76"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -431,7 +431,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D20"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_8g618"]
+[sub_resource type="Resource" id="Resource_3sxu6"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -452,7 +452,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D21"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_qj7fa"]
+[sub_resource type="Resource" id="Resource_2mtuq"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -473,14 +473,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D22"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_kqp5h"]
+[sub_resource type="Resource" id="Resource_clcup"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_qqv4t"), SubResource("Resource_6q0rf"), SubResource("Resource_0c301"), SubResource("Resource_f7i8k"), SubResource("Resource_tdutu"), SubResource("Resource_xhuan"), SubResource("Resource_8g618"), SubResource("Resource_qj7fa")]
+child_nodes = [SubResource("Resource_2ootv"), SubResource("Resource_qudsm"), SubResource("Resource_bk6y6"), SubResource("Resource_e2x04"), SubResource("Resource_q7u2m"), SubResource("Resource_66h76"), SubResource("Resource_3sxu6"), SubResource("Resource_2mtuq")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 6
@@ -494,7 +494,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_cxue2"]
+[sub_resource type="Resource" id="Resource_7rxds"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -515,14 +515,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D30"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_kj3o3"]
+[sub_resource type="Resource" id="Resource_6ywed"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_2sxn3"), SubResource("Resource_ltm5u"), SubResource("Resource_tqlbh"), SubResource("Resource_gv7dy"), SubResource("Resource_qshf8"), SubResource("Resource_6lrqj"), SubResource("Resource_kqp5h"), SubResource("Resource_cxue2")]
+child_nodes = [SubResource("Resource_tcitk"), SubResource("Resource_rnacr"), SubResource("Resource_2fy2e"), SubResource("Resource_1o2md"), SubResource("Resource_te5cr"), SubResource("Resource_kl153"), SubResource("Resource_clcup"), SubResource("Resource_7rxds")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = -1
@@ -536,11 +536,11 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_62osw"]
+[sub_resource type="Resource" id="Resource_a7ela"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_kj3o3")
+root_octree_node = SubResource("Resource_6ywed")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_yuo08")])
 LOD_max_distance = 0.2
 LOD_kill_distance = 0.2
@@ -554,7 +554,7 @@ spawned_spatial = ExtResource("21_q1hv4")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_gsj0h"]
+[sub_resource type="Resource" id="Resource_l2af6"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -575,11 +575,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D3"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_p8lq5"]
+[sub_resource type="Resource" id="Resource_tsmgl"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_gsj0h")
+root_octree_node = SubResource("Resource_l2af6")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_4ilde")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -593,7 +593,7 @@ spawned_spatial = ExtResource("23_qqgjy")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_pth2r"]
+[sub_resource type="Resource" id="Resource_xhf6a"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -614,7 +614,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D8"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ll4vg"]
+[sub_resource type="Resource" id="Resource_uxdqb"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -635,7 +635,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D9"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_hva6n"]
+[sub_resource type="Resource" id="Resource_dju38"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -656,7 +656,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D10"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_nk8fl"]
+[sub_resource type="Resource" id="Resource_57h3p"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -677,7 +677,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D11"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_vfxk3"]
+[sub_resource type="Resource" id="Resource_p063l"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -698,7 +698,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D12"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_qx7ea"]
+[sub_resource type="Resource" id="Resource_j4qsn"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -719,7 +719,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D13"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_dbu52"]
+[sub_resource type="Resource" id="Resource_bio46"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -740,7 +740,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D14"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_f6jo4"]
+[sub_resource type="Resource" id="Resource_j16ma"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -761,14 +761,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D15"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_p5o7j"]
+[sub_resource type="Resource" id="Resource_58fqb"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_pth2r"), SubResource("Resource_ll4vg"), SubResource("Resource_hva6n"), SubResource("Resource_nk8fl"), SubResource("Resource_vfxk3"), SubResource("Resource_qx7ea"), SubResource("Resource_dbu52"), SubResource("Resource_f6jo4")]
+child_nodes = [SubResource("Resource_xhf6a"), SubResource("Resource_uxdqb"), SubResource("Resource_dju38"), SubResource("Resource_57h3p"), SubResource("Resource_p063l"), SubResource("Resource_j4qsn"), SubResource("Resource_bio46"), SubResource("Resource_j16ma")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = -1
@@ -782,11 +782,11 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_3ygr3"]
+[sub_resource type="Resource" id="Resource_qnsct"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_p5o7j")
+root_octree_node = SubResource("Resource_58fqb")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_13bt6")])
 LOD_max_distance = 0.2
 LOD_kill_distance = 0.2
@@ -799,7 +799,7 @@ mesh = ExtResource("17_ynrqu")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_fc0ns"]
+[sub_resource type="Resource" id="Resource_mfpqc"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -820,7 +820,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D7"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_f3qww"]
+[sub_resource type="Resource" id="Resource_3xoft"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -841,7 +841,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_j84p4"]
+[sub_resource type="Resource" id="Resource_11kef"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -862,7 +862,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D65"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_cvhrr"]
+[sub_resource type="Resource" id="Resource_uinak"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -883,7 +883,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D66"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bm4o5"]
+[sub_resource type="Resource" id="Resource_6s60a"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -904,7 +904,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D67"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_886ds"]
+[sub_resource type="Resource" id="Resource_0bpl2"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -925,7 +925,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D68"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_n1e0e"]
+[sub_resource type="Resource" id="Resource_16dr2"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -946,7 +946,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D69"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_1ycgy"]
+[sub_resource type="Resource" id="Resource_emb24"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -967,7 +967,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D70"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_07xwn"]
+[sub_resource type="Resource" id="Resource_ebi2d"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -988,14 +988,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D71"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_fgwj6"]
+[sub_resource type="Resource" id="Resource_qakha"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_f3qww"), SubResource("Resource_j84p4"), SubResource("Resource_cvhrr"), SubResource("Resource_bm4o5"), SubResource("Resource_886ds"), SubResource("Resource_n1e0e"), SubResource("Resource_1ycgy"), SubResource("Resource_07xwn")]
+child_nodes = [SubResource("Resource_3xoft"), SubResource("Resource_11kef"), SubResource("Resource_uinak"), SubResource("Resource_6s60a"), SubResource("Resource_0bpl2"), SubResource("Resource_16dr2"), SubResource("Resource_emb24"), SubResource("Resource_ebi2d")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 1
@@ -1009,7 +1009,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_r620a"]
+[sub_resource type="Resource" id="Resource_4mwyk"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1030,7 +1030,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D31"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_sebqw"]
+[sub_resource type="Resource" id="Resource_58d8g"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1051,7 +1051,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D32"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ggw6j"]
+[sub_resource type="Resource" id="Resource_ljl83"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1072,7 +1072,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D33"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_etpnb"]
+[sub_resource type="Resource" id="Resource_lc73e"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1093,7 +1093,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D75"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_nbyb6"]
+[sub_resource type="Resource" id="Resource_s8cxc"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1114,7 +1114,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D100"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_eifgu"]
+[sub_resource type="Resource" id="Resource_6qnhc"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1135,7 +1135,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D101"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_lihsy"]
+[sub_resource type="Resource" id="Resource_khdfb"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1156,7 +1156,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D102"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_mahyv"]
+[sub_resource type="Resource" id="Resource_70dvw"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1177,7 +1177,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D103"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_icd4t"]
+[sub_resource type="Resource" id="Resource_uve3k"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1198,7 +1198,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D104"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_55aqh"]
+[sub_resource type="Resource" id="Resource_rnyvp"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1219,7 +1219,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D105"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bdx6e"]
+[sub_resource type="Resource" id="Resource_mug7o"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1240,14 +1240,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D106"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_x5ja4"]
+[sub_resource type="Resource" id="Resource_xhpyp"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_etpnb"), SubResource("Resource_nbyb6"), SubResource("Resource_eifgu"), SubResource("Resource_lihsy"), SubResource("Resource_mahyv"), SubResource("Resource_icd4t"), SubResource("Resource_55aqh"), SubResource("Resource_bdx6e")]
+child_nodes = [SubResource("Resource_lc73e"), SubResource("Resource_s8cxc"), SubResource("Resource_6qnhc"), SubResource("Resource_khdfb"), SubResource("Resource_70dvw"), SubResource("Resource_uve3k"), SubResource("Resource_rnyvp"), SubResource("Resource_mug7o")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 5
@@ -1261,7 +1261,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_7yngj"]
+[sub_resource type="Resource" id="Resource_cq7sj"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1282,7 +1282,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D35"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_2ki0m"]
+[sub_resource type="Resource" id="Resource_b7pma"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1303,14 +1303,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D36"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bsmu1"]
+[sub_resource type="Resource" id="Resource_51ts5"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_fc0ns"), SubResource("Resource_fgwj6"), SubResource("Resource_r620a"), SubResource("Resource_sebqw"), SubResource("Resource_ggw6j"), SubResource("Resource_x5ja4"), SubResource("Resource_7yngj"), SubResource("Resource_2ki0m")]
+child_nodes = [SubResource("Resource_mfpqc"), SubResource("Resource_qakha"), SubResource("Resource_4mwyk"), SubResource("Resource_58d8g"), SubResource("Resource_ljl83"), SubResource("Resource_xhpyp"), SubResource("Resource_cq7sj"), SubResource("Resource_b7pma")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = -1
@@ -1324,11 +1324,11 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_q83wt"]
+[sub_resource type="Resource" id="Resource_85lgi"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_bsmu1")
+root_octree_node = SubResource("Resource_51ts5")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_mg4af")])
 LOD_max_distance = 9.99
 LOD_kill_distance = -1.0
@@ -1341,7 +1341,7 @@ mesh = ExtResource("20_2m4vn")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_03rjs"]
+[sub_resource type="Resource" id="Resource_xrmqa"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1362,7 +1362,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D5"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_vjaj2"]
+[sub_resource type="Resource" id="Resource_ho4ns"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1383,7 +1383,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D44"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_1a342"]
+[sub_resource type="Resource" id="Resource_43ley"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1404,7 +1404,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D43"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_i2nnm"]
+[sub_resource type="Resource" id="Resource_38v6d"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1425,7 +1425,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D79"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_e044o"]
+[sub_resource type="Resource" id="Resource_vdjr7"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1446,7 +1446,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D80"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ivore"]
+[sub_resource type="Resource" id="Resource_03evk"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1467,7 +1467,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D81"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_flgq8"]
+[sub_resource type="Resource" id="Resource_lie20"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1488,7 +1488,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D82"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ub3qf"]
+[sub_resource type="Resource" id="Resource_wrrye"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1509,7 +1509,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D83"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_upptp"]
+[sub_resource type="Resource" id="Resource_mswux"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1530,7 +1530,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D84"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_t3s7a"]
+[sub_resource type="Resource" id="Resource_k8sxa"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1551,14 +1551,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D85"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_n6htm"]
+[sub_resource type="Resource" id="Resource_l1ba0"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_1a342"), SubResource("Resource_i2nnm"), SubResource("Resource_e044o"), SubResource("Resource_ivore"), SubResource("Resource_flgq8"), SubResource("Resource_ub3qf"), SubResource("Resource_upptp"), SubResource("Resource_t3s7a")]
+child_nodes = [SubResource("Resource_43ley"), SubResource("Resource_38v6d"), SubResource("Resource_vdjr7"), SubResource("Resource_03evk"), SubResource("Resource_lie20"), SubResource("Resource_wrrye"), SubResource("Resource_mswux"), SubResource("Resource_k8sxa")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 2
@@ -1572,7 +1572,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_f6mrp"]
+[sub_resource type="Resource" id="Resource_wn0kf"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1593,7 +1593,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D46"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_dhool"]
+[sub_resource type="Resource" id="Resource_eam8g"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1614,7 +1614,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D58"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_wndii"]
+[sub_resource type="Resource" id="Resource_c0w2g"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1635,7 +1635,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D59"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_8cl6f"]
+[sub_resource type="Resource" id="Resource_qyuv7"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1656,7 +1656,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D60"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_2ksxq"]
+[sub_resource type="Resource" id="Resource_n8ij6"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1677,7 +1677,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D61"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_642r8"]
+[sub_resource type="Resource" id="Resource_pjlal"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1698,7 +1698,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D62"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_pllxh"]
+[sub_resource type="Resource" id="Resource_03j2h"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1719,7 +1719,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D63"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_efb7d"]
+[sub_resource type="Resource" id="Resource_6nt3a"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1740,14 +1740,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D64"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_mowdo"]
+[sub_resource type="Resource" id="Resource_a6lju"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_f6mrp"), SubResource("Resource_dhool"), SubResource("Resource_wndii"), SubResource("Resource_8cl6f"), SubResource("Resource_2ksxq"), SubResource("Resource_642r8"), SubResource("Resource_pllxh"), SubResource("Resource_efb7d")]
+child_nodes = [SubResource("Resource_wn0kf"), SubResource("Resource_eam8g"), SubResource("Resource_c0w2g"), SubResource("Resource_qyuv7"), SubResource("Resource_n8ij6"), SubResource("Resource_pjlal"), SubResource("Resource_03j2h"), SubResource("Resource_6nt3a")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 0
@@ -1761,7 +1761,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_on5a1"]
+[sub_resource type="Resource" id="Resource_rv4bx"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1782,7 +1782,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D51"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_r5dbv"]
+[sub_resource type="Resource" id="Resource_mhurv"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1803,7 +1803,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D52"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_u8e08"]
+[sub_resource type="Resource" id="Resource_ax5qi"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1824,7 +1824,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D53"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_lwsuc"]
+[sub_resource type="Resource" id="Resource_ngifh"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1845,7 +1845,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D29"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_d7s8c"]
+[sub_resource type="Resource" id="Resource_5brch"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1866,7 +1866,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D86"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_e64y1"]
+[sub_resource type="Resource" id="Resource_p405b"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1887,7 +1887,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D87"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_6lysk"]
+[sub_resource type="Resource" id="Resource_nqql8"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1908,7 +1908,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D88"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_4wgfn"]
+[sub_resource type="Resource" id="Resource_fj4pd"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1929,7 +1929,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D89"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_plb2q"]
+[sub_resource type="Resource" id="Resource_7s8cw"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1950,7 +1950,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D90"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_s2ygl"]
+[sub_resource type="Resource" id="Resource_1i0ct"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1971,7 +1971,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D91"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_mr51e"]
+[sub_resource type="Resource" id="Resource_3vote"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -1992,14 +1992,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D92"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_7u7ka"]
+[sub_resource type="Resource" id="Resource_3symj"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_lwsuc"), SubResource("Resource_d7s8c"), SubResource("Resource_e64y1"), SubResource("Resource_6lysk"), SubResource("Resource_4wgfn"), SubResource("Resource_plb2q"), SubResource("Resource_s2ygl"), SubResource("Resource_mr51e")]
+child_nodes = [SubResource("Resource_ngifh"), SubResource("Resource_5brch"), SubResource("Resource_p405b"), SubResource("Resource_nqql8"), SubResource("Resource_fj4pd"), SubResource("Resource_7s8cw"), SubResource("Resource_1i0ct"), SubResource("Resource_3vote")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 4
@@ -2013,7 +2013,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_0ub14"]
+[sub_resource type="Resource" id="Resource_uvjd3"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2034,7 +2034,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D55"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_wl320"]
+[sub_resource type="Resource" id="Resource_6tgnx"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2055,7 +2055,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D56"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_pb0mf"]
+[sub_resource type="Resource" id="Resource_3qqjt"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2076,14 +2076,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D57"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_kweyo"]
+[sub_resource type="Resource" id="Resource_wtc38"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_mowdo"), SubResource("Resource_on5a1"), SubResource("Resource_r5dbv"), SubResource("Resource_u8e08"), SubResource("Resource_7u7ka"), SubResource("Resource_0ub14"), SubResource("Resource_wl320"), SubResource("Resource_pb0mf")]
+child_nodes = [SubResource("Resource_a6lju"), SubResource("Resource_rv4bx"), SubResource("Resource_mhurv"), SubResource("Resource_ax5qi"), SubResource("Resource_3symj"), SubResource("Resource_uvjd3"), SubResource("Resource_6tgnx"), SubResource("Resource_3qqjt")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 3
@@ -2097,7 +2097,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ewhq3"]
+[sub_resource type="Resource" id="Resource_nm37l"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2118,7 +2118,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D47"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bur12"]
+[sub_resource type="Resource" id="Resource_4tt1t"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2139,7 +2139,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D48"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_g2o20"]
+[sub_resource type="Resource" id="Resource_huyhj"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2160,7 +2160,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D49"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_x12nu"]
+[sub_resource type="Resource" id="Resource_dq07p"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2181,14 +2181,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D50"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_mkn85"]
+[sub_resource type="Resource" id="Resource_djytf"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_03rjs"), SubResource("Resource_vjaj2"), SubResource("Resource_n6htm"), SubResource("Resource_kweyo"), SubResource("Resource_ewhq3"), SubResource("Resource_bur12"), SubResource("Resource_g2o20"), SubResource("Resource_x12nu")]
+child_nodes = [SubResource("Resource_xrmqa"), SubResource("Resource_ho4ns"), SubResource("Resource_l1ba0"), SubResource("Resource_wtc38"), SubResource("Resource_nm37l"), SubResource("Resource_4tt1t"), SubResource("Resource_huyhj"), SubResource("Resource_dq07p")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = -1
@@ -2202,11 +2202,11 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ryk1x"]
+[sub_resource type="Resource" id="Resource_roiij"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_mkn85")
+root_octree_node = SubResource("Resource_djytf")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_arim7")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -2219,7 +2219,7 @@ mesh = ExtResource("19_p7hb5")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_a38ip"]
+[sub_resource type="Resource" id="Resource_2yryb"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2240,7 +2240,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D6"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_jwh7d"]
+[sub_resource type="Resource" id="Resource_rccmh"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2261,7 +2261,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D37"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_jmae5"]
+[sub_resource type="Resource" id="Resource_j6qbt"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2282,7 +2282,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D38"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_3shqq"]
+[sub_resource type="Resource" id="Resource_21x6d"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2303,7 +2303,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D39"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_o1u8a"]
+[sub_resource type="Resource" id="Resource_dcn67"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2324,7 +2324,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D40"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_5cvqc"]
+[sub_resource type="Resource" id="Resource_y3ns0"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2345,7 +2345,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D41"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_6goun"]
+[sub_resource type="Resource" id="Resource_efmp1"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2366,7 +2366,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D42"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_kcwlv"]
+[sub_resource type="Resource" id="Resource_628jd"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2387,7 +2387,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D45"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_eg1w3"]
+[sub_resource type="Resource" id="Resource_01mue"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2408,7 +2408,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D72"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_gn7x4"]
+[sub_resource type="Resource" id="Resource_rsjb1"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2429,7 +2429,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D73"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_2wp40"]
+[sub_resource type="Resource" id="Resource_acttf"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2450,7 +2450,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D74"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bb7qt"]
+[sub_resource type="Resource" id="Resource_88f21"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2471,7 +2471,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D54"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_klhrk"]
+[sub_resource type="Resource" id="Resource_uaymu"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2492,7 +2492,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D93"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_8rans"]
+[sub_resource type="Resource" id="Resource_x7v80"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2513,7 +2513,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D94"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ecpit"]
+[sub_resource type="Resource" id="Resource_psl4v"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2534,7 +2534,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D95"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_nffpj"]
+[sub_resource type="Resource" id="Resource_oqun7"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2555,7 +2555,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D96"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_b5rn2"]
+[sub_resource type="Resource" id="Resource_7wd0w"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2576,7 +2576,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D97"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_vtwo1"]
+[sub_resource type="Resource" id="Resource_ef1r8"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2597,7 +2597,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D98"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_36uv0"]
+[sub_resource type="Resource" id="Resource_4ga5l"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2618,14 +2618,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D99"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_45vme"]
+[sub_resource type="Resource" id="Resource_yl2g1"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_bb7qt"), SubResource("Resource_klhrk"), SubResource("Resource_8rans"), SubResource("Resource_ecpit"), SubResource("Resource_nffpj"), SubResource("Resource_b5rn2"), SubResource("Resource_vtwo1"), SubResource("Resource_36uv0")]
+child_nodes = [SubResource("Resource_88f21"), SubResource("Resource_uaymu"), SubResource("Resource_x7v80"), SubResource("Resource_psl4v"), SubResource("Resource_oqun7"), SubResource("Resource_7wd0w"), SubResource("Resource_ef1r8"), SubResource("Resource_4ga5l")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 4
@@ -2639,7 +2639,7 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_e2t5k"]
+[sub_resource type="Resource" id="Resource_mcxuc"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2660,7 +2660,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D76"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_eqbnc"]
+[sub_resource type="Resource" id="Resource_1nitg"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2681,7 +2681,7 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D77"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_w0wa5"]
+[sub_resource type="Resource" id="Resource_s13te"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2702,14 +2702,14 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D78"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_w8af4"]
+[sub_resource type="Resource" id="Resource_rgp12"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_kcwlv"), SubResource("Resource_eg1w3"), SubResource("Resource_gn7x4"), SubResource("Resource_2wp40"), SubResource("Resource_45vme"), SubResource("Resource_e2t5k"), SubResource("Resource_eqbnc"), SubResource("Resource_w0wa5")]
+child_nodes = [SubResource("Resource_628jd"), SubResource("Resource_01mue"), SubResource("Resource_rsjb1"), SubResource("Resource_acttf"), SubResource("Resource_yl2g1"), SubResource("Resource_mcxuc"), SubResource("Resource_1nitg"), SubResource("Resource_s13te")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = 7
@@ -2723,14 +2723,14 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_3dn3e"]
+[sub_resource type="Resource" id="Resource_72hnn"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
 member_origin_offsets = PackedFloat32Array()
 member_surface_normals = PackedVector3Array()
 member_octants = PackedByteArray()
-child_nodes = [SubResource("Resource_a38ip"), SubResource("Resource_jwh7d"), SubResource("Resource_jmae5"), SubResource("Resource_3shqq"), SubResource("Resource_o1u8a"), SubResource("Resource_5cvqc"), SubResource("Resource_6goun"), SubResource("Resource_w8af4")]
+child_nodes = [SubResource("Resource_2yryb"), SubResource("Resource_rccmh"), SubResource("Resource_j6qbt"), SubResource("Resource_21x6d"), SubResource("Resource_dcn67"), SubResource("Resource_y3ns0"), SubResource("Resource_efmp1"), SubResource("Resource_rgp12")]
 max_members = 75
 min_leaf_extent = 1.0
 octant = -1
@@ -2744,11 +2744,11 @@ active_LOD_index = 0
 MMI_name = ""
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_wuphh"]
+[sub_resource type="Resource" id="Resource_l8qau"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_3dn3e")
+root_octree_node = SubResource("Resource_72hnn")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_plap3")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -2969,7 +2969,7 @@ spawned_spatial = ExtResource("17_cxe5g")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_ut71u"]
+[sub_resource type="Resource" id="Resource_rhbk8"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -2990,11 +2990,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_bsx3d"]
+[sub_resource type="Resource" id="Resource_217o4"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_ut71u")
+root_octree_node = SubResource("Resource_rhbk8")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_7b48k")])
 LOD_max_distance = 0.2
 LOD_kill_distance = 0.2
@@ -3008,7 +3008,7 @@ spawned_spatial = ExtResource("21_q1hv4")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_bw4kt"]
+[sub_resource type="Resource" id="Resource_vlj7x"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -3029,11 +3029,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D2"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_vq8ea"]
+[sub_resource type="Resource" id="Resource_fo0wr"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_bw4kt")
+root_octree_node = SubResource("Resource_vlj7x")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_u27dm")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -3047,7 +3047,7 @@ spawned_spatial = ExtResource("23_qqgjy")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_mitul"]
+[sub_resource type="Resource" id="Resource_nbysn"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -3068,11 +3068,11 @@ active_LOD_index = -1
 MMI_name = "MultiMeshInstance3D3"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_ia4xv"]
+[sub_resource type="Resource" id="Resource_squbr"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_mitul")
+root_octree_node = SubResource("Resource_nbysn")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_jrs8r")])
 LOD_max_distance = 0.2
 LOD_kill_distance = 0.2
@@ -3085,7 +3085,7 @@ mesh = ExtResource("17_ynrqu")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_ppb2d"]
+[sub_resource type="Resource" id="Resource_qdmig"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -3106,11 +3106,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D4"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_8im17"]
+[sub_resource type="Resource" id="Resource_1ld4j"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_ppb2d")
+root_octree_node = SubResource("Resource_qdmig")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_2asmh")])
 LOD_max_distance = 9.99
 LOD_kill_distance = -1.0
@@ -3123,7 +3123,7 @@ mesh = ExtResource("20_2m4vn")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_wjiu3"]
+[sub_resource type="Resource" id="Resource_ro0ja"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -3144,11 +3144,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D5"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_isukp"]
+[sub_resource type="Resource" id="Resource_oxxs3"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_wjiu3")
+root_octree_node = SubResource("Resource_ro0ja")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_qka8k")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -3161,7 +3161,7 @@ mesh = ExtResource("19_p7hb5")
 cast_shadow = 1
 metadata/class = "Greenhouse_LODVariant"
 
-[sub_resource type="Resource" id="Resource_e3486"]
+[sub_resource type="Resource" id="Resource_vo066"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeNode"
 script = ExtResource("16_2oiut")
@@ -3182,11 +3182,11 @@ active_LOD_index = 0
 MMI_name = "MultiMeshInstance3D6"
 metadata/class = "MMIOctreeNode"
 
-[sub_resource type="Resource" id="Resource_vj0cf"]
+[sub_resource type="Resource" id="Resource_yabyb"]
 resource_local_to_scene = true
 resource_name = "MMIOctreeManager"
 script = ExtResource("17_cwe2l")
-root_octree_node = SubResource("Resource_e3486")
+root_octree_node = SubResource("Resource_vo066")
 LOD_variants = Array[ExtResource("14_65k1l")]([SubResource("Resource_g48ba")])
 LOD_max_distance = 10.0
 LOD_kill_distance = -1.0
@@ -3495,7 +3495,7 @@ metadata/class = "Gardener"
 
 [node name="Arborist" type="Node3D" parent="Gardener"]
 script = ExtResource("13_fsn6e")
-octree_managers = [SubResource("Resource_62osw"), SubResource("Resource_p8lq5"), SubResource("Resource_3ygr3"), SubResource("Resource_q83wt"), SubResource("Resource_ryk1x"), SubResource("Resource_wuphh")]
+octree_managers = [SubResource("Resource_a7ela"), SubResource("Resource_tsmgl"), SubResource("Resource_qnsct"), SubResource("Resource_85lgi"), SubResource("Resource_roiij"), SubResource("Resource_l8qau")]
 metadata/class = "Arborist"
 
 [node name="MMI_container" type="Node3D" parent="Gardener/Arborist"]
@@ -3515,211 +3515,211 @@ multimesh = SubResource("MultiMesh_28crn")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0213382, -4.68085e-06, 0.0452182, -5.41578e-06, 0.05, 7.73153e-06, -0.0452182, -8.19737e-06, 0.0213382, -224.061, -6.42586, 167.394)
 
-[node name="@Node3D@23293" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62701" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0446341, -3.60962e-06, 0.0225344, -3.06658e-06, 0.05, 1.93512e-06, -0.0225344, 3.45374e-07, -0.0446341, -208.023, -6.40843, 167.215)
 
-[node name="@Node3D@23294" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62702" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0496746, -1.31819e-06, 0.00569477, 2.06746e-06, 0.05, -6.46045e-06, -0.00569477, 6.65388e-06, 0.0496746, -228.665, -6.38607, 148.313)
 
-[node name="@Node3D@23295" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62703" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0237341, 2.22717e-07, -0.0440079, -2.01245e-06, 0.05, 1.33838e-06, 0.0440079, 2.40658e-06, -0.0237341, -234.819, -6.34338, 134.991)
 
-[node name="@Node3D@23296" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62704" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0333044, 7.9655e-06, 0.0372937, 2.41162e-06, 0.05, -8.52578e-06, -0.0372937, -3.88015e-06, -0.0333044, -218.182, -6.51233, 157.273)
 
-[node name="@Node3D@23297" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62705" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.049848, -4.76219e-06, -0.00389607, -4.68133e-06, 0.05, -1.22037e-06, 0.00389607, -8.51885e-07, -0.049848, -219.283, -3.30027, 182.177)
 
-[node name="@Node3D@23298" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62706" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00730905, -7.17966e-06, -0.0494629, -8.92682e-07, 0.05, -7.38954e-06, 0.0494629, 1.9633e-06, 0.00730905, -228.829, -5.3589, 183.084)
 
-[node name="@Node3D@23299" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62707" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.048491, 8.17249e-06, 0.012191, 8.06579e-06, 0.05, -1.43597e-06, -0.012191, 5.73975e-07, -0.048491, -237.938, -5.65623, 179.982)
 
-[node name="@Node3D@23300" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62708" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0476308, -4.72016e-06, -0.0152088, 4.29083e-06, 0.05, -2.07986e-06, 0.0152088, 6.76138e-07, 0.0476308, -349.739, -5.41623, 263.212)
 
-[node name="@Node3D@23301" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62709" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0499375, 6.78355e-06, 0.0024987, -7.04995e-06, 0.05, 5.15439e-06, -0.0024987, -5.50027e-06, 0.0499375, -362.748, -5.32644, 261.896)
 
-[node name="@Node3D@23302" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62710" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0468121, 3.28029e-06, -0.0175678, 4.95792e-06, 0.05, -3.87505e-06, 0.0175678, -5.36997e-06, -0.0468121, -380.815, -5.5325, 263.658)
 
-[node name="@Node3D@23303" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62711" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0416471, -4.40323e-06, -0.027668, 8.56963e-06, 0.05, 4.94213e-06, 0.027668, -8.8586e-06, 0.0416471, -356.372, -4.96132, 274.484)
 
-[node name="@Node3D@23304" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62712" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0411975, 1.66202e-06, 0.0283331, 3.39056e-06, 0.05, 1.99701e-06, -0.0283331, 3.56674e-06, -0.0411975, -365.019, -4.80657, 276.808)
 
-[node name="@Node3D@23305" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62713" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0128228, -1.0997e-06, 0.0483278, -7.27531e-06, 0.05, -7.92612e-07, -0.0483278, -7.23526e-06, -0.0128228, -379.102, -4.45397, 277.223)
 
-[node name="@Node3D@23306" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62714" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0488933, 6.77781e-06, 0.0104616, -5.91344e-06, 0.05, -4.75672e-06, -0.0104616, 3.41416e-06, 0.0488933, -353.262, -4.81916, 290.766)
 
-[node name="@Node3D@23307" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62715" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00245746, 3.9682e-06, 0.0499396, 4.25411e-06, 0.05, -4.18235e-06, -0.0499396, 4.45453e-06, 0.00245746, -367.066, -4.51496, 289.905)
 
-[node name="@Node3D@23308" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62716" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0145418, 8.92876e-06, -0.0478387, 5.47804e-06, 0.05, 7.66697e-06, 0.0478387, -3.01141e-06, -0.0145418, -379.771, -4.46997, 288.786)
 
-[node name="@Node3D@23309" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62717" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0286958, 3.68582e-06, 0.0409457, -7.00645e-06, 0.05, 4.09442e-07, -0.0409457, -5.97266e-06, 0.0286958, -377.757, -4.37664, 286.269)
 
-[node name="@Node3D@23310" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62718" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0430322, 6.03428e-06, -0.0254604, -2.70038e-06, 0.05, 7.28626e-06, 0.0254604, -4.89583e-06, 0.0430322, -330.718, -6.01634, 246.317)
 
-[node name="@Node3D@23311" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62719" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0403029, -1.20129e-06, 0.0295919, 6.20647e-06, 0.05, -6.42318e-06, -0.0295919, 8.85068e-06, 0.0403029, -342.262, -6.16848, 247.159)
 
-[node name="@Node3D@23312" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62720" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0120716, -3.84014e-07, -0.0485209, 4.84675e-06, 0.05, 8.10114e-07, 0.0485209, -4.89896e-06, 0.0120716, -350.374, -6.0009, 248.054)
 
-[node name="@Node3D@23313" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62721" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.038473, -9.22393e-06, 0.0319348, 5.19602e-06, 0.05, 8.182e-06, -0.0319348, -2.97705e-06, 0.038473, -331.268, -6.12513, 259.003)
 
-[node name="@Node3D@23314" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62722" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0498827, 2.87413e-06, -0.00342296, 2.94646e-06, 0.05, -9.55448e-07, 0.00342296, -1.15492e-06, -0.0498827, -343.106, -5.62301, 261.021)
 
-[node name="@Node3D@23315" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62723" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0274695, 4.80352e-06, 0.0417783, -3.33119e-06, 0.05, -7.93909e-06, -0.0417783, -7.14509e-06, -0.0274695, -330.422, -5.82911, 273.452)
 
-[node name="@Node3D@23316" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62724" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0188998, 4.82984e-06, 0.0462904, -1.52511e-07, 0.05, -5.27916e-06, -0.0462904, -2.13669e-06, -0.0188998, -322.866, -5.641, 224.368)
 
-[node name="@Node3D@23317" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62725" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.047155, -8.38123e-06, 0.0166256, 8.29616e-06, 0.05, 1.67552e-06, -0.0166256, 1.17839e-06, 0.047155, -333.129, -6.44656, 227.53)
 
-[node name="@Node3D@23318" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62726" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00760687, 8.24352e-06, -0.049418, -7.74308e-07, 0.05, 8.22142e-06, 0.049418, -4.85491e-07, 0.00760687, -314.532, -4.81118, 240.919)
 
-[node name="@Node3D@23319" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62727" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0499786, -7.31497e-06, -0.00146205, -7.15815e-06, 0.05, -5.46782e-06, 0.00146206, -5.25617e-06, -0.0499786, -325.116, -5.64901, 237.255)
 
-[node name="@Node3D@23320" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62728" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0249452, -7.85778e-06, -0.0433329, 5.69691e-06, 0.05, -5.78726e-06, 0.0433329, -2.04998e-06, 0.0249452, -312.046, -4.57913, 250.348)
 
-[node name="@Node3D@23321" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62729" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0321276, 5.35131e-06, 0.0383121, -8.45559e-06, 0.05, 1.0681e-07, -0.0383121, -6.54767e-06, 0.0321276, -337.304, -5.50137, 343.286)
 
-[node name="@Node3D@23322" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62730" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0299629, 9.88339e-06, 0.0400278, 5.50977e-06, 0.05, -8.22131e-06, -0.0400278, -5.15798e-07, -0.0299629, -347.647, -5.82085, 345.409)
 
-[node name="@Node3D@23323" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62731" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0235508, 4.51955e-06, -0.0441062, -5.37525e-06, 0.05, 7.99363e-06, 0.0441062, 8.50676e-06, -0.0235508, -364.234, -6.01799, 338.908)
 
-[node name="@Node3D@23324" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62732" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0499992, -3.04286e-06, -0.000289994, 3.00896e-06, 0.05, -5.85367e-06, 0.000289995, 5.83612e-06, 0.0499992, -339.476, -5.61017, 355.819)
 
-[node name="@Node3D@23325" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62733" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0444457, -3.99217e-06, -0.0229038, 5.01795e-06, 0.05, 1.02243e-06, 0.0229038, -3.20745e-06, 0.0444457, -348.6, -5.97952, 355.05)
 
-[node name="@Node3D@23326" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62734" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0428198, 3.95672e-06, 0.025816, -5.24358e-07, 0.05, -8.53306e-06, -0.025816, -7.57842e-06, -0.0428198, -362.829, -6.4111, 357.002)
 
-[node name="@Node3D@23327" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62735" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0472079, -2.30868e-06, 0.0164746, 2.91982e-06, 0.05, -1.35992e-06, -0.0164746, 2.24604e-06, 0.0472079, -339.074, -6.28452, 368.16)
 
-[node name="@Node3D@23328" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62736" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0405989, 6.65455e-06, 0.0291844, 2.71616e-06, 0.05, -7.62239e-06, -0.0291844, -4.60383e-06, -0.0405989, -348.241, -6.35041, 363.6)
 
-[node name="@Node3D@23329" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62737" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0137819, -2.52491e-07, 0.0480631, -7.50909e-06, 0.05, 2.41587e-06, -0.0480631, -7.8841e-06, 0.0137819, -364.894, -6.9558, 369.381)
 
-[node name="@Node3D@23330" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62738" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0120854, -6.74575e-07, -0.0485175, 8.80278e-07, 0.05, -4.75916e-07, 0.0485175, -7.39144e-07, 0.0120854, -345.083, -12.5718, 338.665)
 
-[node name="@Node3D@23331" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62739" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0269873, -2.58181e-06, -0.0420914, 8.43017e-07, 0.05, -2.5264e-06, 0.0420914, 6.53939e-07, 0.0269873, -306.452, -5.94418, 340.387)
 
-[node name="@Node3D@23332" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62740" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0462785, 3.10874e-06, 0.0189289, 5.12921e-06, 0.05, 4.32858e-06, -0.0189289, 5.94821e-06, -0.0462785, -315.51, -5.8329, 345.067)
 
-[node name="@Node3D@23333" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62741" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0163766, -2.93846e-06, -0.047242, -7.68053e-06, 0.05, -4.47527e-07, 0.047242, 7.11029e-06, -0.0163766, -332.635, -5.47998, 339.486)
 
-[node name="@Node3D@23334" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62742" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00933788, -8.312e-07, -0.0491203, -5.05422e-06, 0.05, -1.8069e-06, 0.0491203, 5.30275e-06, 0.00933788, -303.001, -6.01143, 354.709)
 
-[node name="@Node3D@23335" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62743" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0465068, 5.25682e-06, 0.0183608, -4.89858e-06, 0.05, -1.90754e-06, -0.0183608, -2.45684e-08, 0.0465068, -314.426, -5.75395, 354.098)
 
-[node name="@Node3D@23336" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62744" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0401253, -8.46891e-06, -0.0298321, -7.01059e-06, 0.05, -4.76477e-06, 0.0298321, 3.59058e-07, -0.0401253, -303.682, -6.4444, 368.421)
 
-[node name="@Node3D@23337" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62745" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.00366801, -3.357e-06, 0.0498653, 5.74868e-06, 0.05, 3.78893e-06, -0.0498653, 6.01115e-06, -0.00366801, -319.801, -6.3905, 371.954)
 
-[node name="@Node3D@23338" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62746" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0335567, -7.21884e-06, -0.0370668, -6.65595e-06, 0.05, -3.71196e-06, 0.0370668, 2.44307e-06, -0.0335567, -328.159, -6.22679, 370.151)
 
-[node name="@Node3D@23339" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62747" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0458278, 4.9704e-06, -0.0199954, -5.70004e-06, 0.05, -6.35138e-07, 0.0199954, 2.86163e-06, 0.0458278, -279.024, -6.2336, 330.589)
 
-[node name="@Node3D@23340" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62748" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0350685, -4.75102e-06, 0.0356399, 8.17927e-06, 0.05, -1.38282e-06, -0.0356399, 6.80003e-06, 0.0350685, -287.206, -6.21134, 328.988)
 
-[node name="@Node3D@23341" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62749" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0478825, 3.06692e-06, -0.0143966, 3.34903e-06, 0.05, -4.8719e-07, 0.0143966, -1.43085e-06, -0.0478825, -305.212, -6.12774, 325.562)
 
-[node name="@Node3D@23342" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62750" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.00447666, -1.82045e-06, -0.0497992, 6.47027e-06, 0.05, -2.40943e-06, 0.0497992, -6.66001e-06, -0.00447666, -274.618, -6.21579, 342.095)
 
-[node name="@Node3D@23343" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62751" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0442414, 6.10549e-06, -0.0232959, 7.46658e-06, 0.05, -1.07561e-06, 0.0232959, -4.43055e-06, -0.0442414, -287.368, -6.14131, 341.002)
 
-[node name="@Node3D@23344" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62752" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.00980256, 5.24105e-06, -0.0490297, -4.18084e-06, 0.05, 6.18065e-06, 0.0490297, 5.31143e-06, -0.00980256, -279.929, -6.40959, 352.948)
 
-[node name="@Node3D@23345" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62753" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0244287, 4.16568e-06, 0.0436262, 6.16321e-06, 0.05, -8.22541e-06, -0.0436262, 9.39626e-06, 0.0244287, -286.832, -6.30931, 355.699)
 
-[node name="@Node3D@23346" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62754" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0488093, -5.73303e-06, 0.0108466, 7.09061e-06, 0.05, -5.47974e-06, -0.0108466, 6.88743e-06, 0.0488093, -244.017, -5.6553, 318.706)
 
-[node name="@Node3D@23347" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62755" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00291672, -8.3517e-06, -0.0499149, 7.78801e-06, 0.05, -7.91086e-06, 0.0499149, -7.31327e-06, 0.00291673, -258.226, -5.96355, 315.578)
 
-[node name="@Node3D@23348" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62756" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0489787, 8.40865e-06, 0.0100542, 7.55106e-06, 0.05, -5.03185e-06, -0.0100542, -3.41068e-06, -0.0489787, -272.679, -6.12969, 312.902)
 
-[node name="@Node3D@23349" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62757" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.00722016, -1.99127e-06, -0.0494759, -7.26026e-06, 0.05, -3.07187e-06, 0.0494759, 7.62775e-06, 0.00722016, -248.646, -6.04605, 325.399)
 
-[node name="@Node3D@23350" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62758" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0108431, 3.36198e-06, -0.0488101, -7.41247e-06, 0.05, 5.09061e-06, 0.0488101, 8.34003e-06, -0.0108431, -256.014, -6.10348, 331.948)
 
-[node name="@Node3D@23351" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62759" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.020113, 3.72488e-06, 0.0457763, -1.84766e-06, 0.05, -3.25675e-06, -0.0457763, -3.8152e-07, 0.020113, -248.521, -6.19829, 344.295)
 
-[node name="@Node3D@23352" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62760" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0499949, 4.20325e-06, -0.000713773, -4.21142e-06, 0.05, -5.42429e-07, 0.000713773, 6.02493e-07, 0.0499949, -254.866, -6.22587, 339.641)
 
-[node name="@Node3D@23353" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62761" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0140551, -3.68042e-07, -0.0479839, 1.96007e-06, 0.05, 1.90626e-07, 0.0479839, -1.93462e-06, 0.0140551, -198.464, -7.1213, 112.446)
 
-[node name="@Node3D@23354" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62762" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.039185, 3.4365e-06, -0.031057, -3.68569e-07, 0.05, 5.99761e-06, 0.031057, 4.92926e-06, -0.039185, -204.818, -7.00633, 106.943)
 
-[node name="@Node3D@23355" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62763" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0488563, 2.18346e-06, 0.0106332, 2.61328e-06, 0.05, 1.74003e-06, -0.0106332, 2.25598e-06, -0.0488563, -214.52, -6.85422, 105.4)
 
-[node name="@Node3D@23356" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62764" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0313081, -6.66533e-07, 0.0389846, -5.15779e-06, 0.05, -3.28729e-06, -0.0389846, -6.07987e-06, -0.0313081, -205.502, -6.69524, 121.234)
 
-[node name="@Node3D@23357" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62765" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0462892, 9.60471e-07, 0.0189026, 1.17614e-07, 0.05, -2.25256e-06, -0.0189026, -2.04092e-06, -0.0462892, -205.353, -6.92664, 119.276)
 
-[node name="@Node3D@23358" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62766" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0269381, -3.00269e-06, -0.0421229, -6.6902e-06, 0.05, -7.84267e-06, 0.0421229, 9.86155e-06, 0.0269381, -216.865, -6.79486, 117.091)
 
-[node name="@Node3D@23359" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62767" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0143767, -3.21583e-06, 0.0478885, -7.35057e-06, 0.05, 5.56435e-06, -0.0478885, -8.6401e-06, 0.0143767, -215.778, -6.72154, 110.95)
 
-[node name="@Node3D@23360" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62768" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(-0.0490788, 6.64081e-06, 0.00955337, 8.42005e-06, 0.05, 8.50027e-06, -0.00955337, 9.95247e-06, -0.0490788, -208.079, -6.43373, 125.442)
 
-[node name="@Node3D@23361" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
+[node name="@Node3D@62769" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D3" instance=ExtResource("21_q1hv4")]
 transform = Transform3D(0.0262505, -1.25115e-06, -0.0425548, -2.79269e-06, 0.05, -3.19275e-06, 0.0425548, 4.05308e-06, 0.0262505, -214.488, -6.27978, 128.314)
 
 [node name="MultiMeshInstance3D8" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -3732,76 +3732,76 @@ multimesh = SubResource("MultiMesh_7pihx")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0360883, 0, -0.0346069, 0, 0.05, 0, 0.0346069, 0, -0.0360883, -233.573, -6.55594, 114.124)
 
-[node name="@Node3D@23362" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62770" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0089789, 0, 0.0491872, 0, 0.05, 0, -0.0491872, 0, 0.0089789, -224.271, -6.6534, 91.9688)
 
-[node name="@Node3D@23363" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62771" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00295036, 0, -0.0499129, 0, 0.05, 0, 0.0499129, 0, 0.00295036, -232.389, -6.4179, 88.4826)
 
-[node name="@Node3D@23364" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62772" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0154479, 0, -0.0475538, 0, 0.05, 0, 0.0475538, 0, 0.0154479, -242.727, -6.5673, 91.4657)
 
-[node name="@Node3D@23365" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62773" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0466279, 0, 0.0180509, 0, 0.05, 0, -0.0180509, 0, 0.0466279, -232.545, -6.47354, 97.5418)
 
-[node name="@Node3D@23366" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62774" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0310799, 0, -0.0391669, 0, 0.05, 0, 0.0391669, 0, 0.0310799, -226.174, -6.70375, 107.164)
 
-[node name="@Node3D@23367" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62775" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0273472, 0, 0.0418584, 0, 0.05, 0, -0.0418584, 0, 0.0273472, -246.905, -6.79868, 108.733)
 
-[node name="@Node3D@23368" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62776" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0499959, 0, 0.000640127, 0, 0.05, 0, -0.000640127, 0, -0.0499959, -235.817, -6.51994, 117.578)
 
-[node name="@Node3D@23369" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62777" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0317491, 0, -0.0386264, 0, 0.05, 0, 0.0386264, 0, 0.0317491, -245.161, -6.782, 121.171)
 
-[node name="@Node3D@23370" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62778" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0321504, 0, -0.038293, 0, 0.05, 0, 0.038293, 0, 0.0321504, -190.229, -7.38588, 104.607)
 
-[node name="@Node3D@23371" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62779" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0326242, 0, 0.0378901, 0, 0.05, 0, -0.0378901, 0, 0.0326242, -190.527, -7.35329, 110.499)
 
-[node name="@Node3D@23372" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62780" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0497454, 0, -0.00503896, 0, 0.05, 0, 0.00503896, 0, -0.0497454, -196.368, -7.24234, 114.158)
 
-[node name="@Node3D@23373" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62781" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0126329, 0, 0.0483778, 0, 0.05, 0, -0.0483778, 0, 0.0126329, -179.239, -6.73806, 122.451)
 
-[node name="@Node3D@23374" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62782" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00162667, 0, -0.0499735, 0, 0.05, 0, 0.0499735, 0, 0.00162667, -185.444, -6.9521, 119.483)
 
-[node name="@Node3D@23375" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62783" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0493065, 0, -0.00829884, 0, 0.05, 0, 0.00829884, 0, -0.0493065, -198.637, -6.79055, 121.853)
 
-[node name="@Node3D@23376" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62784" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0436994, 0, 0.0242973, 0, 0.05, 0, -0.0242973, 0, 0.0436994, -256.964, -7.12591, 122.196)
 
-[node name="@Node3D@23377" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62785" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0493041, 0, -0.00831306, 0, 0.05, 0, 0.00831306, 0, -0.0493041, -204.495, -7.13517, 109.25)
 
-[node name="@Node3D@23378" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62786" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0186972, 0, 0.0463726, 0, 0.05, 0, -0.0463726, 0, 0.0186972, -212.127, -7.04207, 102.701)
 
-[node name="@Node3D@23379" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62787" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.00907453, 0, 0.0491696, 0, 0.05, 0, -0.0491696, 0, -0.00907453, -214.392, -1.94176, 104.195)
 
-[node name="@Node3D@23380" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62788" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0408242, 0, -0.0288684, 0, 0.05, 0, 0.0288684, 0, -0.0408242, -219.233, -6.86021, 103.334)
 
-[node name="@Node3D@23381" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62789" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0329916, 0, -0.0375707, 0, 0.05, 0, 0.0375707, 0, 0.0329916, -225.739, 2.37931, 106.771)
 
-[node name="@Node3D@23382" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62790" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0199032, 0, -0.0458679, 0, 0.05, 0, 0.0458679, 0, 0.0199032, -203.214, -6.6793, 123.453)
 
-[node name="@Node3D@23383" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62791" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0136481, 0, -0.0481013, 0, 0.05, 0, 0.0481013, 0, -0.0136481, -211.547, -5.09426, 119.459)
 
-[node name="@Node3D@23384" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62792" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0140504, 0, 0.0479853, 0, 0.05, 0, -0.0479853, 0, -0.0140504, -218.632, -6.87579, 116.166)
 
-[node name="@Node3D@23385" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62793" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D10" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00789314, 0, -0.0493731, 0, 0.05, 0, 0.0493731, 0, 0.00789314, -227.764, -6.70779, 120.725)
 
 [node name="MultiMeshInstance3D11" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -3810,217 +3810,217 @@ multimesh = SubResource("MultiMesh_4d7gu")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0244516, 0, -0.0436133, 0, 0.05, 0, 0.0436133, 0, -0.0244516, -272.92, -5.62511, 177.896)
 
-[node name="@Node3D@23386" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62794" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0159502, 0, -0.0473877, 0, 0.05, 0, 0.0473877, 0, 0.0159502, -267.933, -7.1775, 132.238)
 
-[node name="@Node3D@23387" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62795" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0490471, 0, 0.00971492, 0, 0.05, 0, -0.00971492, 0, 0.0490471, -263.098, -6.78223, 143.139)
 
-[node name="@Node3D@23388" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62796" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0496038, 0, 0.00628194, 0, 0.05, 0, -0.00628194, 0, 0.0496038, -257.603, -6.71153, 151.505)
 
-[node name="@Node3D@23389" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62797" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0294338, 0, 0.0404184, 0, 0.05, 0, -0.0404184, 0, 0.0294338, -268.8, -6.8342, 154.37)
 
-[node name="@Node3D@23390" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62798" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.02334, 0, -0.0442182, 0, 0.05, 0, 0.0442182, 0, -0.02334, -263.345, 0.0160184, 165.166)
 
-[node name="@Node3D@23391" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62799" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0165927, 0, 0.0471665, 0, 0.05, 0, -0.0471665, 0, -0.0165927, -275.61, -6.69951, 161.069)
 
-[node name="@Node3D@23392" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62800" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0485104, 0, 0.0121139, 0, 0.05, 0, -0.0121139, 0, 0.0485104, -267.984, -6.04798, 171.884)
 
-[node name="@Node3D@23393" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62801" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0356566, 0, -0.0350515, 0, 0.05, 0, 0.0350515, 0, 0.0356566, -263.462, -7.06362, 131.966)
 
-[node name="@Node3D@23394" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62802" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0434608, 0, -0.0247217, 0, 0.05, 0, 0.0247217, 0, -0.0434608, -273.347, -6.99187, 145.88)
 
-[node name="@Node3D@23395" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62803" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0407364, 0, -0.0289922, 0, 0.05, 0, 0.0289922, 0, -0.0407364, -258.413, 1.46444, 139.297)
 
-[node name="@Node3D@23396" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62804" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0417911, 0, 0.0274501, 0, 0.05, 0, -0.0274501, 0, -0.0417911, -199.939, -1.81414, 173.759)
 
-[node name="@Node3D@23397" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62805" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0474439, 0, -0.015782, 0, 0.05, 0, 0.015782, 0, 0.0474439, -202.842, -6.2174, 143.825)
 
-[node name="@Node3D@23398" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62806" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0110749, 0, -0.048758, 0, 0.05, 0, 0.048758, 0, 0.0110749, -205.178, -6.17848, 137.529)
 
-[node name="@Node3D@23399" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62807" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0230808, 0, -0.044354, 0, 0.05, 0, 0.044354, 0, -0.0230808, -200.741, -6.13364, 135.769)
 
-[node name="@Node3D@23400" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62808" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0338405, 0, -0.0368079, 0, 0.05, 0, 0.0368079, 0, 0.0338405, -200.993, -6.14964, 130.893)
 
-[node name="@Node3D@23401" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62809" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0427461, 0, 0.0259378, 0, 0.05, 0, -0.0259378, 0, 0.0427461, -200.457, -6.63293, 167.497)
 
-[node name="@Node3D@23402" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62810" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.035987, 0, 0.0347122, 0, 0.05, 0, -0.0347122, 0, 0.035987, -193.935, -6.69867, 163.354)
 
-[node name="@Node3D@23403" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62811" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.049997, 0, -0.000544938, 0, 0.05, 0, 0.000544938, 0, 0.049997, -201.092, -6.73125, 163.224)
 
-[node name="@Node3D@23404" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62812" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0467706, 0, -0.017678, 0, 0.05, 0, 0.017678, 0, 0.0467706, -233.942, -6.13432, 174.023)
 
-[node name="@Node3D@23405" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62813" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0440692, 0, 0.0236201, 0, 0.05, 0, -0.0236201, 0, -0.0440692, -222.376, -6.6038, 154.509)
 
-[node name="@Node3D@23406" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62814" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0420709, 0, 0.0270193, 0, 0.05, 0, -0.0270193, 0, -0.0420709, -215.623, -6.53762, 153.317)
 
-[node name="@Node3D@23407" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62815" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0128762, 0, 0.0483136, 0, 0.05, 0, -0.0483136, 0, -0.0128762, -227.95, -6.72569, 157.989)
 
-[node name="@Node3D@23408" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62816" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0388338, 0, -0.031495, 0, 0.05, 0, 0.031495, 0, 0.0388338, -256.217, -4.83799, 145.977)
 
-[node name="@Node3D@23409" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62817" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0485028, 0, 0.0121441, 0, 0.05, 0, -0.0121441, 0, 0.0485028, -256.833, -6.72118, 138.703)
 
-[node name="@Node3D@23410" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62818" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.00584291, 0, 0.0496574, 0, 0.05, 0, -0.0496574, 0, -0.00584291, -238.521, -5.72401, 179.878)
 
-[node name="@Node3D@23411" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62819" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.00539222, 0, 0.0497084, 0, 0.05, 0, -0.0497084, 0, -0.00539222, -186.703, -6.04121, 178.789)
 
-[node name="@Node3D@23412" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62820" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00338136, 0, 0.0498855, 0, 0.05, 0, -0.0498855, 0, 0.00338136, -191.94, -5.96902, 179.713)
 
-[node name="@Node3D@23413" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62821" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.043456, 0, 0.02473, 0, 0.05, 0, -0.02473, 0, -0.043456, -175.818, -5.89177, 134.34)
 
-[node name="@Node3D@23414" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62822" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0409867, 0, 0.0286372, 0, 0.05, 0, -0.0286372, 0, 0.0409867, -186.74, -6.15881, 130.66)
 
-[node name="@Node3D@23415" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62823" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0278814, 0, -0.0415045, 0, 0.05, 0, 0.0415045, 0, 0.0278814, -169.567, -5.93493, 139.686)
 
-[node name="@Node3D@23416" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62824" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0449152, 0, -0.0219688, 0, 0.05, 0, 0.0219688, 0, -0.0449152, -176.416, -5.96564, 139.427)
 
-[node name="@Node3D@23417" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62825" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0491283, 0, -0.00929586, 0, 0.05, 0, 0.00929586, 0, -0.0491283, -174.207, -6.20484, 148.719)
 
-[node name="@Node3D@23418" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62826" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0375575, 0, -0.0330066, 0, 0.05, 0, 0.0330066, 0, 0.0375575, -211.173, -1.74891, 202.383)
 
-[node name="@Node3D@23419" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62827" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0267567, 0, 0.0422384, 0, 0.05, 0, -0.0422384, 0, 0.0267567, -223.636, 0.403338, 208.825)
 
-[node name="@Node3D@23420" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62828" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0403248, 0, -0.029562, 0, 0.05, 0, 0.029562, 0, 0.0403248, -182.905, -5.74421, 192.976)
 
-[node name="@Node3D@23421" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62829" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0385066, 0, 0.0318942, 0, 0.05, 0, -0.0318942, 0, 0.0385066, -194.736, -4.54302, 195.644)
 
-[node name="@Node3D@23422" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62830" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0431865, 0, -0.0251978, 0, 0.05, 0, 0.0251978, 0, 0.0431865, -204.999, -4.0226, 192.373)
 
-[node name="@Node3D@23423" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62831" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0153601, 0, -0.0475822, 0, 0.05, 0, 0.0475822, 0, 0.0153601, -179.215, -4.70352, 204.805)
 
-[node name="@Node3D@23424" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62832" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0386729, 0, -0.0316923, 0, 0.05, 0, 0.0316923, 0, 0.0386729, -196.591, -2.89984, 204.724)
 
-[node name="@Node3D@23425" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62833" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0463302, 0, -0.0188019, 0, 0.05, 0, 0.0188019, 0, -0.0463302, -182.006, -3.17446, 220.853)
 
-[node name="@Node3D@23426" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62834" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0391569, 0, -0.0310924, 0, 0.05, 0, 0.0310924, 0, 0.0391569, -194.54, -1.5386, 214.595)
 
-[node name="@Node3D@23427" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62835" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0188779, 0, -0.0462993, 0, 0.05, 0, 0.0462993, 0, -0.0188779, -202.413, -0.705475, 214.658)
 
-[node name="@Node3D@23428" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62836" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0253214, 0, 0.0431141, 0, 0.05, 0, -0.0431141, 0, -0.0253214, -218.617, -5.02587, 186.837)
 
-[node name="@Node3D@23429" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62837" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0467669, 0, -0.0176878, 0, 0.05, 0, 0.0176878, 0, -0.0467669, -212.863, -4.81382, 176.561)
 
-[node name="@Node3D@23430" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62838" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0102586, 0, -0.0489363, 0, 0.05, 0, 0.0489363, 0, 0.0102586, -232.797, -3.25407, 191.292)
 
-[node name="@Node3D@23431" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62839" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0403309, 0, 0.0295537, 0, 0.05, 0, -0.0295537, 0, -0.0403309, -223.536, -1.14705, 200.23)
 
-[node name="@Node3D@23432" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62840" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.049987, 0, -0.00114151, 0, 0.05, 0, 0.00114151, 0, -0.049987, -233.279, -5.34575, 185.028)
 
-[node name="@Node3D@23433" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62841" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0352661, 0, -0.0354443, 0, 0.05, 0, 0.0354443, 0, 0.0352661, -232.942, 2.15178, 214.662)
 
-[node name="@Node3D@23434" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62842" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0196702, 0, 0.0459683, 0, 0.05, 0, -0.0459683, 0, 0.0196702, -223.233, -4.14907, 189.182)
 
-[node name="@Node3D@23435" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62843" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00839697, 0, 0.0492899, 0, 0.05, 0, -0.0492899, 0, 0.00839697, -217.769, 0.707151, 213.449)
 
-[node name="@Node3D@23436" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62844" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0495528, 0, -0.00667222, 0, 0.05, 0, 0.00667222, 0, -0.0495528, -268.666, -3.61424, 188.382)
 
-[node name="@Node3D@23437" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62845" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00669246, 0, -0.0495501, 0, 0.05, 0, 0.0495501, 0, 0.00669246, -278.664, -3.92969, 189.892)
 
-[node name="@Node3D@23438" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62846" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0177163, 0, -0.0467561, 0, 0.05, 0, 0.0467561, 0, 0.0177163, -296.943, -5.5686, 186.583)
 
-[node name="@Node3D@23439" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62847" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0422417, 0, -0.0267515, 0, 0.05, 0, 0.0267515, 0, 0.0422417, -270.366, -0.561581, 199.825)
 
-[node name="@Node3D@23440" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62848" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0144037, 0, -0.0478804, 0, 0.05, 0, 0.0478804, 0, -0.0144037, -285.913, -1.52467, 201.685)
 
-[node name="@Node3D@23441" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62849" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0428202, 0, 0.0258152, 0, 0.05, 0, -0.0258152, 0, 0.0428202, -292.222, -3.33019, 197.846)
 
-[node name="@Node3D@23442" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62850" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0472682, 0, -0.0163009, 0, 0.05, 0, 0.0163009, 0, 0.0472682, -272.521, 2.71583, 212.955)
 
-[node name="@Node3D@23443" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62851" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0106372, 0, -0.0488554, 0, 0.05, 0, 0.0488554, 0, -0.0106372, -286.15, 1.04578, 215.975)
 
-[node name="@Node3D@23444" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62852" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.00600456, 0, 0.0496381, 0, 0.05, 0, -0.0496381, 0, 0.00600456, -296.014, -0.836797, 216.707)
 
-[node name="@Node3D@23445" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62853" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0165521, 0, 0.0471808, 0, 0.05, 0, -0.0471808, 0, -0.0165521, -288.186, -7.04384, 157.649)
 
-[node name="@Node3D@23446" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62854" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0336186, 0, -0.0370107, 0, 0.05, 0, 0.0370107, 0, 0.0336186, -300.071, -7.28715, 155.861)
 
-[node name="@Node3D@23447" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62855" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0133197, 0, 0.0481932, 0, 0.05, 0, -0.0481932, 0, 0.0133197, -313.115, -7.57016, 153.177)
 
-[node name="@Node3D@23448" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62856" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0461968, 0, 0.0191274, 0, 0.05, 0, -0.0191274, 0, -0.0461968, -292.572, -6.77449, 170.852)
 
-[node name="@Node3D@23449" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62857" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0211301, 0, -0.0453158, 0, 0.05, 0, 0.0453158, 0, 0.0211301, -304.767, -7.03601, 170.884)
 
-[node name="@Node3D@23450" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62858" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0336848, 0, 0.0369504, 0, 0.05, 0, -0.0369504, 0, 0.0336848, -313.979, -7.21026, 170.148)
 
-[node name="@Node3D@23451" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62859" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0312593, 0, 0.0390238, 0, 0.05, 0, -0.0390238, 0, -0.0312593, -303.222, -6.79928, 180.406)
 
-[node name="@Node3D@23452" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62860" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0492325, 0, -0.00872715, 0, 0.05, 0, 0.00872715, 0, 0.0492325, -318.671, -7.01639, 182.574)
 
-[node name="@Node3D@23453" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62861" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0136261, 0, 0.0481075, 0, 0.05, 0, -0.0481075, 0, -0.0136261, -274.277, -5.09869, 175.449)
 
-[node name="@Node3D@23454" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62862" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0348003, 0, -0.0359018, 0, 0.05, 0, 0.0359018, 0, 0.0348003, -258.63, -6.90633, 133.078)
 
-[node name="@Node3D@23455" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62863" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0164228, 0, 0.047226, 0, 0.05, 0, -0.047226, 0, 0.0164228, -211.156, -6.25168, 129.53)
 
-[node name="@Node3D@23456" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62864" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D11" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.0385773, 0, -0.0318086, 0, 0.05, 0, 0.0318086, 0, -0.0385773, -217.647, -6.38377, 127.718)
 
 [node name="MultiMeshInstance3D12" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4035,7 +4035,7 @@ multimesh = SubResource("MultiMesh_m1knc")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D15" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(-0.00557236, 0, -0.0496885, 0, 0.05, 0, 0.0496885, 0, -0.00557236, -4.6936, -4.53663, 267.556)
 
-[node name="@Node3D@23457" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D15" instance=ExtResource("23_qqgjy")]
+[node name="@Node3D@62865" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D15" instance=ExtResource("23_qqgjy")]
 transform = Transform3D(0.0493485, 0, -0.00804549, 0, 0.05, 0, 0.00804549, 0, 0.0493485, -2.58583, -4.29021, 317.637)
 
 [node name="MultiMeshInstance3D2" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4047,112 +4047,112 @@ multimesh = SubResource("MultiMesh_i47w7")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0396659, 0.00404968, 0.0301698, -0.00991669, 0.0485713, 0.00651832, -0.0287798, -0.0111548, 0.0393357, -267.279, -6.36943, 167.004)
 
-[node name="@Node3D@23139" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62547" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0458387, -0.00313825, -0.0197221, -0.000136747, 0.0493283, -0.00816712, 0.0199698, 0.00754135, 0.0452143, -263.733, -6.58888, 163.984)
 
-[node name="@Node3D@23140" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62548" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0489369, 0.00371281, -0.00956013, 0.00444222, 0.049683, -0.003444, 0.00924379, -0.00422013, -0.0489565, -261.088, -6.88779, 157.802)
 
-[node name="@Node3D@23141" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62549" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0460739, -0.0017684, -0.0193409, -0.00130243, 0.0493989, -0.00761932, 0.0193779, 0.00752484, 0.0454739, -261.799, -6.75464, 151.716)
 
-[node name="@Node3D@23142" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62550" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0483831, 0.00712762, 0.0104054, 0.00773561, 0.0493505, 0.00216436, -0.00996174, 0.00370422, -0.0488574, -264.138, -6.87661, 140.41)
 
-[node name="@Node3D@23143" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62551" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.048331, -0.00653643, 0.0110178, -0.00777281, 0.0491444, -0.00494099, -0.0101833, -0.00648884, -0.04852, -263.879, -7.02292, 134.102)
 
-[node name="@Node3D@23144" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62552" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0377233, 0.0035919, 0.0326198, -0.00721931, 0.0493904, 0.00291022, -0.032013, -0.00690551, 0.037782, -275.88, -6.9426, 150.716)
 
-[node name="@Node3D@23145" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62553" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0493204, -0.00180464, 0.00801494, -0.0027419, 0.0495977, -0.00570507, -0.00774454, -0.00606705, -0.0490226, -272.841, -3.7338, 188.465)
 
-[node name="@Node3D@23146" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62554" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0440204, 0.00155673, -0.0236597, -0.000296129, 0.0498521, 0.00383106, 0.023709, 0.00351302, -0.043881, -284.006, -5.33445, 185.252)
 
-[node name="@Node3D@23147" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62555" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0302102, -0.00219576, 0.039781, -0.0018689, 0.049791, 0.00416754, -0.0397977, -0.00400497, 0.0300018, -294.831, -5.23212, 190.185)
 
-[node name="@Node3D@23148" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62556" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0368666, 0.00282629, -0.0336581, 0.0113905, 0.0479463, -0.0084502, 0.031798, -0.0138982, -0.0359962, -268.672, -1.00881, 197.967)
 
-[node name="@Node3D@23149" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62557" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0454797, 0.0137764, 0.0155502, 0.01182, 0.0479365, -0.00789836, -0.0170846, -0.00350825, -0.0468595, -283.372, -2.08519, 198.573)
 
-[node name="@Node3D@23150" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62558" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00920596, -0.0091234, -0.0482909, -0.010061, 0.0484402, -0.00723362, 0.0481043, 0.00838525, -0.0107546, -296.711, -3.70377, 199.154)
 
-[node name="@Node3D@23151" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62559" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0187686, 0.00952198, 0.0453549, -0.00625199, 0.0490061, -0.00770134, -0.04592, -0.0027803, 0.0195862, -270.022, 2.40136, 210.914)
 
-[node name="@Node3D@23152" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62560" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0205716, -0.00244844, -0.0455062, -0.0113352, 0.0486336, 0.00250747, 0.0441398, 0.0113481, -0.0205644, -282.213, 1.19591, 212.241)
 
-[node name="@Node3D@23153" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62561" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0166132, -0.00221722, 0.0471072, 0.00756788, 0.0494228, -0.000342734, -0.0465482, 0.00724391, 0.016757, -296.138, -1.47329, 212.486)
 
-[node name="@Node3D@23154" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62562" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0449399, 0.00652104, 0.0209256, 0.00676191, 0.0495322, -0.000913808, -0.020849, 0.00200862, -0.0454014, -275.466, -12.3795, 174.386)
 
-[node name="@Node3D@23155" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62563" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0466245, -0.00553495, 0.0171907, -0.00790847, 0.0490453, -0.00565801, -0.0162361, -0.00799507, -0.0466097, -289.782, -5.56799, 182.901)
 
-[node name="@Node3D@23156" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62564" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.012065, 0.00400587, 0.0483569, -0.0113673, 0.0482093, -0.00682977, -0.0471722, -0.0126417, -0.0107222, -288.471, -7.1338, 153.796)
 
-[node name="@Node3D@23157" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62565" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0456004, 0.00972769, -0.0180549, -0.00727417, 0.0488274, 0.00793542, 0.0191753, -0.00461047, 0.0459462, -299.848, -7.38212, 151.387)
 
-[node name="@Node3D@23158" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62566" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0322377, -0.00454352, 0.0379485, -0.00673566, 0.0495438, 0.000209787, -0.0376213, -0.0049769, -0.0325557, -315.356, -7.55682, 155.521)
 
-[node name="@Node3D@23159" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62567" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0220316, -0.000645594, 0.0448797, -0.00402017, 0.0498223, -0.00125682, -0.044704, -0.00416228, -0.0220052, -288.246, -6.61966, 167.194)
 
-[node name="@Node3D@23160" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62568" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.030139, -0.00210861, 0.0398396, 0.00455182, 0.0494223, 0.00605928, -0.0396349, 0.00727927, -0.0295988, -304.231, -7.16951, 164.421)
 
-[node name="@Node3D@23161" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62569" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0499189, 0.000546441, -0.00279325, -0.000561383, 0.0499962, -0.000251914, 0.00279028, 0.000282867, 0.0499213, -316.734, -7.29427, 168.483)
 
-[node name="@Node3D@23162" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62570" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0435569, 0.00310612, -0.0243546, -0.00394477, 0.0498393, -0.000698655, 0.0242329, 0.00253009, 0.043662, -306.116, -6.79475, 182.859)
 
-[node name="@Node3D@23163" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62571" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0109637, 0.00347233, -0.0486594, 0.0087694, 0.049201, 0.00153511, 0.0479885, -0.00819767, -0.0113975, -317.23, -7.00145, 182.132)
 
-[node name="@Node3D@23164" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62572" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00304072, 0.00658982, -0.0494705, 0.000187648, 0.0495634, 0.00659067, 0.0499071, 0.000215146, -0.0030389, -286.832, -7.44069, 140.779)
 
-[node name="@Node3D@23165" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62573" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0458208, -0.0120118, 0.0160054, 0.0118867, 0.0485084, 0.00237511, -0.0160985, 0.00162843, 0.0473095, -273.546, -5.93165, 173.11)
 
-[node name="@Node3D@23166" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62574" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00798308, -0.00395934, 0.0491995, 0.00590534, 0.0495575, 0.00302995, -0.0490041, 0.00532703, 0.00838006, -330.299, -6.10664, 251.672)
 
-[node name="@Node3D@23167" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62575" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00941545, -0.00536722, 0.0488113, 0.00061403, 0.0497094, 0.00534754, -0.0491017, -0.000407558, 0.00942665, -352.569, -6.09161, 250.637)
 
-[node name="@Node3D@23168" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62576" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0376966, 0.00374478, -0.0326335, 0.00220961, 0.0498506, 0.00316806, 0.0327732, 0.000946362, -0.0377495, -322.661, -13.0595, 248.278)
 
-[node name="@Node3D@23169" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62577" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0155162, 0.0076474, -0.0469123, 0.000707291, 0.049306, 0.00827154, 0.0475263, -0.00323047, 0.0151927, -312.8, -4.83794, 224.24)
 
-[node name="@Node3D@23170" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62578" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0421818, -0.0119086, -0.02406, -0.0113554, 0.04852, -0.00410692, 0.024326, 0.00199948, -0.0436377, -321.858, -5.62608, 225.117)
 
-[node name="@Node3D@23171" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62579" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0253723, 0.0100325, -0.0418998, -0.00533649, 0.0489829, 0.00849699, 0.0427524, 0.00016019, 0.025927, -337.607, -6.78514, 225.125)
 
-[node name="@Node3D@23172" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62580" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0300458, -0.0123141, 0.0380213, 0.00919694, 0.0484212, 0.00841456, -0.0388931, 0.00193715, 0.031362, -314.052, -4.93658, 236.872)
 
-[node name="@Node3D@23173" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62581" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0335541, -0.00416009, 0.036835, -0.0101798, 0.0488081, -0.00376076, -0.035644, -0.0100232, -0.0336012, -326.14, -5.88701, 240.565)
 
-[node name="@Node3D@23174" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62582" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D16" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00267388, -0.00342767, -0.0498107, -0.00851674, 0.0491823, -0.00292724, 0.0491967, 0.00832795, -0.003214, -337.872, -6.44923, 241.695)
 
 [node name="MultiMeshInstance3D17" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4165,79 +4165,79 @@ multimesh = SubResource("MultiMesh_clwwq")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0496592, -0.00560118, -0.00160824, 0.00554591, 0.0496618, -0.00171569, 0.00178956, 0.00152561, 0.0499447, -240.55, -10.7945, 95.5751)
 
-[node name="@Node3D@23175" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62583" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0487386, 0.00850974, 0.00722017, -0.00900866, 0.0490932, 0.00294996, -0.00658715, -0.00417642, 0.0493879, -233.456, -6.35319, 82.9019)
 
-[node name="@Node3D@23176" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62584" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0310509, 0.004085, 0.0389763, 0.0078891, 0.0493612, 0.00111153, -0.0383875, 0.00684004, -0.0312988, -221.548, -6.70561, 89.0733)
 
-[node name="@Node3D@23177" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62585" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0402769, -0.00775287, 0.0285948, 0.0114041, 0.0485964, -0.00288719, -0.0273444, 0.00884769, 0.0409145, -236.18, -6.32664, 89.6941)
 
-[node name="@Node3D@23178" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62586" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0350998, 0.00932992, 0.0343651, 0.00710192, 0.049118, -0.0060815, -0.0348937, 0.000611982, -0.0358058, -227.046, -6.61969, 97.8771)
 
-[node name="@Node3D@23179" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62587" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0439735, 0.00227862, 0.0236884, 0.000608246, 0.0498616, -0.00366716, -0.0237899, -0.00293699, -0.0438795, -235.219, -6.40415, 97.6365)
 
-[node name="@Node3D@23180" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62588" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00248804, -0.00487914, 0.0496991, 0.0039887, 0.0496212, 0.00467181, -0.0497785, 0.00373222, 0.00285842, -225.239, -6.7559, 111.362)
 
-[node name="@Node3D@23181" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62589" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.028406, 0.00325934, -0.041018, -0.0061118, 0.0496242, -0.000289373, 0.0406909, 0.00517828, 0.0285909, -236.629, -6.43664, 108.163)
 
-[node name="@Node3D@23182" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62590" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00908075, 0.00311785, 0.0490695, -0.00951677, 0.0490672, -0.00135654, -0.0482387, -0.0090933, 0.00950477, -243.581, -6.66796, 108.111)
 
-[node name="@Node3D@23183" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62591" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0296955, 0.008778, 0.0392572, -0.0105179, 0.0487919, -0.00295392, -0.0388272, -0.00650367, 0.0308245, -186.724, -7.41832, 101.006)
 
-[node name="@Node3D@23184" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62592" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0486375, 0.0115928, -3.43743e-05, -0.011533, 0.0484015, 0.00492813, 0.00117589, -0.00478591, 0.0497565, -186.137, -7.42141, 110.986)
 
-[node name="@Node3D@23185" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62593" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0438566, -0.00261497, 0.0238696, -0.00139978, 0.0498965, 0.00289442, -0.0239716, 0.00187054, -0.043839, -187.273, -6.78078, 121.908)
 
-[node name="@Node3D@23186" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62594" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0426154, -0.000128761, 0.0261517, -0.00414088, 0.0493354, 0.00699068, -0.0258221, -0.00812404, 0.0420383, -199.524, -6.8291, 121.317)
 
-[node name="@Node3D@23187" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62595" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0405207, -0.0106457, -0.0272899, 0.00899514, 0.0488527, -0.00570106, 0.0278775, -0.000289307, 0.0415061, -238.657, -6.54532, 124.664)
 
-[node name="@Node3D@23188" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62596" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0400332, -0.00418744, 0.0296615, 0.000118619, 0.0495308, 0.00683237, -0.0299554, -0.00540007, 0.0396675, -249.411, -6.92919, 117.057)
 
-[node name="@Node3D@23189" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62597" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0441028, -0.000219418, 0.0235562, 0.00250739, 0.0497575, -0.00423096, -0.0234234, 0.00491323, 0.0438999, -250.141, -6.87387, 124.999)
 
-[node name="@Node3D@23190" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62598" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0281983, -0.00429671, 0.0410657, -0.00258273, 0.0498147, 0.00343865, -0.041209, -0.000181947, -0.0283158, -197.596, -7.23607, 111.313)
 
-[node name="@Node3D@23191" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62599" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.03403, -0.00263149, 0.0365381, 0.0113579, 0.0481712, -0.00710898, -0.0348275, 0.0131383, 0.0333831, -203.541, -7.16051, 107.123)
 
-[node name="@Node3D@23192" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62600" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0478898, 0.00865737, -0.0114726, 0.00757757, 0.0491224, 0.0054376, 0.0122127, 0.00346943, -0.0483613, -211.726, -7.04267, 101.198)
 
-[node name="@Node3D@23193" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62601" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0194581, -0.00427997, -0.0458592, 0.00204768, 0.049654, -0.00550298, 0.0460129, -0.00401965, -0.0191482, -218.196, -6.8825, 102.597)
 
-[node name="@Node3D@23194" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62602" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0236686, 0.0014725, 0.0440185, 0.00933162, 0.0490052, 0.00337827, -0.0430432, 0.00981446, -0.0234725, -224.731, -2.27014, 109.035)
 
-[node name="@Node3D@23195" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62603" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.048474, -0.0114634, 0.00434271, -0.0117532, 0.0484949, -0.00317891, -0.00348316, -0.0041027, -0.0497095, -209.564, -6.83951, 121.243)
 
-[node name="@Node3D@23196" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62604" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0329245, 0.000873656, -0.0376193, -0.00607267, 0.0494547, -0.0041663, 0.0371362, 0.00731246, 0.0326715, -216.399, -6.91453, 115.545)
 
-[node name="@Node3D@23197" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62605" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.047695, 0.00542376, 0.0139918, -0.00749288, 0.0489999, 0.00654739, -0.0130017, -0.00834232, 0.0475538, -209.836, -7.0688, 105.163)
 
-[node name="@Node3D@23198" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62606" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0429715, -0.00162694, 0.0255109, -0.000212793, 0.0499197, 0.00282515, -0.0255618, 0.00231945, -0.0429094, -224.923, -6.75688, 119.98)
 
-[node name="@Node3D@23199" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62607" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D19" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0472016, -0.0017121, -0.0164035, -0.000753624, 0.049454, -0.00733031, 0.0164753, 0.00716729, 0.0466604, -212.448, -6.47222, 126.435)
 
 [node name="MultiMeshInstance3D20" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4246,142 +4246,142 @@ multimesh = SubResource("MultiMesh_628yh")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0497402, -0.00388898, -0.00328427, 0.00339397, 0.0493809, -0.00707148, 0.00379362, 0.00681181, 0.0493883, -193.035, -6.30677, 173.711)
 
-[node name="@Node3D@23200" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62608" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.000549918, -0.00365188, -0.0498634, 0.0119043, 0.0484228, -0.00367765, 0.0485591, -0.0119122, 0.000336888, -256.734, -6.78786, 154.909)
 
-[node name="@Node3D@23201" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62609" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.026612, 0.00363177, 0.0421736, 0.0102992, 0.0488741, 0.0022901, -0.0410576, 0.00990596, -0.0267608, -252.87, -6.6634, 150.279)
 
-[node name="@Node3D@23202" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62610" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0497682, 0.00106568, -0.00468988, -0.00181473, 0.049314, -0.00805197, 0.00445392, 0.00818485, 0.049124, -256.516, -6.7042, 143.485)
 
-[node name="@Node3D@23203" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62611" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0361728, 0.00154473, 0.034484, -0.00154214, 0.0499724, -0.000620883, -0.0344841, -0.000614398, 0.0362004, -252.846, -6.6695, 137.051)
 
-[node name="@Node3D@23204" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62612" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0426475, 0.000832188, 0.0260863, 0.00140103, 0.0499755, 0.000696201, -0.026062, 0.00132478, -0.04265, -224.613, -6.76676, 160.138)
 
-[node name="@Node3D@23205" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62613" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0473264, 0.00427059, 0.0155556, 0.00196444, 0.0493829, -0.00758082, -0.0160111, -0.00656429, -0.0469101, -189.927, -6.29543, 174.113)
 
-[node name="@Node3D@23206" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62614" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0244499, -0.00936426, -0.0425971, 0.0116109, 0.0484692, -0.00399068, 0.0420403, -0.00794042, 0.0258759, -191.993, -1.11705, 174.232)
 
-[node name="@Node3D@23207" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62615" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.041821, 0.0103665, 0.0253681, 0.00887854, 0.0489135, -0.00535143, -0.0259264, 2.8592e-05, -0.042753, -185.191, -6.41693, 172.29)
 
-[node name="@Node3D@23208" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62616" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0388009, -0.0134649, 0.0285164, -0.0115425, 0.0481396, 0.00702517, -0.0293472, -0.00113134, -0.0404656, -185.777, -6.68396, 167.563)
 
-[node name="@Node3D@23209" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62617" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0416596, -0.00130752, 0.0276183, -0.00139114, 0.0497817, 0.00445519, -0.0276142, -0.00448044, 0.0414413, -186.099, -6.56617, 159.903)
 
-[node name="@Node3D@23210" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62618" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0158505, -0.000982062, -0.0474109, -0.00208545, 0.0499265, -0.00173138, 0.0473752, 0.00252633, 0.0157863, -188.917, -6.37686, 152.35)
 
-[node name="@Node3D@23211" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62619" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00415168, -0.00614297, -0.0494472, 0.00497038, 0.0494221, -0.00572254, 0.0495788, -0.00444027, 0.00471436, -183.783, -6.2494, 148.58)
 
-[node name="@Node3D@23212" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62620" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0468109, 0.00465258, -0.0169438, 0.00594645, 0.0495651, -0.00281836, 0.0165342, -0.00465371, -0.046957, -187.722, -6.07942, 141.534)
 
-[node name="@Node3D@23213" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62621" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0198491, 0.00318485, -0.0457807, 0.00294214, 0.0498651, 0.00219338, 0.0457969, -0.00182313, -0.019983, -190.475, -6.02684, 138.063)
 
-[node name="@Node3D@23214" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62622" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0479863, 0.0114506, 0.0081362, -0.0102397, 0.0483403, -0.00763961, -0.00961569, 0.00566568, 0.0487385, -165.784, -5.9253, 133.218)
 
-[node name="@Node3D@23215" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62623" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.049718, -0.00503335, 0.00167054, -0.00488241, 0.049591, 0.0041098, -0.0020706, 0.0039235, -0.0498028, -175.919, -5.87848, 134.916)
 
-[node name="@Node3D@23216" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62624" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0182192, -0.00407349, 0.0463839, -0.0106679, 0.0488486, 9.96947e-05, -0.0453239, -0.00986001, -0.0186688, -185.865, -6.04125, 132.308)
 
-[node name="@Node3D@23217" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62625" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0269216, -0.0055376, 0.041768, 0.0120465, 0.0485088, -0.0013333, -0.0403746, 0.0107811, 0.0274528, -169.465, -6.06783, 144.522)
 
-[node name="@Node3D@23218" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62626" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0478045, -0.0103867, 0.0103368, -0.00886712, 0.0485836, 0.00781064, -0.0116666, 0.00563451, -0.0482923, -180.901, -6.00493, 140.046)
 
-[node name="@Node3D@23219" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62627" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0491363, -0.00117442, 0.00917834, 0.000835265, 0.0499561, 0.00192059, -0.0092154, -0.00173409, 0.0491128, -221.162, -2.03826, 196.31)
 
-[node name="@Node3D@23220" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62628" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0412167, -0.00035595, -0.028303, -0.00426266, 0.0495039, 0.00558499, 0.0279824, 0.00701681, -0.0408381, -225.549, 2.32481, 220.136)
 
-[node name="@Node3D@23221" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62629" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0374187, -0.00549948, -0.0327047, 0.00803118, 0.0493427, 0.000891531, 0.0321767, -0.00592034, 0.0378102, -202.477, -2.215, 205.159)
 
-[node name="@Node3D@23222" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62630" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0486308, -0.010126, -0.00570178, 0.0108549, 0.0483411, 0.00673114, 0.00414941, -0.00778466, 0.0492157, -180.85, -5.85754, 189.939)
 
-[node name="@Node3D@23223" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62631" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0495708, -0.00596299, -0.00267872, 0.00617575, 0.0494358, 0.00423778, 0.0021431, -0.00453227, 0.049748, -193.627, -5.22816, 192.078)
 
-[node name="@Node3D@23224" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62632" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0401507, -5.43189e-05, 0.029798, -0.00025555, 0.0499987, -0.000253193, -0.0297969, -0.000355615, -0.0401499, -209.861, -3.33322, 194.072)
 
-[node name="@Node3D@23225" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62633" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0395445, -0.00437452, -0.0302836, 0.00756184, 0.0493485, 0.00274582, 0.0296488, -0.00675164, 0.0396909, -181.78, -4.48837, 204.473)
 
-[node name="@Node3D@23226" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62634" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0498733, -0.00274293, -0.00226491, 0.00306769, 0.0492817, 0.00786764, 0.00180077, -0.00798666, 0.0493252, -192.62, -3.10711, 206.026)
 
-[node name="@Node3D@23227" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62635" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0494398, -0.00158561, -0.00729309, 0.00191417, 0.0499182, 0.00212335, 0.00721383, -0.00237876, 0.0494197, -181.415, -3.21333, 219.92)
 
-[node name="@Node3D@23228" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62636" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0190961, 0.00955194, 0.0452117, -0.0102047, 0.0485841, -0.00595424, -0.0450689, -0.00695341, 0.0205048, -196.8, -1.25848, 217.784)
 
-[node name="@Node3D@23229" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62637" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0417178, 0.00229933, -0.0274653, -0.000572326, 0.0497427, 0.00503366, 0.0275554, 0.00451424, -0.0414767, -206.798, -0.188914, 222.017)
 
-[node name="@Node3D@23230" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62638" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0375642, -0.0104037, -0.031316, -0.0101526, 0.0487921, -0.00403139, 0.0313983, 0.00333003, -0.0387693, -219.285, -0.751615, 204.306)
 
-[node name="@Node3D@23231" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62639" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0442804, -0.00910498, 0.0213622, 0.0110474, 0.0487175, -0.00213505, -0.0204255, 0.00661075, 0.0451564, -206.644, -11.5671, 174.977)
 
-[node name="@Node3D@23232" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62640" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0421193, -0.004477, 0.0265692, 0.0094492, 0.0486279, -0.00678553, -0.0252325, 0.0107372, 0.0418095, -201.731, -5.2276, 187.221)
 
-[node name="@Node3D@23233" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62641" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0460488, -0.0090774, -0.017237, 0.0109002, 0.0486726, 0.00348798, 0.0161461, -0.00697009, 0.0468051, -229.586, -5.55902, 183.33)
 
-[node name="@Node3D@23234" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62642" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0464173, 0.00189956, -0.0184886, -0.000294862, 0.0496566, 0.00584213, 0.0185836, 0.00553255, -0.0460873, -221.759, -12.0214, 208.392)
 
-[node name="@Node3D@23235" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62643" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0335355, 0.00413908, -0.0368543, 0.00132156, 0.0497894, 0.00438927, 0.0370625, 0.00196982, -0.0335036, -216.111, 2.18126, 186.715)
 
-[node name="@Node3D@23236" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62644" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0414776, 0.00779555, -0.0268112, -0.0060843, 0.0493814, 0.00494544, 0.0272506, -0.000839946, 0.041913, -236.825, -1.19969, 197.181)
 
-[node name="@Node3D@23237" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62645" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.048978, -0.00833494, 0.00562934, -0.00739949, 0.0488148, 0.00789728, -0.00681236, 0.00690277, -0.0490504, -230.202, 2.06759, 215.315)
 
-[node name="@Node3D@23238" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62646" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00448057, -0.00563411, 0.0494791, 0.00161599, 0.0496364, 0.00579835, -0.0497726, 0.00211875, -0.00426589, -213.128, -4.92793, 175.972)
 
-[node name="@Node3D@23239" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62647" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0388997, -0.00799219, -0.0303799, -0.00859868, 0.049217, -0.00193763, 0.0302138, 0.00371707, -0.039665, -219.138, -0.43224, 182.153)
 
-[node name="@Node3D@23240" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62648" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00556611, -0.00761672, 0.049102, 0.0111585, 0.0483387, 0.00623341, -0.0484201, 0.0102642, 0.007081, -245.158, -2.72628, 192.144)
 
-[node name="@Node3D@23241" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62649" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0429402, 0.00705505, -0.0246245, 0.00347, 0.0492252, 0.00805229, 0.0253791, 0.0052064, -0.0427644, -233.996, 0.493933, 204.767)
 
-[node name="@Node3D@23242" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62650" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0373258, -0.00205241, 0.0332051, -0.00286265, 0.0499178, -0.000132476, -0.033145, -0.00199998, -0.0373819, -245.948, -6.67508, 128.529)
 
-[node name="@Node3D@23243" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62651" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0411195, 0.00360947, -0.0282163, -0.00742695, 0.0492379, -0.00452469, 0.0274596, 0.00791228, 0.0410289, -239.752, -6.53837, 129.373)
 
-[node name="@Node3D@23244" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62652" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0394302, -0.0111158, 0.0286653, -0.0104626, 0.0486867, 0.00448785, -0.0289101, -0.00245917, -0.0407205, -254.16, -6.8527, 130.328)
 
-[node name="@Node3D@23245" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62653" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D20" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0365367, -0.00386696, 0.0339134, -0.00186017, 0.0493787, 0.00763445, -0.0340824, -0.00684044, 0.0359388, -215.118, -6.37337, 127.846)
 
 [node name="MultiMeshInstance3D21" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4406,145 +4406,145 @@ multimesh = SubResource("MultiMesh_j5aws")
 [node name="Node3D" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0354599, 0.00156396, 0.0352158, -0.00932944, 0.048586, 0.00723637, -0.0339935, -0.0117029, 0.0347489, -380.283, -4.53115, 286.786)
 
-[node name="@Node3D@23246" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62654" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0355836, -0.00346295, -0.0349545, 0.000902566, 0.0496498, -0.00583763, 0.035114, -0.00478545, -0.0352718, -367.734, -4.6525, 285.68)
 
-[node name="@Node3D@23247" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62655" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0133176, -0.00620122, -0.0477932, -0.0103669, 0.0487922, -0.0034421, 0.0470656, 0.00899254, -0.0142816, -352.058, -5.07153, 288.96)
 
-[node name="@Node3D@23248" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62656" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.024723, 0.00119747, 0.0434435, 0.00411742, 0.0498207, 0.000969897, -0.0432646, 0.00405708, -0.0247329, -381.116, -4.82619, 277.02)
 
-[node name="@Node3D@23249" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62657" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0492872, 0.00178502, 0.00822095, 0.00191694, 0.0499591, 0.000645074, -0.00819119, 0.00095106, -0.0493153, -364.72, -4.86312, 278.782)
 
-[node name="@Node3D@23250" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62658" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0479548, -0.00869947, 0.011165, -0.0104684, 0.0483447, -0.00729377, -0.00952633, -0.00933301, -0.0481886, -349.805, -5.38787, 274.605)
 
-[node name="@Node3D@23251" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62659" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0497608, -0.00487477, 0.000314794, -0.00484704, 0.0496728, 0.00302032, -0.000607201, 0.00297536, -0.0499077, -379.096, -5.32507, 266.072)
 
-[node name="@Node3D@23252" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62660" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0490858, 0.00909335, -0.00281039, 0.00851, 0.0485433, 0.00843351, 0.00426229, 0.00780098, -0.0492034, -363.263, -5.45937, 261.941)
 
-[node name="@Node3D@23253" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62661" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0461945, -0.00264414, -0.0189492, 0.00580857, 0.0491211, 0.00730591, 0.0182298, -0.00895121, 0.0456897, -355.565, -5.5045, 263.782)
 
-[node name="@Node3D@23254" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62662" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00038337, -0.00770345, 0.0494015, -0.00872788, 0.0486341, 0.00765151, -0.0492309, -0.00868208, -0.000971799, -374.477, -4.50572, 282.334)
 
-[node name="@Node3D@23255" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62663" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0115462, -0.00313528, -0.0485474, 0.011403, 0.0483316, -0.00583337, 0.0472933, -0.0124188, -0.0104459, -331.129, -6.17145, 261.886)
 
-[node name="@Node3D@23256" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62664" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0182457, 0.00337629, -0.0464295, 0.000665212, 0.0498443, 0.00388603, 0.0465473, -0.00203577, 0.018144, -340.075, -5.92476, 260.616)
 
-[node name="@Node3D@23257" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62665" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0462344, -0.000300601, -0.019034, -0.00123096, 0.0498419, -0.00377719, 0.0189965, 0.00396132, 0.0460808, -325.65, -6.1029, 274.874)
 
-[node name="@Node3D@23258" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62666" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00181937, -0.00493775, 0.0497223, -0.0105227, 0.0486773, 0.00444894, -0.0488463, -0.0103024, -0.00281041, -343.927, -5.57493, 274.101)
 
-[node name="@Node3D@23259" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62667" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0362288, -0.00370457, 0.03426, 0.00119751, 0.0495449, 0.00662366, -0.0344389, 0.00561988, -0.0358103, -312.385, -4.88502, 255.218)
 
-[node name="@Node3D@23260" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62668" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0068731, 0.000930907, 0.0495166, -0.00508776, 0.0497134, -0.00164081, -0.0492633, -0.00526412, -0.00673898, -339.692, -5.76231, 339.918)
 
-[node name="@Node3D@23261" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62669" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0421686, -0.0109313, 0.0245421, 0.0113677, 0.0486438, 0.00213426, -0.024343, 0.00377978, 0.0435101, -346.59, -5.86383, 342.511)
 
-[node name="@Node3D@23262" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62670" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0449709, -0.00764142, 0.020475, -0.00593377, 0.0493536, 0.00538632, -0.0210335, 0.00241468, -0.0452964, -358.405, -6.01017, 341.242)
 
-[node name="@Node3D@23263" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62671" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0368841, -0.00178419, -0.0337103, -0.00872097, 0.0487388, 0.00696243, 0.0326115, 0.0110158, -0.0362649, -333.24, -5.75133, 354.915)
 
-[node name="@Node3D@23264" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62672" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.00685372, -0.00104067, 0.0495171, 0.00621428, 0.0495759, 0.00190203, -0.0491366, 0.00641498, -0.00666624, -346.024, -6.05687, 357.137)
 
-[node name="@Node3D@23265" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62673" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0214124, 0.00191753, -0.0451423, -0.0101294, 0.0484797, 0.00686399, 0.044033, 0.0120848, -0.0203729, -362.315, -6.392, 352.669)
 
-[node name="@Node3D@23266" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62674" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0386701, 0.00462969, 0.0313558, 0.00814467, 0.0492542, 0.00277217, -0.0306315, 0.00725166, -0.0388475, -339.1, -6.43985, 368.435)
 
-[node name="@Node3D@23267" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62675" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0258887, -0.00382187, 0.0426048, -0.0080079, 0.0493526, -0.000438796, -0.0420196, -0.00705069, -0.0261656, -350.867, -6.48761, 363.48)
 
-[node name="@Node3D@23268" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62676" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0109572, -0.00411633, 0.0486107, -0.00953513, 0.0490415, 0.00200352, -0.0478437, -0.00883112, -0.0115322, -359.766, -6.80273, 364.099)
 
-[node name="@Node3D@23269" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62677" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0101854, 0.00183232, -0.0489173, 0.00553568, 0.0496876, 0.000708552, 0.0486376, -0.00527146, -0.0103246, -367.499, -6.07826, 331.018)
 
-[node name="@Node3D@23270" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62678" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0129698, -0.00473955, 0.0480554, -0.00774797, 0.0493181, 0.00277296, -0.0476629, -0.00672734, -0.0135274, -304.839, -6.13117, 339.379)
 
-[node name="@Node3D@23271" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62679" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0448287, 0.000965883, 0.0221237, 0.000537661, 0.0498902, -0.00326757, -0.0221383, 0.00316751, 0.0447198, -316.819, -5.98111, 341.421)
 
-[node name="@Node3D@23272" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62680" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.042303, 0.00266806, 0.0265205, -0.00345965, 0.0498777, 0.00050063, -0.0264289, -0.0022586, 0.0423841, -333.894, -5.69417, 341.303)
 
-[node name="@Node3D@23273" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62681" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00214312, -0.000327765, 0.049953, -0.00221452, 0.0499491, 0.000422749, -0.0499049, -0.00223056, 0.00212642, -307.959, -6.04369, 356.57)
 
-[node name="@Node3D@23274" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62682" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0157082, -0.00232526, 0.0474114, -0.00553382, 0.0496892, 0.000603522, -0.0471448, -0.00505773, -0.0158679, -318.285, -5.90496, 359.505)
 
-[node name="@Node3D@23275" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62683" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0413449, 0.00835688, -0.026847, 0.011353, 0.0486376, -0.00234408, 0.0257236, -0.00803419, -0.0421159, -305.156, -6.44986, 365.178)
 
-[node name="@Node3D@23276" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62684" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0492178, 0.00319865, -0.00820814, -0.00178477, 0.049242, 0.00848737, 0.00862668, -0.00806161, 0.0485859, -315.353, -6.25213, 366.526)
 
-[node name="@Node3D@23277" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62685" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.000539057, -0.00659717, 0.0495599, 0.00450569, 0.0493676, 0.00652255, -0.0497937, 0.00439572, 0.00112673, -333.495, -6.26504, 367.754)
 
-[node name="@Node3D@23278" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62686" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0296317, -0.00964567, 0.0391014, 0.00929545, 0.0488721, 0.00501167, -0.0391862, 0.00429921, 0.0307565, -274.187, -6.29517, 325.566)
 
-[node name="@Node3D@23279" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62687" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0480019, 0.00528159, 0.0129584, 0.00394208, 0.0495305, -0.00558496, -0.0134267, -0.00434012, -0.0479676, -287.949, -6.37329, 329.902)
 
-[node name="@Node3D@23280" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62688" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0133707, 0.000155629, 0.0481788, -0.0030929, 0.0498938, -0.00101952, -0.0480797, -0.00325288, -0.0133327, -302.27, -6.21061, 328.735)
 
-[node name="@Node3D@23281" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62689" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0330588, -0.00752957, -0.0367481, 0.00158294, 0.0492188, -0.00866074, 0.0374781, 0.00456287, 0.0327806, -274.833, -6.4011, 342.777)
 
-[node name="@Node3D@23282" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62690" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0176881, -0.00083512, -0.0467593, -0.00621087, 0.0495073, -0.00323365, 0.0463525, 0.00695226, 0.0174101, -288.539, -6.30852, 342.394)
 
-[node name="@Node3D@23283" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62691" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0379978, 0.00458891, 0.0321731, 0.0116778, 0.0481209, 0.00692843, -0.0303281, 0.0127795, -0.0376416, -273.433, -6.7466, 355.481)
 
-[node name="@Node3D@23284" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62692" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0177043, -0.003544, 0.0466261, -0.00652246, 0.0491816, 0.00621487, -0.0463035, -0.00828294, 0.0169522, -293.037, -6.33067, 354.536)
 
-[node name="@Node3D@23285" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62693" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0498636, -0.00343751, 0.00134406, -0.00354961, 0.0496519, -0.00470034, -0.00101155, -0.00478293, -0.0497604, -299.63, -6.16162, 354.356)
 
-[node name="@Node3D@23286" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62694" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0457326, 0.0108665, -0.0170424, -0.0113891, 0.0486832, 0.000479034, 0.0166977, 0.00344382, 0.0470035, -247.619, -5.96702, 319.579)
 
-[node name="@Node3D@23287" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62695" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.0399244, -0.00825773, -0.0289456, -0.00461652, 0.0491926, -0.00766635, 0.0297444, -0.00344894, -0.0400422, -259.664, -6.12234, 315.662)
 
-[node name="@Node3D@23288" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62696" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.00855217, 0.00298014, -0.0491729, 0.00255717, 0.0498143, 0.00346375, 0.0491968, -0.00310732, 0.00836799, -272.815, -6.2495, 319.514)
 
-[node name="@Node3D@23289" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62697" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(-0.048571, 0.0117665, 0.00155088, 0.011446, 0.0481686, -0.00698376, -0.00313756, -0.00642914, -0.0494856, -242.576, -6.11492, 331.273)
 
-[node name="@Node3D@23290" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62698" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0169597, 0.00142023, 0.0470144, -0.00034201, 0.0499796, -0.00138643, -0.0470346, 0.000148683, 0.0169625, -255.662, -6.19926, 332.446)
 
-[node name="@Node3D@23291" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62699" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.0357417, 0.00472736, 0.0346437, -0.00836776, 0.0492578, 0.00191143, -0.0339487, -0.00716415, 0.0360023, -244.865, -6.37602, 341.44)
 
-[node name="@Node3D@23292" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
+[node name="@Node3D@62700" type="Node3D" parent="Gardener/Arborist/MMI_container/MultiMeshInstance3D30" instance=ExtResource("17_cxe5g")]
 transform = Transform3D(0.008248, 0.00743629, -0.0487511, 0.00418169, 0.0491448, 0.00820383, 0.0491374, -0.00543055, 0.007485, -254.532, -6.31775, 340.136)
 
 [node name="MultiMeshInstance3D31" type="MultiMeshInstance3D" parent="Gardener/Arborist/MMI_container"]
@@ -4738,7 +4738,7 @@ metadata/class = "Gardener"
 
 [node name="Arborist" type="Node3D" parent="Gardener/Gardener"]
 script = ExtResource("13_fsn6e")
-octree_managers = [SubResource("Resource_bsx3d"), SubResource("Resource_vq8ea"), SubResource("Resource_ia4xv"), SubResource("Resource_8im17"), SubResource("Resource_isukp"), SubResource("Resource_vj0cf")]
+octree_managers = [SubResource("Resource_217o4"), SubResource("Resource_fo0wr"), SubResource("Resource_squbr"), SubResource("Resource_1ld4j"), SubResource("Resource_oxxs3"), SubResource("Resource_yabyb")]
 metadata/class = "Arborist"
 
 [node name="MMI_container" type="Node3D" parent="Gardener/Gardener/Arborist"]

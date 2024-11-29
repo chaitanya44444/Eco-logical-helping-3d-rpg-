@@ -91,15 +91,17 @@ text = "Mute Music"
 
 [node name="Button2" type="Button" parent="MarginContainer/CanvasLayer/TabContainer/Sounds and Graphics/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 31
 theme_override_styles/normal = ExtResource("3_2un4n")
-text = "Turn On!"
+text = "Turn On! -🔊"
 
 [node name="Button" type="Button" parent="MarginContainer/CanvasLayer/TabContainer/Sounds and Graphics/VBoxContainer"]
 layout_direction = 1
 layout_mode = 2
 size_flags_vertical = 0
+theme_override_font_sizes/font_size = 31
 theme_override_styles/normal = SubResource("StyleBoxTexture_t7s5m")
-text = "Turn OFF!"
+text = "Turn OFF! -🔇"
 icon_alignment = 1
 
 [node name="resoltuion option" type="MarginContainer" parent="MarginContainer/CanvasLayer/TabContainer/Sounds and Graphics/VBoxContainer"]
