@@ -41,6 +41,7 @@ directories/dtl_directory={
 "npc1": "res://dialogictimeline/npc1.dtl",
 "npc2": "res://npc2.dtl",
 "npc3": "res://npc3.dtl",
+"plant": "res://dialogictimeline/plant.dtl",
 "talkafter": "res://dialogictimeline/talkafter.dtl",
 "talkafterplants": "res://dialogictimeline/talkafterplants.dtl",
 "timeline": "res://dialogictimeline/timeline.dtl"

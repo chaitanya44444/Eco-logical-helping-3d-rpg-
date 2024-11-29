@@ -46,9 +46,10 @@ func _input(event: InputEvent) -> void:
 				xpvalue_3.text = str(int(xpvalue_3.text) + 1)
 				progress_bar_3.value = 90
 				label.visible = false
-				print("Fish quest completed!")
 				talk_to_tree_for_planting_one.start_quest()
 				GameManager.q5= true
+				print("Fish quest completed!")
+
 				
 
 	else:
