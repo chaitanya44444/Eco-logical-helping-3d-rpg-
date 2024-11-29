@@ -86,10 +86,10 @@ seamless = true
 as_normal_map = true
 noise = SubResource("FastNoiseLite_tomlo")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_qutdl"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_16phh"]
 render_priority = 0
 shader = SubResource("Shader_r1247")
-shader_parameter/albedo = Color(0.307198, 0.630109, 0.998144, 1)
+shader_parameter/albedo = Color(0.2, 0.537255, 0.811765, 0.643137)
 shader_parameter/point_size = 1.0
 shader_parameter/roughness = 0.0
 shader_parameter/metallic_texture_channel = null
@@ -107,5 +107,5 @@ shader_parameter/texture_refraction = SubResource("NoiseTexture2D_dkhdf")
 shader_parameter/texture_normal = SubResource("NoiseTexture2D_dkhdf")
 
 [resource]
-material = SubResource("ShaderMaterial_qutdl")
+material = SubResource("ShaderMaterial_16phh")
 size = Vector3(1000, 1, 1000)

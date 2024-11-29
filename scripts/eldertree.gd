@@ -5,7 +5,6 @@ var a = true
 @onready var talk_to_tree: Quest = %"Talk-to tree"
 var questdone=false
 var questdone2=false
-var trees=0
 var questdone3=false
 
 @onready var trees_planted: Label = $"../ui stuff more/trees planted"
@@ -25,9 +24,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if trees_planted.visible==true:
-		trees_planted.text=str("You have planted" + str(trees) +"trees out of 15 needed.")
-		
+	pass
 func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0

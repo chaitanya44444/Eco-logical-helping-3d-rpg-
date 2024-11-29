@@ -13,16 +13,10 @@ var plant_scene = preload("res://scenes/tree.tscn")
 const SEED = preload("res://scenes/seed.tscn")
 
 
-var cleanse_scene = preload("res://treesd.tres")
+var cleanse_scene = preload("res://tree_particle.tscn")
 var a: int = 0 #pov my notebook progress
 var quest_completed: bool = false  
-func apply_cleanse():
-	var cleanse_instance = cleanse_scene.instantiate()
-	the_hero.add_child(cleanse_instance)
-	cleanse_instance.transform.origin = Vector3.ZERO
-	await get_tree().create_timer(4).timeout
-	cleanse_instance.queue_free()
-	
+
 	
 func _ready() -> void:
 	interact = get_node("/root/" + get_tree().current_scene.name + "/Uiformakinscenesortoff/interacttext")
@@ -46,9 +40,13 @@ func _process(delta: float) -> void:
 			interact.visible = false  
 	else:
 		interact.visible = false  
-	if Input.is_action_just_pressed("plant"):
-		plant()  
+	if GameManager.q5==true:
+		if Input.is_action_just_pressed("plant"):
+			plant()  
 func plant():
+
+
+	
 	if camera == null:
 		print("No active camera found!")
 		return
@@ -71,10 +69,16 @@ func plant():
 
 
 			var seed_instance = SEED.instantiate()
+			var cleanse_instance = cleanse_scene.instantiate()
+			seed_instance.add_child(cleanse_instance)
+			cleanse_instance.transform.origin = Vector3.ZERO
+			await get_tree().create_timer(4).timeout
+			cleanse_instance.queue_free()
 			get_tree().get_root().add_child(seed_instance)
 			seed_instance.global_transform.origin = result.position
 			seed_instance.rotate_y(randf_range(0.0, TAU))
 			seed_instance.scale = Vector3.ONE * randf_range(0.9, 1.1)
+
 			await get_tree().create_timer(5.0).timeout
 			seed_instance.queue_free()
 			

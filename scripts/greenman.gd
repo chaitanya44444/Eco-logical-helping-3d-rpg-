@@ -48,7 +48,10 @@ func _input(event: InputEvent) -> void:
 				label.visible = false
 				talk_to_tree_for_planting_one.start_quest()
 				GameManager.q5= true
-				print("Fish quest completed!")
+				if GameManager.q5:
+					print("Fish quest completed!")
+				else:
+					print("idk man")
 
 				
 

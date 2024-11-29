@@ -6,7 +6,7 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_sjtmv"]
 render_priority = 0
 shader = ExtResource("1_11euw")
-shader_parameter/circle_colour = Color(0.486275, 0.164706, 0.701961, 1)
+shader_parameter/circle_colour = Color(0.439216, 0.0666667, 1, 1)
 shader_parameter/FloatParameter = 0.195
 shader_parameter/Vector2Parameter = Vector2(0, -1.2)
 
