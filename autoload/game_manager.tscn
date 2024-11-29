@@ -8,6 +8,7 @@ visible = false
 script = ExtResource("1_ckjwx")
 
 [node name="QuestBox" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="TextureRect2" type="TextureRect" parent="QuestBox"]
 visible = false
