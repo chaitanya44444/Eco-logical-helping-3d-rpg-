@@ -42,6 +42,7 @@ directories/dtl_directory={
 "npc2": "res://npc2.dtl",
 "npc3": "res://npc3.dtl",
 "plant": "res://dialogictimeline/plant.dtl",
+"planter": "res://planter.dtl",
 "talkafter": "res://dialogictimeline/talkafter.dtl",
 "talkafterplants": "res://dialogictimeline/talkafterplants.dtl",
 "timeline": "res://dialogictimeline/timeline.dtl"
@@ -184,6 +185,11 @@ Cleanse={
 plant={
 "deadzone": 0.5,
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":80,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+skip={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194435,"key_label":0,"unicode":45,"location":0,"echo":false,"script":null)
 ]
 }
 

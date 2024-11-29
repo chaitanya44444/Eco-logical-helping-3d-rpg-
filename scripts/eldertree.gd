@@ -27,6 +27,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if trees_planted.visible==true:
 		trees_planted.text=str("You have planted" + str(trees) +"trees out of 15 needed.")
+		
 func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.x = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
@@ -37,12 +38,12 @@ func interact():
 	elif talk_to_tree.ifstarted(): 
 		
 		Dialogic.start("elder tree")
-	if GameManager.q5==true:
-		Dialogic.start("plant")
+	else:
+		Dialogic.start("planter")
 	
 
 func _on_dialogic_signal(argument: String):
-	if argument =="plant":
+	if argument =="planter1":
 		talk_to_tree_for_planting_one.finished_goal()
 		forest_cover.start_quest()
 		trees_planted.visible=true

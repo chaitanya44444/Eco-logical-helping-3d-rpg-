@@ -5,5 +5,5 @@
 "ellder treee": I shall now grant you a new power—the ability to plant and grow trees with magic alone. Press your magic into the earth, and life will sprout anew when you press P.
 - I’ll plant the trees and help the forest recover.
 "ellder treee": Plant 15 trees, young one. With each sapling, you will restore balance, life, and hope to the forest. Go, and may your efforts bring vitality to this land once more.
-[signal arg="plant"]
+[signal arg="planter1"]
 [end_timeline]
