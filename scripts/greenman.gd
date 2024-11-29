@@ -9,7 +9,10 @@ extends StaticBody3D
 @onready var the_hero: CharacterBody3D = $"../../the_hero"
 @onready var label: Label = $"../../ui stuff more/Label"
 var b= false
-
+func _process(delta: float) -> void:
+	if Input.is_action_just_released("skip"):
+		fishquest.finished_goal()
+		talk_to_tree_for_planting_one.start_quest()
 
 var cleanse_scene = preload("res://cleanse.tscn")
 var a: int = 0 #pov my notebook progress
@@ -25,6 +28,7 @@ func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 
 func _input(event: InputEvent) -> void:
+	
 	if fishquest.ifstarted() and not quest_completed:
 		if b:
 			label.visible = true

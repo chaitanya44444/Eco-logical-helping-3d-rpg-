@@ -4854,6 +4854,8 @@ quest_discription = "Go rescue the bird and use healing magic on it by pressing 
 
 [node name="ending" type="Node" parent="tree"]
 script = ExtResource("23_tbnel")
+quest_name = "You have saved the bird and the village seems to have recovered!"
+quest_discription = "Talk to elder tree to say your goodbyes as you have decided to go away after realising you have fulfiled your purpose"
 
 [node name="factory" parent="." instance=ExtResource("26_hoomv")]
 transform = Transform3D(-0.300158, 0.0838047, -5.03536, 0.138845, 5.04252, 0.0756472, 5.03415, -0.134079, -0.302317, -356.68, 0.413219, 326.559)
@@ -5006,7 +5008,6 @@ mesh = ExtResource("39_h3d5w")
 
 [node name="polluted" type="MeshInstance3D" parent="Lake"]
 transform = Transform3D(0.264175, 0, 0, 0, 1, 0, 0, 0, 0.312609, 0, -10.9289, 0)
-visible = false
 mesh = ExtResource("39_yqrf8")
 
 [node name="OUTLINE" type="Node3D" parent="."]
