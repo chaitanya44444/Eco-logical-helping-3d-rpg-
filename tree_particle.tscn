@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2syxkt6er8sj"]
+
+[ext_resource type="Shader" path="res://treesd.tres" id="1_11euw"]
+[ext_resource type="ArrayMesh" uid="uid://btcn7kkq3g0vv" path="res://blenderstuffs/circle_mesh.obj" id="2_ccngt"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sjtmv"]
+render_priority = 0
+shader = ExtResource("1_11euw")
+shader_parameter/circle_colour = Color(0.486275, 0.164706, 0.701961, 1)
+shader_parameter/FloatParameter = 0.195
+shader_parameter/Vector2Parameter = Vector2(0, -1.2)
+
+[node name="tree-particle" type="Node3D"]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.38978, 0)
+material_override = SubResource("ShaderMaterial_sjtmv")
+mesh = ExtResource("2_ccngt")

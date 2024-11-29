@@ -11,7 +11,7 @@ extends Node3D
 @onready var the_hero: CharacterBody3D = $the_hero
 
 @onready var plamnt_tree: Label = $"ui stuff more/plamnt tree" # label will text press p to plant
-
+var lol=0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 
