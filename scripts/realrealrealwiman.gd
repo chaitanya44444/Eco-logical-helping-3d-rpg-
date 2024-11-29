@@ -2,7 +2,6 @@ extends StaticBody3D
 @onready var quest: Quest = %"Talk-to tree"
 
 @onready var talk_to_village_chief: Quest = $"talk to village chief"
-@onready var progress_bar_3: ProgressBar = %ProgressBar3
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
 
 # Called when the node enters the scene tree for the first time.

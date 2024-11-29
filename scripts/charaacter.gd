@@ -1,5 +1,6 @@
 extends CharacterBody3D
 
+@onready var cleanse: MeshInstance3D = $cleanse
 
 var speed 
 const sprint_speed = 8.0
@@ -14,6 +15,11 @@ var canmove = true
 var start_position: Vector3
 @onready var head = $head
 @onready var camera = $head/Camera3D
+func use_magic():
+	cleanse.visible = true
+	await get_tree().create_timer(4).timeout
+	cleanse.visible=false
+	
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	

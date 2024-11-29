@@ -5,8 +5,8 @@ func start_quest():
 	if quest_status==Quest_status.available:
 		quest_status=Quest_status.started
 		QuestBox.visible=true
-		QuestTitle.text =quest_name
-		QuestDiscription.text=quest_discription
+		QuestTitle.text =str("Quest Title: " + quest_name)
+		QuestDiscription.text=str("Quest information:  " + quest_discription)
 func reached_goal():
 	if quest_status==Quest_status.started:
 		quest_status=Quest_status.reached_goal

@@ -1,7 +1,7 @@
 extends StaticBody3D
 @onready var progress_bar_3: ProgressBar = %ProgressBar3
 @onready var xpvalue_3: RichTextLabel = %xpvalue3
-
+var a = true
 @onready var talk_to_tree: Quest = %"Talk-to tree"
 
 # Called when the node enters the scene tree for the first time.
@@ -20,14 +20,14 @@ func interact():
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").velocity.z = 0
 	get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = false
 	
-	if factoy_quest.ifdone():
-		Dialogic.start("elder1")
+	if talk_after_factory.ifstarted():
+		Dialogic.start("talkafter")
 	else: 
 		Dialogic.start("elder tree")
 	
 
 func _on_dialogic_signal(argument: String):
-	if argument == "npc2 ended1":
+	if argument == "talked_after":
 		talk_after_factory.finished_goal()
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
 
@@ -35,9 +35,10 @@ func _on_dialogic_signal(argument: String):
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 	if argument == "tree":
 		talk_to_tree.finished_goal()
-		progress_bar_3.value+=10
+
 		
 		xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
+	
 		factoy_quest.start_quest()
 		print("yayyaya")
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
