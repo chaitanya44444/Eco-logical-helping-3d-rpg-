@@ -19,23 +19,23 @@ offset_bottom = 641.0
 texture = ExtResource("2_iuf41")
 
 [node name="TextureRect" type="TextureRect" parent="QuestBox"]
-offset_left = 1351.0
-offset_top = 138.0
-offset_right = 1962.0
-offset_bottom = 571.0
+offset_left = 1206.0
+offset_top = 151.0
+offset_right = 1970.0
+offset_bottom = 694.0
 texture = ExtResource("2_iuf41")
 
 [node name="QuestTitle" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1468.0
-offset_top = 349.0
-offset_right = 1812.0
-offset_bottom = 401.0
+offset_left = 1366.0
+offset_top = 424.0
+offset_right = 1883.0
+offset_bottom = 476.0
 text = "Quest Title:"
 
 [node name="Questdiscription" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1468.0
-offset_top = 379.0
-offset_right = 1886.0
-offset_bottom = 509.0
+offset_left = 1359.0
+offset_top = 454.0
+offset_right = 1871.0
+offset_bottom = 584.0
 theme_override_font_sizes/normal_font_size = 0
 text = "Quest information:"

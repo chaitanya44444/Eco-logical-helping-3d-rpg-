@@ -62,16 +62,18 @@ func _on_dialogic_signal(argument: String):
 		forest_cover.start_quest()
 		trees_planted.visible=true
 		if questdone3==false:
-			xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
+			xpvalue_3.text=str(5)
 			
 
 			questdone3=true
+		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
+
 			
 	if argument == "talked_after":
 		
 		talk_after_factory.finished_goal()
 		if questdone2==false:
-			xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
+			xpvalue_3.text=str(4)
 
 			fishquest.start_quest()
 			questdone2=true
@@ -80,7 +82,7 @@ func _on_dialogic_signal(argument: String):
 		talk_to_tree.finished_goal()
 
 		if questdone==false:
-			xpvalue_3.text=str(int(int(xpvalue_3.text) + 1))
+			xpvalue_3.text=str(2)
 			questdone=true
 	
 		factoy_quest.start_quest()

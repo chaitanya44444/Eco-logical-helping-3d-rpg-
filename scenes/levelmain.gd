@@ -33,7 +33,7 @@ func _process(delta: float) -> void:
 			plamnt_tree.visible = false
 			trees_planted.visible=false
 			progress_bar_3.value=100
-			xpvalue_3.text=str(3)
+			xpvalue_3.text=str(int(xpvalue_3.text)+1)
 			forest_cover.finished_goal()
 			birdhelp.start_quest()
 
