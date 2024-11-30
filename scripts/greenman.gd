@@ -2,6 +2,7 @@ extends StaticBody3D
 @onready var talk_to_tree_for_planting_one: Quest = $"talk to tree for planting one"
 @onready var number_of_cleanses: Label = $"../../ui stuff more/number of cleanses"
 @onready var polluted: MeshInstance3D = $"../../Lake/polluted"
+@onready var SMOOTH_Operater = $"../../Lake/AnimationPlayer"
 
 @onready var fishquest: Quest = $"../../tree/fishquest"
 @onready var progress_bar_3: ProgressBar = %ProgressBar3
@@ -41,11 +42,12 @@ func _input(event: InputEvent) -> void:
 			print("Cleanse applied, count:", a)
 
 			if a >= 4:
-				polluted.visible = false
-				polluted.queue_free()
+				#polluted.visible = false
+				#polluted.queue_free()
+				SMOOTH_Operater.play("poll to new smooth")
 
 				quest_completed = true
-				polluted.visible = false
+				#polluted.visible = false
 				fishquest.finished_goal()
 				xpvalue_3.text = str(int(xpvalue_3.text) + 1)
 				progress_bar_3.value = 90

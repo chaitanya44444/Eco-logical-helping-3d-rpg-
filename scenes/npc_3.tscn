@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cfa7itn6ekwfp" path="res://blenderstuffs/textures/skin_murabito_002_col.png" id="2_w2s3s"]
 [ext_resource type="Texture2D" uid="uid://tm2jgtehd5r3" path="res://blenderstuffs/textures/lightbluemurabito.png" id="3_ugrnd"]
 [ext_resource type="Texture2D" uid="uid://bonxfs7neghsi" path="res://blenderstuffs/textures/alp_murabito_001_col.png" id="4_8f3wn"]
-[ext_resource type="Texture2D" uid="uid://cg3utr2lwt2mc" path="res://blenderstuffs/textures/eye_open1_murabito_001_col.png" id="5_2ik57"]
+[ext_resource type="Texture2D" uid="uid://b414ty1u8dntk" path="res://blenderstuffs/textures/eye_open1_murabito_001_col.png" id="5_2ik57"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b5jv8"]
 resource_name = "skin_murabito_001"

@@ -89,7 +89,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/dreadpon.spatial_gardener/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg", "res://addons/simplegrasstextured/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg")
 
 [filesystem]
 

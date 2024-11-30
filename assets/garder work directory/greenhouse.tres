@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=30 format=3 uid="uid://c3vjvu3e0nbw3"]
+[gd_resource type="Resource" load_steps=32 format=3 uid="uid://c3vjvu3e0nbw3"]
 
 [ext_resource type="Script" path="res://addons/dreadpon.spatial_gardener/greenhouse/greenhouse.gd" id="1_eskh6"]
 [ext_resource type="ArrayMesh" uid="uid://bebnjry0i4sdl" path="res://materisl/pointy.tres" id="1_wbfmm"]
@@ -59,7 +59,7 @@ metadata/class = "Greenhouse_Plant"
 [sub_resource type="Resource" id="Resource_jre0u"]
 resource_name = "Greenhouse_PlantState"
 script = ExtResource("4_x8se0")
-plant/plant_brush_active = true
+plant/plant_brush_active = false
 plant/plant_label = ""
 plant/plant = SubResource("Resource_ynbj8")
 metadata/class = "Greenhouse_PlantState"
@@ -111,7 +111,7 @@ metadata/class = "Greenhouse_Plant"
 [sub_resource type="Resource" id="Resource_ha4pj"]
 resource_name = "Greenhouse_PlantState"
 script = ExtResource("4_x8se0")
-plant/plant_brush_active = true
+plant/plant_brush_active = false
 plant/plant_label = ""
 plant/plant = SubResource("Resource_iqb47")
 metadata/class = "Greenhouse_PlantState"
@@ -163,7 +163,7 @@ metadata/class = "Greenhouse_Plant"
 [sub_resource type="Resource" id="Resource_eialv"]
 resource_name = "Greenhouse_PlantState"
 script = ExtResource("4_x8se0")
-plant/plant_brush_active = true
+plant/plant_brush_active = false
 plant/plant_label = ""
 plant/plant = SubResource("Resource_cqg63")
 metadata/class = "Greenhouse_PlantState"
@@ -265,7 +265,7 @@ metadata/class = "Greenhouse_Plant"
 [sub_resource type="Resource" id="Resource_m2eb2"]
 resource_name = "Greenhouse_PlantState"
 script = ExtResource("4_x8se0")
-plant/plant_brush_active = false
+plant/plant_brush_active = true
 plant/plant_label = ""
 plant/plant = SubResource("Resource_n7tom")
 metadata/class = "Greenhouse_PlantState"
@@ -321,9 +321,52 @@ plant/plant_label = ""
 plant/plant = SubResource("Resource_y5kdf")
 metadata/class = "Greenhouse_PlantState"
 
+[sub_resource type="Resource" id="Resource_ui6by"]
+resource_name = "Greenhouse_Plant"
+script = ExtResource("3_2l6kx")
+mesh/mesh_LOD_variants = []
+mesh/mesh_LOD_max_distance = 10.0
+mesh/mesh_LOD_kill_distance = -1.0
+mesh/mesh_LOD_max_capacity = 75
+mesh/mesh_LOD_min_size = 1.0
+octree/octree_reconfigure_button = false
+octree/octree_recenter_button = false
+density/density_per_units = 100.0
+scale/scale_scaling_type = 0
+scale/scale_range = [Vector3(1, 1, 1), Vector3(1, 1, 1)]
+up_vector/up_vector_primary_type = 2
+up_vector/up_vector_primary = Vector3(0, 0, 0)
+up_vector/up_vector_secondary_type = 2
+up_vector/up_vector_secondary = Vector3(0, 0, 0)
+up_vector/up_vector_blending = 0.0
+fwd_vector/fwd_vector_primary_type = 0
+fwd_vector/fwd_vector_primary = Vector3(0, 0, 0)
+fwd_vector/fwd_vector_secondary_type = 0
+fwd_vector/fwd_vector_secondary = Vector3(0, 0, 0)
+fwd_vector/fwd_vector_blending = 0.0
+offset/offset_y_range = [0.0, 0.0]
+offset/offset_jitter_fraction = 0.6
+rotation/rotation_random_y = 180.0
+rotation/rotation_random_x = 0.0
+rotation/rotation_random_z = 0.0
+slope/slope_allowed_range = [0.0, 180.0]
+import_export/import_plant_data_button = false
+import_export/export_plant_data_button = false
+import_export/import_greenhouse_data_button = false
+import_export/export_greenhouse_data_button = false
+metadata/class = "Greenhouse_Plant"
+
+[sub_resource type="Resource" id="Resource_2xbfq"]
+resource_name = "Greenhouse_PlantState"
+script = ExtResource("4_x8se0")
+plant/plant_brush_active = false
+plant/plant_label = ""
+plant/plant = SubResource("Resource_ui6by")
+metadata/class = "Greenhouse_PlantState"
+
 [resource]
 resource_name = "Greenhouse"
 script = ExtResource("1_eskh6")
-plant_types/greenhouse_plant_states = [SubResource("Resource_jre0u"), SubResource("Resource_ha4pj"), SubResource("Resource_eialv"), SubResource("Resource_7ie57"), SubResource("Resource_m2eb2"), SubResource("Resource_wq2io")]
+plant_types/greenhouse_plant_states = [SubResource("Resource_jre0u"), SubResource("Resource_ha4pj"), SubResource("Resource_eialv"), SubResource("Resource_7ie57"), SubResource("Resource_m2eb2"), SubResource("Resource_wq2io"), SubResource("Resource_2xbfq")]
 plant_types/selected_for_edit_resource = SubResource("Resource_7ie57")
 metadata/class = "Greenhouse"

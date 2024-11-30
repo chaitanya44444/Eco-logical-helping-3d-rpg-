@@ -89,7 +89,7 @@ noise = SubResource("FastNoiseLite_tomlo")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_16phh"]
 render_priority = 0
 shader = SubResource("Shader_r1247")
-shader_parameter/albedo = Color(0.258824, 0.737255, 0.141176, 1)
+shader_parameter/albedo = Color(0.317864, 0.731535, 0, 1)
 shader_parameter/point_size = 1.0
 shader_parameter/roughness = 0.0
 shader_parameter/metallic_texture_channel = null
