@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://d1gtgcuonrxq4"]
+
+[ext_resource type="PackedScene" uid="uid://clfequbcqbdqi" path="res://material/textures/painted_wooden_cabinet_1k.gltf" id="1_hrnb8"]
+[ext_resource type="Texture2D" uid="uid://kxinjce6n4a0" path="res://material/textures/textures/painted_wooden_cabinet_rough_1k.png" id="2_47hjr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jm42t"]
+albedo_texture = ExtResource("2_47hjr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b1b7g"]
+albedo_texture = ExtResource("2_47hjr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hs70n"]
+albedo_texture = ExtResource("2_47hjr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f5ri2"]
+albedo_texture = ExtResource("2_47hjr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sjx78"]
+albedo_texture = ExtResource("2_47hjr")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oylia"]
+
+[node name="painted_wooden_cabinet_1k" instance=ExtResource("1_hrnb8")]
+
+[node name="painted_wooden_cabinet" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_jm42t")
+
+[node name="painted_wooden_cabinet_door_02" parent="." index="1"]
+material_override = SubResource("StandardMaterial3D_b1b7g")
+
+[node name="painted_wooden_cabinet_door_01" parent="." index="2"]
+material_override = SubResource("StandardMaterial3D_hs70n")
+
+[node name="painted_wooden_cabinet_drawer_02" parent="." index="3"]
+material_override = SubResource("StandardMaterial3D_f5ri2")
+
+[node name="painted_wooden_cabinet_drawer_01" parent="." index="4"]
+material_override = SubResource("StandardMaterial3D_sjx78")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(1.16327, 0, 0, 0, 1, 0, 0, 0, 0.746151, 0, 0.704021, 0)
+shape = SubResource("BoxShape3D_oylia")

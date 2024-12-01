@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://bfn562m7nl25m"]
+
+[ext_resource type="PackedScene" uid="uid://cvo4wuba0rd8l" path="res://material/textures/Television_01_1k.gltf" id="1_5t35j"]
+[ext_resource type="Texture2D" uid="uid://0o2oova42lch" path="res://material/textures/Television_01_roughness_1k.png" id="2_4g8ce"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n5bwm"]
+albedo_texture = ExtResource("2_4g8ce")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ki8o"]
+size = Vector3(1, 1, 0.743286)
+
+[node name="Television_01_1k" instance=ExtResource("1_5t35j")]
+
+[node name="Television_01" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_n5bwm")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(0.541376, 0, 0, 0, 0.504164, 0, 0, 0, 1, 0, 0.24216, -0.128357)
+shape = SubResource("BoxShape3D_0ki8o")

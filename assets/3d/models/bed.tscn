@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2ynb1uxth626"]
+
+[ext_resource type="PackedScene" uid="uid://crr664kv846v3" path="res://material/textures/GothicBed_01_1k.gltf" id="1_dnbb0"]
+[ext_resource type="Texture2D" uid="uid://bw36doo2l3f01" path="res://material/textures/GothicBed_01_roughness_1k.png" id="2_xxs4l"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b8ss2"]
+albedo_texture = ExtResource("2_xxs4l")
+
+[node name="GothicBed_01_1k" instance=ExtResource("1_dnbb0")]
+
+[node name="GothicBed_01" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_b8ss2")

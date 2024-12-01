@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbcom5vekmdog"]
+
+[ext_resource type="PackedScene" uid="uid://da3tr8o5th3gd" path="res://material/textures/horse_statue_01_1k.gltf" id="1_27eu4"]
+[ext_resource type="Texture2D" uid="uid://b37047mo51kpb" path="res://material/textures/textures/horse_statue_01_rough_1k.png" id="2_1p76r"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3602m"]
+albedo_texture = ExtResource("2_1p76r")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ch7pt"]
+size = Vector3(1, 0.57605, 1)
+
+[node name="horse_statue_01_1k" instance=ExtResource("1_27eu4")]
+
+[node name="horse_statue_01" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_3602m")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(0.164982, 0, 0, 0, 0.376225, 0, 0, 0, -0.0931652, 0, 0.0868703, 0)
+shape = SubResource("BoxShape3D_ch7pt")

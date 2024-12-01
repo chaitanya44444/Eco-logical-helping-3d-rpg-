@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://go7nibv58xbt"]
+
+[ext_resource type="PackedScene" uid="uid://nlgjfrhpvyn8" path="res://material/textures/sofa_03_1k.gltf" id="1_ci5vq"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="sofa_03_1k" parent="." instance=ExtResource("1_ci5vq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.388119, 0, 1.8167)

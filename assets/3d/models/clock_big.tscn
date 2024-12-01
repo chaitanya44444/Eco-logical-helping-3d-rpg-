@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://cyf5f4sw8e3by"]
+
+[ext_resource type="PackedScene" uid="uid://d0fdjipq3m3gn" path="res://material/textures/vintage_grandfather_clock_01_1k.gltf" id="1_2wblm"]
+[ext_resource type="Texture2D" uid="uid://cte0ovq76rx54" path="res://material/textures/textures/vintage_grandfather_clock_01_rough_1k.png" id="2_56j1m"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g5c7q"]
+albedo_texture = ExtResource("2_56j1m")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_42qct"]
+size = Vector3(0.716431, 2.03082, 0.544922)
+
+[node name="vintage_grandfather_clock_01_1k" instance=ExtResource("1_2wblm")]
+
+[node name="vintage_grandfather_clock_01_body" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_g5c7q")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.098938, 1.13901, -0.0732422)
+shape = SubResource("BoxShape3D_42qct")

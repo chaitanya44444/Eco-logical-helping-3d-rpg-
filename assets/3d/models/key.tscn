@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2qna5waypqox"]
+
+[ext_resource type="Script" path="res://models/pickup_key.gd" id="1_c3obe"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p3q0t"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gweks"]
+material = SubResource("StandardMaterial3D_p3q0t")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g6a6i"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_riqn4"]
+material = SubResource("StandardMaterial3D_g6a6i")
+
+[node name="key" type="StaticBody3D"]
+script = ExtResource("1_c3obe")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.60001, 0, 0, 0, 0.0666658, 0, 0, 0, 0.603419, 0, 0, 0)
+mesh = SubResource("CylinderMesh_gweks")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.157487, 0, 0, 0, 0.0666658, 0, 0, 0, 0.904711, 0, 0, 0.607162)
+mesh = SubResource("BoxMesh_riqn4")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.184036, 0, 0, 0, 0.0666658, 0, 0, 0, 0.146485, 0.120875, 0, 0.990328)
+mesh = SubResource("BoxMesh_riqn4")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.331347, 0, 0, 0, 0.0666658, 0, 0, 0, 0.146485, 0.131939, 0, 0.813981)
+mesh = SubResource("BoxMesh_riqn4")

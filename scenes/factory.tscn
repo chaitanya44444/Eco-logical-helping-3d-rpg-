@@ -1,6 +1,6 @@
 [gd_scene load_steps=38 format=4 uid="uid://d0pg7jav2eo6d"]
 
-[ext_resource type="Texture2D" uid="uid://bwh0qnl32b72o" path="res://addons/kenney_particle_pack/smoke_08.png" id="1_yu5ei"]
+[ext_resource type="Texture2D" uid="uid://bwh0qnl32b72o" path="res://assets/3d/smoke_08.png" id="1_yu5ei"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sdsu1"]
 resource_name = "Material"

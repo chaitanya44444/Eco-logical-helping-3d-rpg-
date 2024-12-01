@@ -1,0 +1,45 @@
+[gd_scene load_steps=9 format=3 uid="uid://bq042udr0uxxa"]
+
+[ext_resource type="PackedScene" uid="uid://cjcol3ijpd3it" path="res://material/textures/GothicCabinet_01_1k.gltf" id="1_sn0c5"]
+[ext_resource type="Texture2D" uid="uid://d0k13y2o07hd2" path="res://material/textures/textures/GothicCabinet_01_roughness_1k.png" id="2_vq4tc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qup07"]
+albedo_texture = ExtResource("2_vq4tc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1bmjl"]
+albedo_texture = ExtResource("2_vq4tc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnfsj"]
+albedo_texture = ExtResource("2_vq4tc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_arn3v"]
+albedo_texture = ExtResource("2_vq4tc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bn5ap"]
+albedo_texture = ExtResource("2_vq4tc")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3wwin"]
+size = Vector3(1.67358, 2.89453, 1.31543)
+
+[node name="GothicCabinet_01_1k" instance=ExtResource("1_sn0c5")]
+
+[node name="GothicCabinet_01_cabinet" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_qup07")
+
+[node name="GothicCabinet_01_door4" parent="." index="1"]
+material_override = SubResource("StandardMaterial3D_1bmjl")
+
+[node name="GothicCabinet_01_door3" parent="." index="2"]
+material_override = SubResource("StandardMaterial3D_bnfsj")
+
+[node name="GothicCabinet_01_door2" parent="." index="3"]
+material_override = SubResource("StandardMaterial3D_arn3v")
+
+[node name="GothicCabinet_01_door1" parent="." index="4"]
+material_override = SubResource("StandardMaterial3D_bn5ap")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0140381, 0.947266, 0.0961914)
+shape = SubResource("BoxShape3D_3wwin")

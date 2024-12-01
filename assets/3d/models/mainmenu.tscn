@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://b37fcmoluj812"]
+
+[ext_resource type="Script" path="res://models/mainmenu.gd" id="1_434n6"]
+[ext_resource type="AudioStream" uid="uid://dyqccgf1jhjqt" path="res://sounds/uimusic.mp3" id="2_onap2"]
+[ext_resource type="Texture2D" uid="uid://tx4xt35g124h" path="res://material/textures/mainmainmian.png" id="2_s7oh5"]
+
+[node name="Mainmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 768.0
+offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.99397, 0.985486)
+script = ExtResource("1_434n6")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -11.0
+offset_top = -11.0
+offset_right = 18.0
+offset_bottom = 19.0
+scale = Vector2(48.3104, 27.0748)
+texture = ExtResource("2_s7oh5")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 185.116
+offset_top = 533.747
+offset_right = 353.116
+offset_bottom = 651.747
+scale = Vector2(1.27731, 1.08206)
+theme_override_font_sizes/font_size = 80
+text = "Play"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_onap2")
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="play"]

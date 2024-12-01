@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://d3wei5q0ojkxn"]
+
+[ext_resource type="PackedScene" uid="uid://cbl4uvy00jema" path="res://material/textures/painted_wooden_nightstand_1k.gltf" id="1_ss0lk"]
+[ext_resource type="Texture2D" uid="uid://dcssahwb3qqm8" path="res://material/textures/textures/painted_wooden_nightstand_rough_1k.png" id="2_epe1q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w55nn"]
+albedo_texture = ExtResource("2_epe1q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_00xsw"]
+albedo_texture = ExtResource("2_epe1q")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w43a8"]
+
+[node name="painted_wooden_nightstand_1k" instance=ExtResource("1_ss0lk")]
+
+[node name="painted_wooden_nightstand" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_w55nn")
+
+[node name="painted_wooden_nightstand_drawer" parent="." index="1"]
+material_override = SubResource("StandardMaterial3D_00xsw")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(0.557535, 0, 0, 0, 0.655588, 0, 0, 0, 0.554197, 0, 0.271307, 0)
+shape = SubResource("BoxShape3D_w43a8")

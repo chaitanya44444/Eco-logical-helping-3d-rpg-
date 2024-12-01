@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0hab33ium6l6"]
+
+[ext_resource type="PackedScene" uid="uid://bagqdbapkial3" path="res://material/textures/marble_bust_01_1k.gltf" id="1_a71gs"]
+[ext_resource type="Texture2D" uid="uid://dpflua81btvrx" path="res://material/textures/textures/marble_bust_01_mask_1k.png" id="2_7vyyi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1xb38"]
+albedo_texture = ExtResource("2_7vyyi")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sjspt"]
+size = Vector3(1, 0.649292, 1)
+
+[node name="marble_bust_01_1k" instance=ExtResource("1_a71gs")]
+
+[node name="marble_bust_01" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_1xb38")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" index="0"]
+transform = Transform3D(0.258304, 0, 0, 0, 0.813304, 0, 0, 0, 0.297861, 0, 0.24165, 0)
+shape = SubResource("BoxShape3D_sjspt")

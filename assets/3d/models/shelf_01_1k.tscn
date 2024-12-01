@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://dl0sp5hwenx3"]
+
+[ext_resource type="PackedScene" uid="uid://dm0k0erm2c1h4" path="res://material/textures/Shelf_01_1k.gltf" id="1_1v4pn"]
+[ext_resource type="Texture2D" uid="uid://c7xwi85ttuvxl" path="res://material/textures/escape_the_house.png" id="2_c5urx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d6tfq"]
+albedo_texture = ExtResource("2_c5urx")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6vjiq"]
+
+[node name="Shelf_01_1k" instance=ExtResource("1_1v4pn")]
+
+[node name="Shelf_01" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_d6tfq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 2.20451, 0, 0, 0, 0.267498, 0, 0.966547, 0.110897)
+shape = SubResource("BoxShape3D_6vjiq")

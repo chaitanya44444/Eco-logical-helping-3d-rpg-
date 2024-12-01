@@ -1,0 +1,103 @@
+[gd_scene load_steps=20 format=3 uid="uid://cecmnaegu8dmh"]
+
+[ext_resource type="PackedScene" uid="uid://bv13aosd35142" path="res://material/textures/chess_set_1k.gltf" id="1_v24kq"]
+[ext_resource type="Texture2D" uid="uid://olobg3dxomfc" path="res://material/textures/textures/chess_set_pieces_black_rough_1k.png" id="2_q3loc"]
+[ext_resource type="Texture2D" uid="uid://bds7jx4otmi45" path="res://material/textures/textures/chess_set_pieces_white_rough_1k.png" id="3_26igx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vg01h"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gdv2b"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vf8qc"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcltr"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0jdjt"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kvrp3"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6occf"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tmmcg"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wckba"]
+albedo_texture = ExtResource("3_26igx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4vs5k"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0khqx"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8v404"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oiyme"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ftik"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jxfpv"]
+albedo_texture = ExtResource("2_q3loc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_orqiw"]
+albedo_texture = ExtResource("2_q3loc")
+
+[node name="chess_set_1k" instance=ExtResource("1_v24kq")]
+
+[node name="board" parent="." index="6"]
+material_override = SubResource("StandardMaterial3D_vg01h")
+
+[node name="piece_rook_black_01" parent="." index="17"]
+material_override = SubResource("StandardMaterial3D_gdv2b")
+
+[node name="piece_bishop_black_01" parent="." index="19"]
+material_override = SubResource("StandardMaterial3D_vf8qc")
+
+[node name="piece_queen_black" parent="." index="20"]
+material_override = SubResource("StandardMaterial3D_kcltr")
+
+[node name="piece_king_black" parent="." index="21"]
+material_override = SubResource("StandardMaterial3D_0jdjt")
+
+[node name="piece_knight_black_01" parent="." index="22"]
+material_override = SubResource("StandardMaterial3D_kvrp3")
+
+[node name="piece_knight_black_02" parent="." index="23"]
+material_override = SubResource("StandardMaterial3D_6occf")
+
+[node name="piece_rook_black_02" parent="." index="24"]
+material_override = SubResource("StandardMaterial3D_tmmcg")
+
+[node name="piece_bishop_black_02" parent="." index="25"]
+material_override = SubResource("StandardMaterial3D_wckba")
+
+[node name="piece_pawn_black_02" parent="." index="26"]
+material_override = SubResource("StandardMaterial3D_4vs5k")
+
+[node name="piece_pawn_black_03" parent="." index="27"]
+material_override = SubResource("StandardMaterial3D_0khqx")
+
+[node name="piece_pawn_black_04" parent="." index="28"]
+material_override = SubResource("StandardMaterial3D_8v404")
+
+[node name="piece_pawn_black_05" parent="." index="29"]
+material_override = SubResource("StandardMaterial3D_oiyme")
+
+[node name="piece_pawn_black_06" parent="." index="30"]
+material_override = SubResource("StandardMaterial3D_0ftik")
+
+[node name="piece_pawn_black_07" parent="." index="31"]
+material_override = SubResource("StandardMaterial3D_jxfpv")
+
+[node name="piece_pawn_black_08" parent="." index="32"]
+material_override = SubResource("StandardMaterial3D_orqiw")
