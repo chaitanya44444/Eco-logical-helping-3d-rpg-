@@ -53,6 +53,9 @@ In this game, you’ll explore the village and the magical forest surrounding it
 
 - **W A S D** – Move the character
 - **E** – Interact with objects and NPCs
+- **C** – To use cleaning magic
+- **P** – To Plant trees
+- **H** – To use Healing Magic
 - **Enter** – Change dialogue options
 
 ## Goal
