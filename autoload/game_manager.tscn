@@ -11,6 +11,7 @@ visible = false
 script = ExtResource("1_ckjwx")
 
 [node name="QuestBox" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Control" type="Control" parent="QuestBox"]
 layout_mode = 3
