@@ -2,6 +2,10 @@
 
 # Save Trees, Save Yourselves
 
+You can play it by downloading it from [here](https://github.com/vergil6144/geek24/releases/tag/v1.0.0.2)
+
+
+
 **Save Trees, Save Yourselves** is an immersive 3D RPG built using Godot 4.2, where players embark on a mission to save the Elder Tree, the life force of the village, which is dying due to pollution. The game combines environmental awareness with engaging gameplay, offering quests that challenge players to restore balance and vitality to the world.
 
 ![Game Screenshot 1](https://github.com/user-attachments/assets/163388c3-4770-43b8-abc8-8ba5a4c1d5a9)
