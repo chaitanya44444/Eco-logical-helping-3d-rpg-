@@ -20,10 +20,12 @@ func _ready() -> void:
 
 @onready var talk_after_factory: Quest = $"tree/talk after factory"
 @onready var factoy_quest: Quest = $"tree/Factoy-quest"
+@onready var trees: ProgressBar = $"ui stuff more/trees"
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	trees.value=int(xpvalue_3.text)* 100/8
 	
 	if Input.is_action_just_pressed("outline"):
 		#if $OUTLINE.visible == false:

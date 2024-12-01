@@ -2,6 +2,7 @@ extends StaticBody3D
 @onready var birdhelp: Quest = $"../tree/birdhelp"
 @onready var ending: Quest = $"../tree/ending"
 
+@onready var xpvalue_3: RichTextLabel = %xpvalue3
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -16,8 +17,9 @@ func interact():
 	await get_tree().create_timer(7.0).timeout
 	$"../endcamera".current = true
 	birdhelp.finished_goal()
-	ending.start_quest()
 	
+	ending.start_quest()
+	xpvalue_3.text=str(8)
 	$"../AnimationPlayer".play("end camera")
 	await get_tree().create_timer(27.0).timeout
 	get_tree().quit()

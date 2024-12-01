@@ -13,6 +13,7 @@ var b= false
 func _process(delta: float) -> void:
 	if Input.is_action_just_released("skip"):
 		fishquest.finished_goal()
+		xpvalue_3.text=str(5)
 		talk_to_tree_for_planting_one.start_quest()
 
 var cleanse_scene = preload("res://cleanse.tscn")

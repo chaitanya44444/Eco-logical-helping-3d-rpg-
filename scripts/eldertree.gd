@@ -59,10 +59,11 @@ func interact():
 func _on_dialogic_signal(argument: String):
 	if argument =="planter1":
 		talk_to_tree_for_planting_one.finished_goal()
+		xpvalue_3.text=str(6)
 		forest_cover.start_quest()
 		trees_planted.visible=true
 		if questdone3==false:
-			xpvalue_3.text=str(5)
+			xpvalue_3.text=str(7)
 			
 
 			questdone3=true
