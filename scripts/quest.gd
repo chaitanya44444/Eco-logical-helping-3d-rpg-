@@ -3,6 +3,7 @@ class_name Quest extends QuestManager
 
 func start_quest():
 	if quest_status==Quest_status.available:
+		
 		quest_status=Quest_status.started
 		GameManager.visible=true
 		QuestBox.visible=true

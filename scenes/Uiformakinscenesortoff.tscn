@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dplv3pdgquvek"]
+[gd_scene load_steps=2 format=3 uid="uid://dplv3pdgquvek"]
+
+[ext_resource type="Script" path="res://scenes/uiformakinscenesortoff.gd" id="1_rpmbq"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,12 +9,42 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_rpmbq")
 
 [node name="interacttext" type="RichTextLabel" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 0.0895833
-anchor_bottom = 0.0537037
-theme_override_font_sizes/normal_font_size = 31
+anchor_right = 0.221875
+anchor_bottom = 0.1
+theme_override_font_sizes/normal_font_size = 61
 text = "[E] Interact"
+metadata/_edit_use_anchors_ = true
+
+[node name="interacttext2" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.794896
+anchor_top = 0.00185185
+anchor_right = 0.999479
+anchor_bottom = 0.053
+offset_left = -0.200073
+offset_bottom = -0.240002
+grow_horizontal = 0
+theme_override_font_sizes/normal_font_size = 30
+text = "Press O to enable outlines"
+metadata/_edit_use_anchors_ = true
+
+[node name="interacttext3" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0521875
+anchor_top = 0.40463
+anchor_right = 0.589063
+anchor_bottom = 0.791889
+offset_left = -0.200073
+offset_bottom = -0.240002
+grow_horizontal = 0
+theme_override_font_sizes/normal_font_size = 95
+text = "Maybe I should Help The Bird... After All it Will help the forest "
 metadata/_edit_use_anchors_ = true

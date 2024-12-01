@@ -76,6 +76,10 @@ func _on_dialogic_signal(argument: String):
 			xpvalue_3.text=str(4)
 
 			fishquest.start_quest()
+			$"../quest camera/Camera3D".current = true
+			$"../quest camera/AnimationPlayer".play("fish quest")
+			await get_tree().create_timer(6.0).timeout
+			$"../the_hero/head/Camera3D".current = true
 			questdone2=true
 		get_node("/root/" + get_tree().current_scene.name + "/the_hero").canmove = true
 	if argument == "tree":

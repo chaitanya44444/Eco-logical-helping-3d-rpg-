@@ -15,6 +15,9 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 func interact():
+	$"../GPUParticles3D".visible = false
+	$"../GPUParticles3D2".visible = false
+	$"../GPUParticles3D3".visible = false
 	if factoy_quest.ifstarted():
 		factoy_quest.finished_goal()
 		if a==false:
