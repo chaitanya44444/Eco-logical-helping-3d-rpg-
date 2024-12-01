@@ -1,14 +1,142 @@
-[gd_scene load_steps=3 format=3 uid="uid://fq7eelfas5g0"]
+[gd_scene load_steps=5 format=3 uid="uid://fq7eelfas5g0"]
 
 [ext_resource type="Script" path="res://autoload/game_manager.gd" id="1_ckjwx"]
 [ext_resource type="Texture2D" uid="uid://qwf8d7c6e6r1" path="res://assets/screenshot-removebg-preview.png" id="2_iuf41"]
+[ext_resource type="Texture2D" uid="uid://uhva1h75oflg" path="res://assets/GUI.png" id="2_m0ng2"]
+
+[sub_resource type="Theme" id="Theme_ghkvv"]
 
 [node name="GameManager" type="Node2D"]
 visible = false
 script = ExtResource("1_ckjwx")
 
 [node name="QuestBox" type="CanvasLayer" parent="."]
-visible = false
+
+[node name="Control" type="Control" parent="QuestBox"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="bg" type="NinePatchRect" parent="QuestBox/Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 1451.0
+offset_top = 333.0
+offset_right = 1889.0
+offset_bottom = 739.0
+grow_horizontal = 2
+theme = SubResource("Theme_ghkvv")
+texture = ExtResource("2_m0ng2")
+region_rect = Rect2(1.23292, 33.9944, 44.8388, 44.7193)
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 7
+patch_margin_bottom = 6
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="Label" type="Label" parent="QuestBox/Control/bg"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -34.0
+offset_right = 34.0
+offset_bottom = 28.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 20
+text = "Quests"
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="QuestBox/Control/bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.626
+offset_left = -207.0
+offset_top = -79.0
+offset_right = 205.0
+offset_bottom = 136.844
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_m0ng2")
+region_rect = Rect2(0, 95, 48, 34)
+patch_margin_left = 12
+patch_margin_top = 10
+patch_margin_right = 9
+patch_margin_bottom = 8
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="bg thingy" type="NinePatchRect" parent="QuestBox/Control/bg/NinePatchRect2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 27.0
+offset_right = -25.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_m0ng2")
+region_rect = Rect2(48, 96, 32, 32)
+patch_margin_left = 10
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 5
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="QuestBox/Control/bg"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -117.0
+offset_top = -27.0
+offset_right = 113.0
+offset_bottom = 29.0
+grow_horizontal = 2
+texture = ExtResource("2_m0ng2")
+region_rect = Rect2(144, 97, 48, 15)
+patch_margin_left = 4
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 4
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="Label2" type="Label" parent="QuestBox/Control/bg/NinePatchRect"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -34.0
+offset_right = 34.0
+offset_bottom = 28.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 20
+text = "Quests"
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="QuestBox/Control/bg"]
+layout_mode = 1
+offset_left = 15.0
+offset_top = 55.0
+offset_right = 417.0
+offset_bottom = 111.0
+texture = ExtResource("2_m0ng2")
+region_rect = Rect2(96, 35, 26, 26)
+patch_margin_left = 5
+patch_margin_top = 5
+patch_margin_right = 6
+patch_margin_bottom = 8
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
 
 [node name="TextureRect2" type="TextureRect" parent="QuestBox"]
 visible = false
@@ -19,6 +147,7 @@ offset_bottom = 641.0
 texture = ExtResource("2_iuf41")
 
 [node name="TextureRect" type="TextureRect" parent="QuestBox"]
+visible = false
 offset_left = 1206.0
 offset_top = 151.0
 offset_right = 1970.0
@@ -26,16 +155,17 @@ offset_bottom = 694.0
 texture = ExtResource("2_iuf41")
 
 [node name="QuestTitle" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1366.0
-offset_top = 424.0
-offset_right = 1883.0
-offset_bottom = 476.0
+offset_left = 1498.0
+offset_top = 402.0
+offset_right = 1870.0
+offset_bottom = 454.0
 text = "Quest Title:"
 
 [node name="Questdiscription" type="RichTextLabel" parent="QuestBox"]
-offset_left = 1359.0
-offset_top = 454.0
-offset_right = 1871.0
-offset_bottom = 584.0
+offset_left = 1510.0
+offset_top = 512.0
+offset_right = 1872.0
+offset_bottom = 708.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 0
 text = "Quest information:"

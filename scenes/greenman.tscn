@@ -1,6 +1,6 @@
 [gd_scene load_steps=29 format=4 uid="uid://bqs41ptrfttji"]
 
-[ext_resource type="Texture2D" uid="uid://dg0o00l843qhv" path="res://blenderstuffs/textures/skin_murabito_001_col.png" id="1_gasua"]
+[ext_resource type="Texture2D" uid="uid://bomljruein8qt" path="res://blenderstuffs/textures/skin_murabito_001_col.png" id="1_gasua"]
 [ext_resource type="Script" path="res://scripts/greenman.gd" id="1_u0hbo"]
 [ext_resource type="Texture2D" uid="uid://cfa7itn6ekwfp" path="res://blenderstuffs/textures/skin_murabito_002_col.png" id="2_loyv4"]
 [ext_resource type="Texture2D" uid="uid://b5mxdlne7oplt" path="res://blenderstuffs/textures/greenmurabito.png" id="3_q32to"]
